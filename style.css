@@ -1221,3 +1221,74 @@ display: block;
     line-height: 1.2;
   }
 }
+@media (max-width: 768px) {
+  .branding-block {
+    padding: 20px 10px;
+  }
+
+  .title-main {
+    font-size: 30px;
+  }
+
+  .subtitle-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .carousel-card {
+    width: 200px;
+    padding: 14px;
+  }
+
+  .userhub-mockup-img,
+  .interactive-mockup-img {
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .powerwallet-section,
+  .modes-intro-section,
+  .userhub-section,
+  .interactive-intro-section,
+  .interactive-details-section,
+  .explore-intro-section {
+    padding: 50px 15px;
+  }
+
+  .modes-title,
+  .userhub-title,
+  .powerzone-title,
+  .explore-title {
+    font-size: 1.5rem;
+  }
+
+  .modes-subtitle,
+  .userhub-subtitle,
+  .powerzone-subtitle,
+  .explore-subtitle {
+    font-size: 1rem;
+  }
+
+  .points-card,
+  .pz-card {
+    max-width: 90%;
+  }
+
+  .newsletter-section h2 {
+    font-size: 20px;
+  }
+
+  .newsletter-form input[type="email"] {
+    width: 100%;
+  }
+
+  .mode-card {
+    width: 220px;
+    height: 320px;
+  }
+
+  .card-stack-container {
+    width: 280px;
+    height: 440px;
+  }
+}
