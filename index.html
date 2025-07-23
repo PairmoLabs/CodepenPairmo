@@ -1,0 +1,296 @@
+<!-- === SECTION: HEADER === -->
+<header class="section-header">
+  <div class="sticky-bar">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <div class="left-icons">
+      <i class="fas fa-user-circle"></i>
+      <div class="flag-wrapper">
+        <img src="https://flagcdn.com/w40/gb.png" alt="UK Flag" class="main-flag">
+        <div class="flag-dropdown">
+          <img src="https://flagcdn.com/w40/ro.png" alt="RO">
+          <img src="https://flagcdn.com/w40/fr.png" alt="FR">
+          <img src="https://flagcdn.com/w40/it.png" alt="IT">
+          <img src="https://flagcdn.com/w40/de.png" alt="DE">
+          <img src="https://flagcdn.com/w40/es.png" alt="ES">
+        </div>
+      </div>
+      <i class="fas fa-search"></i>
+    </div>
+
+    <div class="right-icons">
+      <div class="burger">
+        <div class="menu" id="mobile-menu">
+          <ul>
+            <li><a href="#home" class="burger-link" data-translate="menu_home">Home</a></li>
+            <li><a href="#domains" class="burger-link" data-translate="menu_how">How it works</a></li>
+            <li><a href="#roadmap" class="burger-link" data-translate="menu_roadmap">Roadmap</a></li>
+            <li><a href="#waitlist" class="burger-link" data-translate="menu_waitlist">Join Waitlist</a></li>
+            <li><a href="#contact" class="burger-link" data-translate="menu_contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- === Pairmo Branding Block === -->
+  <div class="branding-block">
+    <div class="main-container">
+      <div class="glow-wrap">
+        <div class="logo-wrapper">
+          <img src="https://i.imgur.com/YPssVJZ.png" alt="Pairmo Logo">
+        </div>
+
+        <div class="headline">
+          <h1 class="title-main" data-translate="headline">The<br>Swipe<br>Experience</h1>
+        </div>
+
+        <p class="subtitle-text" data-translate="subtitle">
+          Discover people pairing your interests
+        </p>
+      </div>
+
+      <p class="description-text" data-translate="description">
+        Whether you're looking to<br>
+        match for travel, business or shared interests,<br>
+        this section is where the story continues. <br>
+      </p>
+    </div>
+  </div>
+</header>
+<main>
+  <!-- === SECTION: MIDDLE CONTENT === -->
+  <section class="middle-content">
+    <div class="main-container">
+      <h2 class="section-title" data-translate="section_title">Explore what Pairmo  does...</h2>
+      <p class="section-text"></p>
+      <p class="callout-text" data-translate="callout">But first...</p>
+    </div>
+  </section>
+
+  <!-- === NEWSLETTER === -->
+  <section class="newsletter-section" id="waitlist">
+    <h2 data-translate="subscribe_title">SUBSCRIBE TO OUR NEWSLETTER TO<br>BE PART OF OUR JOURNEY</h2>
+    <p id="success-message" style="display:none;" data-translate="subscribe_success">✅ You are now on the list!</p>
+    <form class="newsletter-form"
+          action="https://formspree.io/f/xzzvbjll"
+          method="POST"
+          onsubmit="showSuccess(event)">
+      <input type="email"
+             name="email"
+             placeholder="Enter your email..."
+             data-translate-placeholder="email_placeholder"
+             required />
+      <button type="submit" data-translate="button_notify">Notify Me</button>
+    </form>
+  </section>
+
+  <!-- === CALL TO SCROLL DOWN === -->
+  <section class="scroll-section">
+    <div class="scroll-indicator">
+      <p class="scroll-text" data-translate="scroll_text">Find out more...</p>
+      <div class="arrow-down">&#x25BC;</div>
+    </div>
+  </section>
+
+  <!-- === LOGIN IMAGE === -->
+  <section class="login-image-section">
+    <img src="https://i.imgur.com/zcv25gw.png"
+         alt="Pairmo Login Mockup"
+         class="login-image"/>
+  </section>
+
+  <!-- === PAIRMO DOMAINS INTRO === -->
+  <section id="domains" class="pairmo-intro">
+    <h2 class="pairmo-intro-title" data-translate="intro_title">Welcome to Pairmo domains!</h2>
+    <p class="pairmo-intro-line" data-translate="intro_line1">From social life to productivity, we serve both seekers and providers</p>
+    <p class="pairmo-intro-line" data-translate="intro_line2">through smart, swipe-powered, real-life needs matchmaking.</p>
+    <p class="pairmo-intro-tagline" data-translate="intro_tagline">One app. Two sides. Connected.</p>
+  </section>
+  <!-- === CAROUSEL DOMAINS === -->
+  <section class="carousel-section">
+    <div class="carousel-wrapper">
+      <div class="carousel-container">
+        <!-- aici ai imaginile din carusel, nu traducem deoarece sunt imagini -->
+        <img src="https://i.imgur.com/dPXYJjh.png" alt="TripMatch Domain" />
+        <img src="https://i.imgur.com/ut1MHqL.png" alt="DatingMatch Domain" />
+        <img src="https://i.imgur.com/KNw37eX.png" alt="BusinessMatch Domain" />
+        <img src="https://i.imgur.com/F7iM1Xp.png" alt="SportMatch Domain" />
+        <img src="https://i.imgur.com/UXhhHAr.png" alt="JobMatch Domain" />
+        <img src="https://i.imgur.com/Z5ezVsl.png" alt="ServicesMatch Domain" />
+        <img src="https://i.imgur.com/6q6UIMX.png" alt="SharingMatch Domain" />
+      </div>
+    </div>
+  </section>
+
+  <!-- === MODES SECTION === -->
+  <section class="modes-section">
+    <h2 class="modes-title" data-translate="modes_title">Modes Section</h2>
+    <p class="modes-text" data-translate="modes_text1">Choose your way...</p>
+    <p class="modes-text" data-translate="modes_text2">You have full control over how you interact!</p>
+    <p class="modes-text" data-translate="modes_text3">On Pairmo Modes you choose between three different using modes!</p>
+    <p class="modes-highlight" data-translate="modes_highlight">SOLO, FRIENDS CREW OR GROUP PLANNER</p>
+
+    <div class="mode-card-container">
+      <!-- === CARD SOLO === -->
+      <div class="mode-card animate-on-scroll">
+        <img src="https://i.imgur.com/s5RuYIv.png" alt="Solo Mode Card" />
+        <p class="card-hint" data-translate="card_hint">Tap the card to see more info</p>
+      </div>
+
+      <!-- === CARD FRIENDS CREW === -->
+      <div class="mode-card animate-on-scroll">
+        <img src="https://i.imgur.com/DLUJ7wA.png" alt="Friends Crew Card" />
+        <p class="card-hint" data-translate="card_hint">Tap the card to see more info</p>
+      </div>
+
+      <!-- === CARD GROUP PLANNER === -->
+      <div class="mode-card animate-on-scroll">
+        <img src="https://i.imgur.com/tit9Uy3.png" alt="Group Planner Card" />
+        <p class="card-hint" data-translate="card_hint">Tap the card to see more info</p>
+      </div>
+    </div>
+  </section>
+  <!-- === USER HUB SECTION === -->
+  <section class="userhub-section">
+    <h2 class="userhub-title" data-translate="hub_title">Your Personal Command Center</h2>
+    <p class="userhub-subtitle" data-translate="hub_subtitle">
+      Everything you need, at one swipe away. <br>
+      Your hub is your command board — access your matches, trips, wallet, upgrades and more.
+    </p>
+    <div class="userhub-mockup-glow">
+      <img src="https://i.imgur.com/2uDN422.png" alt="User Hub Mockup" class="userhub-mockup-img" />
+    </div>
+  </section>
+
+  <!-- === INTERACTIVE PROFILES SECTION === -->
+  <section class="interactive-profiles-section">
+    <div class="interactive-line" id="ip-line"></div>
+    <h2 class="interactive-title" data-translate="interactive_title">Interactive Profiles: Ratings & Dynamic Badges</h2>
+    <p class="interactive-subtitle" data-translate="interactive_subtitle">
+      📱 One glance says it all.<br>
+      Pairmo profiles are more than photos – they’re alive with signals of trust, authenticity, and personality.
+    </p>
+
+    <!-- Rating System -->
+    <div class="interactive-block">
+      <h3 class="interactive-heading" data-translate="rating_title">⭐ User Rating System</h3>
+      <p class="interactive-text" data-translate="rating_text">
+        Each user has a visible <strong>rating score (e.g., 4.7)</strong> based on community feedback.<br>
+        You can rate others <strong>after each completed interaction</strong> – whether it’s a travel buddy, a client, or a conversation.
+      </p>
+      <p class="interactive-note" data-translate="rating_note">
+        Higher scores increase visibility and trust on the platform.
+      </p>
+    </div>
+
+    <!-- Dynamic Badges -->
+    <div class="interactive-block">
+      <h3 class="interactive-heading" data-translate="badges_title">🏅 Dynamic Badges</h3>
+      <p class="interactive-text" data-translate="badges_text">
+        Badges are automatically unlocked based on your behavior, preferences, and activity.<br>
+        They’re fully dynamic — they appear, disappear, and evolve as you use the app.
+      </p>
+      <ul class="badge-list">
+        <li data-translate="badge1"><span>🌆</span> <strong>CityBreak</strong> – You love short urban trips</li>
+        <li data-translate="badge2"><span>✅</span> <strong>SafeMeet</strong> – ID & selfie verified</li>
+        <li data-translate="badge3"><span>🚀</span> <strong>ActiveVibe</strong> – Interactions in the last 3 days</li>
+        <li data-translate="badge4"><span>📅</span> <strong>LastMinuteReady</strong> – Your trip starts in less than 3 days</li>
+        <li data-translate="badge5"><span>🧩</span> <strong>GroupPlanner</strong> – You created a crew plan</li>
+      </ul>
+      <p class="interactive-note" data-translate="badge_footer">You don’t apply for badges — <strong>you earn them</strong>.</p>
+    </div>
+  </section>
+  <!-- === POWERZONE + WALLET BLOCK === -->
+<section class="powerwallet-section">
+  <div class="powerwallet-container">
+
+    <div class="powerwallet-line" id="wallet-line"></div>
+    <h2 class="powerwallet-title" data-translate="wallet_title">Pairmo Wallet + PowerZone</h2>
+    <p class="powerwallet-subtitle" data-translate="wallet_subtitle">
+      Everything runs on Pairmo Points. <br> Premium features unlock using Premium Points, while Bonus Points can be earned freely.
+    </p>
+    <p class="powerwallet-subtext" data-translate="wallet_subtext">
+      No pressure: you don’t have to buy points. Bonus Points are free, and still unlock many things.
+    </p>
+
+    <div class="points-container">
+      <div class="points-card">
+        <h3 data-translate="wallet_card1_title">Pairmo Points</h3>
+        <p data-translate="wallet_card1_text">These are premium credits you can buy and use across the app.</p>
+      </div>
+      <div class="points-card">
+        <h3 data-translate="wallet_card2_title">Bonus Points</h3>
+        <p data-translate="wallet_card2_text">Earn them by completing actions and being active in the community.</p>
+      </div>
+      <div class="points-card">
+        <h3 data-translate="wallet_card3_title">No Pressure</h3>
+        <p data-translate="wallet_card3_text">You can use Bonus Points even if you don’t pay. We reward engagement.</p>
+      </div>
+    </div>
+
+    <div class="no-pressure-message" data-translate="wallet_reassurance">
+      You don’t have to buy anything — but you can boost your experience if you choose to.
+    </div>
+
+    <div class="powerzone-grid">
+      <div class="pz-card">
+        <h3 data-translate="pz_card1_title">Boost your visibility</h3>
+        <p data-translate="pz_card1_text">Use points to appear higher in results for a limited time.</p>
+      </div>
+      <div class="pz-card">
+        <h3 data-translate="pz_card2_title">Send Super Reactions</h3>
+        <p data-translate="pz_card2_text">Stand out from the crowd by sending reactions that pop.</p>
+      </div>
+      <div class="pz-card">
+        <h3 data-translate="pz_card3_title">Unlock Hidden Profiles</h3>
+        <p data-translate="pz_card3_text">Use premium to discover profiles not visible to everyone.</p>
+      </div>
+    </div>
+
+    <p class="final-line" data-translate="wallet_footer">PowerZone is your opportunity to boost, connect and get noticed.</p>
+    <span class="badge-preview" data-translate="wallet_badge">Featured</span>
+  </div>
+  </section>
+  <!-- === EXPLORE STACK SECTION === -->
+<section class="explore-stack-section">
+  <div class="explore-line" id="explore-line"></div>
+  <h2 class="explore-title" data-translate="explore_title">Explore section</h2>
+  <p class="explore-description" data-translate="explore_description">
+    This is where the magic happens. <br>
+    Explore section is the place where you find partners, clients, or services you need! <br>
+    It is the place where you can find your dream job or where you can hire the people you need. <br>
+    And all this... through a simple swipe.
+  </p>
+
+  <div class="swipe-indicator-container">
+    <div class="swipe-indicator bounce" data-translate="swipe_hint">Swipe →</div>
+  </div>
+
+  <div class="card-stack-container" id="card-stack">
+    <img src="https://i.imgur.com/iwqkfti.jpeg" class="swipe-card top-card" />
+    <img src="https://i.imgur.com/MD8nrYl.png" class="swipe-card" />
+    <img src="https://i.imgur.com/EPamjZC.png" class="swipe-card" />
+    <img src="https://i.imgur.com/uOXcXj8.png" class="swipe-card" />
+    <img src="https://i.imgur.com/YVZwtrI.png" class="swipe-card" />
+    <img src="https://i.imgur.com/iZY7Gz0.png" class="swipe-card" />
+    <img src="https://i.imgur.com/D3VARlK.png" class="swipe-card" />
+  </div>
+
+  <div class="swipe-feedback" id="swipe-feedback"></div>
+</section>
+
+<!-- === FOOTER === -->
+<footer class="site-footer" id="contact">
+  <div class="footer-container">
+    <p class="footer-text" data-translate="footer_text">© 2025 Pairmo. All rights reserved.</p>
+    <p class="footer-contact">
+      <span data-translate="footer_contact">Contact us:</span>
+      <a href="mailto:contact@pairmo.app"><span class="highlight-green">contact@pairmo.app</span></a>
+    </p>
+    <p class="footer-social">
+      <i class="fab fa-instagram"></i>
+      <span data-translate="footer_follow">Follow us on Instagram</span>
+    </p>
+  </div>
+  </footer>
