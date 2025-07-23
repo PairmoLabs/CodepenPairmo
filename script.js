@@ -187,7 +187,7 @@ let translations = {};
 
 async function loadLanguage(lang) {
   try {
-    const response = await fetch(`lang/${lang}.json`);
+    const response = await fetch(`Lang/${lang}.json`);
     if (!response.ok) throw new Error('Language file not found');
     translations = await response.json();
     applyTranslations();
