@@ -209,3 +209,43 @@ document.addEventListener('DOMContentLoaded', () => {
 
   initSwipe();
 });
+// Limbă implicită
+let currentLang = "en";
+
+// Funcție pentru încărcarea traducerilor din fișierul JSON
+async function loadTranslations(lang) {
+  try {
+    const response = await fetch(`./Lang/${lang}.json`);
+    const translations = await response.json();
+
+    document.querySelectorAll("[data-translate]").forEach(el => {
+      const key = el.getAttribute("data-translate");
+      if (translations[key]) {
+        el.innerText = translations[key];
+      }
+    });
+  } catch (error) {
+    console.error(`Nu s-au putut încărca traducerile pentru ${lang}:`, error);
+  }
+}
+
+// Funcție pentru schimbarea limbii
+function changeLanguage(lang) {
+  currentLang = lang;
+  loadTranslations(lang);
+  localStorage.setItem("pairmo_lang", lang);
+}
+
+// Inițializare la încărcare
+document.addEventListener("DOMContentLoaded", () => {
+  const savedLang = localStorage.getItem("pairmo_lang") || "en";
+  changeLanguage(savedLang);
+
+  // Butoanele cu steaguri
+  document.querySelectorAll(".flag-icon").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const lang = btn.getAttribute("data-lang");
+      changeLanguage(lang);
+    });
+  });
+});
