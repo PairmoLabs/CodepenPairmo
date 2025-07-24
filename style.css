@@ -1229,3 +1229,39 @@ display: block;
     width: 90%;
   }
 }
+/* === But First Custom Animation === */
+.butfirst-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.butfirst-animated {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  animation: rotateScale 3s infinite;
+  display: inline-block;
+}
+
+@keyframes rotateScale {
+  0% {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  25% {
+    transform: rotate(3deg) scale(1.05);
+    opacity: 0.95;
+  }
+  50% {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  75% {
+    transform: rotate(-3deg) scale(1.05);
+    opacity: 0.95;
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+  }
+}
