@@ -651,6 +651,7 @@ display: block;
   position: relative;
   z-index: 2;
   box-shadow: 0 0 30px rgba(0, 255, 200, 0.1);
+  margin: 0 auto;
 }
 
 .userhub-mockup-glow::before {
@@ -738,6 +739,7 @@ display: block;
   position: relative;
   z-index: 2;
   box-shadow: 0 0 30px rgba(0, 255, 200, 0.1);
+  margin: 0 auto;
 }
 
 .interactive-mockup-glow::before {
