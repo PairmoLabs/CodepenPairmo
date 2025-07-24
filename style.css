@@ -240,6 +240,18 @@ html, body {
   border-radius: 20px; /* opțional: colțuri rotunjite */
 }
 /* Callout "But first..." */
+.callout-text
+@keyframes pulseGlow {
+  0% {
+    text-shadow: 0 0 5px #00ffc8, 0 0 10px #00ffc8;
+  }
+  50% {
+    text-shadow: 0 0 12px #00ffc8, 0 0 20px #00ffc8;
+  }
+  100% {
+    text-shadow: 0 0 5px #00ffc8, 0 0 10px #00ffc8;
+  }
+}
   .glow-modern {
   display: inline-block;
   padding: 14px 32px;
