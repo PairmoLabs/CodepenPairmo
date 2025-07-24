@@ -1221,3 +1221,11 @@ display: block;
     line-height: 1.2;
   }
 }
+@media (max-width: 480px) {
+  .badge-list li {
+    font-size: 0.9rem;
+  }
+  .userhub-mockup-img {
+    width: 90%;
+  }
+}
