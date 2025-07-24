@@ -653,6 +653,11 @@ display: block;
   box-shadow: 0 0 30px rgba(0, 255, 200, 0.1);
   margin: 0 auto;
 }
+.mockup-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 
 .userhub-mockup-glow::before {
   content: '';
