@@ -1285,3 +1285,26 @@ display: block;
     opacity: 1;
   }
 }
+.language-switcher {
+  display: inline-block;
+  position: relative;
+  margin-left: 12px;
+}
+
+#language-select {
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  background: #f4f4f4;
+  color: #333;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  outline: none;
+  appearance: none;
+}
+
+#language-select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #00b3b3;
+}
