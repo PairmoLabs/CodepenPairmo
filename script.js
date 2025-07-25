@@ -211,3 +211,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
   initSwipe();
 });
+
+// === MULTILANGUAGE MODULE – START ===
+(function () {
+  function loadLanguage(lang) {
+    fetch(`lang/${lang}.json`)
+      .then(response => response.json())
+      .then(data => {
+        document.querySelectorAll('[data-i18n]').forEach(element => {
+          const key = element.getAttribute('data-i18n');
+          if (data[key]) {
+            element.innerHTML = data[key];
+          }
+        });
+      })
+      .catch(err => console.error("Eroare la încărcarea limbii:", err));
+  }
+
+  function initLanguage() {
+    const savedLang = localStorage.getItem('selectedLang') || 'en';
+    loadLanguage(savedLang);
+  }
+
+  document.addEventListener('DOMContentLoaded', initLanguage);
+
+  document.querySelectorAll('.lang-select').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const selectedLang = btn.getAttribute('data-lang');
+      localStorage.setItem('selectedLang', selectedLang);
+      loadLanguage(selectedLang);
+    });
+  });
+})();
+// === MULTILANGUAGE MODULE – END ===
