@@ -19,17 +19,16 @@
     <i class="fas fa-user-circle"></i>
 
     <!-- Language Switcher -->
-    <div class="flag-wrapper">
-      <img src="https://flagcdn.com/w40/gb.png" alt="UK Flag" class="main-flag">
-
-      <div class="flag-dropdown">
-        <img src="https://flagcdn.com/w40/ro.png" alt="RO">
-        <img src="https://flagcdn.com/w40/fr.png" alt="FR">
-        <img src="https://flagcdn.com/w40/it.png" alt="IT">
-        <img src="https://flagcdn.com/w40/de.png" alt="DE">
-        <img src="https://flagcdn.com/w40/es.png" alt="ES">
-      </div>
-    </div>
+    <div class="language-switcher">
+  <select id="language-select">
+    <option value="en" selected>🇬🇧 English</option>
+    <option value="ro">🇷🇴 Română</option>
+    <option value="fr">🇫🇷 Français</option>
+    <option value="it">🇮🇹 Italiano</option>
+    <option value="de">🇩🇪 Deutsch</option>
+    <option value="es">🇪🇸 Español</option>
+  </select>
+</div>
 
     <!-- Search Icon -->
     <i class="fas fa-search"></i>
@@ -40,12 +39,12 @@
     <div class="burger">
       <div class="menu" id="mobile-menu">
   <ul>
-    <li><a href="#home" class="burger-link">Home</a></li>
-<li><a href="#domains" class="burger-link">How it works</a></li>
-<li><a href="#roadmap" class="burger-link">Roadmap</a></li>
-<li><a href="#waitlist" class="burger-link">Join Waitlist</a></li>
-<li><a href="#contact" class="burger-link">Contact Us</a></li>
-  </ul>
+  <li><a href="#home" class="burger-link" data-i18n="menu_home">Home</a></li>
+  <li><a href="#domains" class="burger-link" data-i18n="menu_domains">How it works</a></li>
+  <li><a href="#roadmap" class="burger-link" data-i18n="menu_roadmap">Roadmap</a></li>
+  <li><a href="#waitlist" class="burger-link" data-i18n="menu_waitlist">Join Waitlist</a></li>
+  <li><a href="#contact" class="burger-link" data-i18n="menu_contact">Contact Us</a></li>
+</ul>
       </div>
     
       <span></span>
@@ -155,43 +154,43 @@ this section is where the story continues. <br>
     <!-- TripMatch -->
     <div class="carousel-card" onclick="selectCard(this)">
       <img src="https://i.imgur.com/PrcFTLF.png" alt="TripMatch" />
-      <p>Plan city breaks or epic adventures. Match with travelers who share your vibe, dates, and destination.</p>
+      <p data-i18n="domain-tripmatch">Plan city breaks or epic adventures. Match with travelers who share your vibe, dates, and destination.</p>
     </div>
 
     <!-- BusinessMatch -->
     <div class="carousel-card" onclick="selectCard(this)">
       <img src="https://i.imgur.com/MqQOi75.png" alt="BusinessMatch" />
-      <p>Whether you're looking for a cofounder or a client, match with professionals who align with your goals.</p>
+      <p data-i18n="domain-businessmatch">Looking for a cofounder, associate or joint venture? Match with professionals sharing your mission.</p>
     </div>
 
     <!-- ServiceMatch -->
     <div class="carousel-card" onclick="selectCard(this)">
       <img src="https://i.imgur.com/tO24UBe.png" alt="ServiceMatch" />
-      <p>Offer your skills or find help in your area. From repairs to freelancing, Pairmo connects service needs fast.</p>
+      <p data-i18n="domain-servicematch">Whether you're a freelancer, company or just need help – find or offer services across all domains.</p>
     </div>
 
     <!-- DatingMatch -->
     <div class="carousel-card" onclick="selectCard(this)">
       <img src="https://i.imgur.com/3k7hUDX.jpg" alt="DatingMatch" />
-      <p>Connect with people who share your values and dating intentions. Find something real.</p>
+      <p data-i18n="domain-datingmatch">Connect with people who share your values and intentions in dating. Find something real.</p>
     </div>
 
     <!-- PetMatch -->
     <div class="carousel-card" onclick="selectCard(this)">
       <img src="https://i.imgur.com/MzjS1eF.png" alt="PetMatch" />
-      <p>Match your pet with the perfect playmate or find owners with similar breeds and lifestyles.</p>
+      <p data-i18n="domain-petmatch">Find your pet the perfect playmate or connect with owners who share your lifestyle and breed preferences.</p>
     </div>
 
     <!-- SportMatch -->
     <div class="carousel-card" onclick="selectCard(this)">
       <img src="https://i.imgur.com/zuVAe6d.png" alt="SportMatch" />
-      <p>Find a gym buddy, join a local team or create a crew. Discover people who share your active lifestyle.</p>
+      <p data-i18n="domain-sportmatch">Find a gym buddy, join a local team or build your own. Discover people matching your active style.</p>
     </div>
 
     <!-- More Domains -->
     <div class="carousel-card" onclick="selectCard(this)">
       <img src="https://i.imgur.com/R45bRfU.png" alt="More" />
-      <p>...and that’s just the beginning. Discover new surprise domains soon – practical, fresh and exciting.</p>
+      <p data-i18n="domain-moredomains">...and that’s just the beginning. Discover more practical, fresh and exciting domains.</p>
     </div>
 
   </div>
@@ -200,12 +199,12 @@ this section is where the story continues. <br>
 
 <div class="modes-intro-section">
   <div class="modes-line" id="modes-line"></div> <!-- ✅ Linia animabilă -->
-  <h2 class="modes-title">Modes Section</h2>
+  <h2 class="modes-title" data-i18n="modes_title">Modes Section</h2>
   
-  <p class="modes-text">Choose your way...</p>
-  <p class="modes-text">You have full control over how you interact!</p>
-  <p class="modes-text">On Pairmo Modes you choose between three different using modes!</p>
-  <p class="modes-highlight">SOLO, FRIENDS CREW OR GROUP PLANNER</p>
+  <p class="modes-text" data-i18n="modes_text_1">Choose your way...</p>
+  <p class="modes-text" data-i18n="modes_text_2">You have full control over how you interact!</p>
+  <p class="modes-text" data-i18n="modes_text_3">On Pairmo Modes you choose between three different using modes!</p>
+  <p class="modes-highlight" data-i18n="modes_text_4">SOLO, FRIENDS CREW OR GROUP PLANNER</p>
   </div>
     <section class="modes-cards-group">
      
@@ -216,8 +215,8 @@ this section is where the story continues. <br>
     </div>
     <div class="card-face card-back">
       <div class="card-text">
-        <p>Act as individual.</p>
-        <p>Create or join 1-on-1 activities or even with a group.</p>
+        <p data-i18n="mode_solo_1">Act as individual.</p>
+        <p data-i18n="mode_solo_2">Create or join 1-on-1 activities or even with a group.</p>
       </div>
     </div>
   </div>
@@ -232,8 +231,8 @@ this section is where the story continues. <br>
     </div>
     <div class="card-face card-back">
       <div class="card-text">
-        <p>For ready-made friend groups.</p>
-        <p>Add new members or match with other teams.</p>
+        <p data-i18n="mode_friends_1">For ready-made friends groups.</p>
+        <p data-i18n="mode_friends_2">Add new members or match with other teams.</p>
       </div>
     </div>
   </div>
@@ -246,8 +245,8 @@ this section is where the story continues. <br>
     </div>
     <div class="card-face card-back">
       <div class="card-text">
-        <p>For organizers and business teams.</p>
-        <p>Create public or private plans, manage groups efficiently.</p>
+        <p data-i18n="mode_planner_1">For organizers and business teams.</p>
+        <p data-i18n="mode_planner_2">Create public or private plans, manage groups efficiently.</p>
       </div>
     </div>
   </div>
@@ -259,12 +258,12 @@ this section is where the story continues. <br>
   </div>
     <div class="userhub-line" id="uh-line">
     </div>
-  <h2 class="userhub-title">Your Personal Command Center</h2>
-  <p class="userhub-subtitle">
-    Everything you need, one tap away.<br />
-    The User Hub is your personalized dashboard <br />
-    access your matches, trips, wallet, upgrades and more.
-  </p>
+  <h2 class="userhub-title" data-i18n="userhub_title">Your Personal Command Center</h2>
+  <p class="userhub-subtitle" data-i18n="userhub_subtitle">
+  Everything you need, one tap away.<br />
+  The User Hub is your personalized dashboard <br />
+  access your matches, trips, wallet, upgrades and more.
+</p>
 
   <div class="mockup-wrapper">
   <div class="userhub-mockup-glow">
@@ -276,11 +275,11 @@ this section is where the story continues. <br>
 <section class="interactive-intro-section">
   <div class="interactive-intro-container">
     <div class="interactive-line" id="ip-line"></div>
-    <h2 class="interactive-title">Interactive Profiles: Ratings & Dynamic Badges</h2>
-    <p class="interactive-subtitle">
-       One glance says it all.<br>
-      Pairmo profiles are more than photos, they’re alive with signals of trust, authenticity, and personality.
-    </p>
+    <h2 class="interactive-title" data-i18n="interactive_title">Interactive Profiles: Ratings & Dynamic Badges</h2>
+    <p class="interactive-subtitle" data-i18n="interactive_subtitle">
+  One glance says it all.<br>
+  Pairmo profiles are more than photos, they’re alive with signals of trust, authenticity, and personality.
+</p>
     <div class="interactive-mockup-glow">
   <img src="https://i.imgur.com/2uDN422.png" alt="Interactive Profile Preview" class="interactive-mockup-img">
 </div>
@@ -292,33 +291,34 @@ this section is where the story continues. <br>
 
     <!-- Rating System -->
     <div class="interactive-block">
-      <h3 class="interactive-heading">⭐ User Rating System</h3>
-      <p class="interactive-text">
-        Each user has a visible <strong>rating score (e.g., 4.7)</strong> based on community feedback.<br>
-        You can rate others <strong>after each completed interaction</strong> – whether it’s a travel buddy, a client, or a conversation.
+      <h3 class="interactive-heading" data-i18n="interactive_heading_rating">⭐ User Rating System</h3>
+      <p class="interactive-text" data-i18n="interactive_text_rating">
+  Each user has a visible <strong>rating score (e.g., 4.7)</strong> based on community feedback.<br>
+  You can rate others <strong>after each completed interaction</strong> – whether it’s a travel buddy, a client, or a conversation.
       </p>
-      <p class="interactive-note">
-        Higher scores increase visibility and trust on the platform.
-      </p>
+      <p class="interactive-note" data-i18n="interactive_note_rating">
+  Higher scores increase visibility and trust on the platform.
+</p>
     </div>
 
     <!-- Dynamic Badges -->
     <div class="interactive-block">
-      <h3 class="interactive-heading">🏅 Dynamic Badges</h3>
-      <p class="interactive-text">
-        Badges are automatically unlocked based on your behavior, preferences, and activity.<br>
-        They’re fully dynamic — they appear, disappear, and evolve as you use the app.
-      </p>
+      <h3 class="interactive-heading" data-i18n="interactive_heading_badges">🏅 Dynamic Badges</h3>
+      <p class="interactive-text" data-i18n="interactive_text_badges">
+  Badges are automatically unlocked based on your behavior, preferences, and activity.<br>
+  They’re fully dynamic — they appear, disappear, and evolve as you use the app.
+</p>
+    
       <ul class="badge-list">
-        <li><span>🌆</span> <strong>CityBreak</strong>  You love short urban trips</li>
-        <li><span>✅</span> <strong>SafeMeet</strong>  ID & selfie verified</li>
-        <li><span>⚡️</span> <strong>LastMinuteReady</strong>  Your trip starts in less than 3 days</li>
-        <li><span>🧑‍🧑‍🧒</span> <strong>GroupPlanner</strong>  You organize crew or team activities</li>
-        <li><span>🚀</span> <strong>ActiveVibe</strong>  Interactions in the last 3 days</li>
+        <li data-i18n="badge-citybreak"><span>🌆</span> <strong>CityBreak</strong>  You love short urban trips</li>
+        <li data-i18n="badge-safemeet"><span>✅</span> <strong>SafeMeet</strong>  ID & selfie verified</li>
+        <li data-i18n="badge-groupplanner"><span>🧑‍🧑‍🧒</span> <strong>GroupPlanner</strong>  You organize crew or team activities</li>
+        <li data-i18n="badge-activevibe"><span>🚀</span> <strong>ActiveVibe</strong>  Interactions in the last 3 days</li>
+        <li data-i18n="badge-lastminute"><span>⚡️</span> <strong>LastMinuteReady</strong>  Your trip starts in less than 3 days</li>
       </ul>
-      <p class="interactive-note">
-        You don’t apply for badges,
-        <strong>you earn them</strong>.
+      <p class="interactive-note" data-i18n="interactive_note_badges">
+  You don’t apply for badges, <strong>you earn them</strong>.
+      
       </p>
     </div>
   </div>
@@ -329,46 +329,52 @@ this section is where the story continues. <br>
  <!-- Linie decorativă animabilă -->
     <div class="powerwallet-line" id="pw-line"></div>
     <!-- Titlu + Subtitlu -->
-    <h2 class="powerwallet-title">Pairmo Wallet</h2>
-    <p class="powerwallet-subtitle">
-      Buy premium points, manage points and check your spending history.<br>
-      Pairmo combines Premium and Bonus Points for full control.
-    </p>
+    <h2 class="powerwallet-title" data-i18n="powerwallet_title">Pairmo Wallet</h2>
+    <p class="powerwallet-subtitle" data-i18n="powerwallet_subtitle">
+  Buy premium points, manage points and check your spending history.<br>
+  Pairmo combines Premium and Bonus Points for full control.
+</p>
 
     <!-- Carduri pentru Premium / Bonus Points -->
     <div class="points-container">
       <div class="points-card">
-        <h3>Premium Points</h3>
-        <p>Buy and spend with full control.<br>Used for features, visibility and access.</p>
+        <h3 data-i18n="points_title_premium">Premium Points</h3>
+        <p data-i18n="points_text_premium">
+  Buy and spend with full control.<br>Used for features, visibility and access.
+</p>
       
  
-       <h3>Bonus Points</h3>
-        <p>Earn for free through in-app missions, community engagement or your first travel match.</p>
+       <h3 data-i18n="points_title_bonus">Bonus Points</h3>
+        <p data-i18n="points_text_bonus">
+  Earn for free through in-app missions, community engagement or your first travel match.
+</p>
     
     </div>
 
     <!-- Mesaj relaxant -->
-    <div class="no-pressure-message">
-      No pressure: You’re never required to purchase points. Every user can explore freely.
-    </div>
+    <div class="no-pressure-message" data-i18n="no_pressure">
+  No pressure: You’re never required to purchase points. Every user can explore freely.
+</div>
 
     <!-- Carduri PowerZone -->
       <!-- === POWERZONE TITLE SECTION === -->
 <section class="powerzone-intro-section">
   <div class="powerzone-line" id="pz-line"></div>
-  <h2 class="powerzone-title">PowerZone</h2>
-  <p class="powerzone-subtitle">Unlock visibility, tools & premium modes.</p>
+  <h2 class="powerzone-title" data-i18n="powerzone_title">PowerZone</h2>
+  <p class="powerzone-subtitle" data-i18n="powerzone_subtitle">
+  Unlock visibility, tools & premium modes.
+</p>
       </section>
     <div class="powerzone-grid">
-      <div class="pz-card">
-        <strong>Boosts+</strong><br> Get more matches and profile views instantly.
-      </div>
-      <div class="pz-card">
-        <strong>Chat+</strong><br> Unlock message reactions, visibility tools and advanced replies.
-      </div>
-      <div class="pz-card">
-        <strong>Plans+</strong><br> Access special features and organize activities your way.
-      </div>
+      <div class="pz-card" data-i18n="pz_card_boosts">
+  <strong>Boosts+</strong><br> Get more matches and profile views instantly.
+</div>
+      <div class="pz-card" data-i18n="pz_card_chat">
+  <strong>Chat+</strong><br> Unlock advanced communication tools like Message Seen, Highlighted Chats or Buzz!
+</div>
+      <div class="pz-card" data-i18n="pz_card_plans">
+  <strong>Plans+</strong><br> Discover our premium plans and activate smart upgrades.
+</div>
     </div>
 
     <p class="final-line">More control. More connection. Your way.</p>
@@ -379,10 +385,11 @@ this section is where the story continues. <br>
   <!-- === EXPLORE TITLE SECTION === -->
 <section class="explore-intro-section">
   <div class="explore-line" id="explore-line"></div>
-  <h2 class="explore-title">Explore Section</h2>
-  <p class="explore-subtitle">Here’s where the magic happens.
-Explore is where you match with partners, clients, or real-world services.
-It is the place where you can find your dream job or where you can hire the people you need.
+  <h2 class="explore-title" data-i18n="explore_title">Explore Section</h2>
+  <p class="explore-subtitle" data-i18n="explore_subtitle">
+Here’s where the magic happens.<br>
+Explore is where you match with partners, clients, or real-world services.<br>
+It is the place where you can find your dream job or where you can hire the people you need.<br>
 And all this... through a simple swipe.
 </p>
   </section>
@@ -390,7 +397,7 @@ And all this... through a simple swipe.
 <!-- === SWIPE INDICATOR SECTION === -->
 <section class="swipe-indicator-section">
   <div class="swipe-indicator-container">
-    <p class="swipe-indicator-text">Swipe the cards!</p>
+    <p class="swipe-indicator-text" data-i18n="swipe_text">Swipe the cards!</p>
     <div class="swipe-indicator-arrow"></div>
   </div>
 </section>
@@ -412,21 +419,23 @@ And all this... through a simple swipe.
 </main>
 
 <footer class="site-footer">
-  <p>© 2025 Pairmo Labs SRL. All rights reserved.</p>
+  <p data-i18n="footer_rights">© 2025 Pairmo Labs SRL. All rights reserved.</p>
   
   <p class="footer-social">
   <a href="https://www.instagram.com/pairmo.app" target="_blank" class="footer-icon">
     <i class="fab fa-instagram"></i>
   </a>
-  Follow us on <a href="https://www.instagram.com/pairmo.app" target="_blank" class="footer-green">@pairmo.app</a>
+  <span data-i18n="footer_follow">Follow us on</span>
+  <a href="https://www.instagram.com/pairmo.app" target="_blank" class="footer-green">@pairmo.app</a>
 </p>
   
   <p>
-    <a href="mailto:contact@pairmo.app">Contact us</a>
-  </p>
+  <a href="mailto:contact@pairmo.app" data-i18n="footer_contact">Contact us</a>
+</p>
   <p>
-    <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a>
-  </p>
+  <a href="#" data-i18n="footer_privacy">Privacy Policy</a> |
+  <a href="#" data-i18n="footer_terms">Terms of Use</a>
+</p>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </footer>
 <!-- partial -->
