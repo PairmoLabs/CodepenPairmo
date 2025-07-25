@@ -1,14 +1,16 @@
-const mainFlag = document.querySelector(".main-flag");
-const dropdown = document.querySelector(".flag-dropdown");
 
-mainFlag.addEventListener("click", () => {
-  dropdown.style.display = dropdown.style.display === "flex" ? "none" : "flex";
-});
 
 document.addEventListener('DOMContentLoaded', () => {
   const burger = document.querySelector('.burger');
   const menu = document.getElementById('mobile-menu');
+const mainFlag = document.querySelector('.main-flag');
+  const dropdown = document.querySelector('.dropdown');
 
+  if (mainFlag && dropdown) {
+    mainFlag.addEventListener("click", () => {
+      dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+    });
+  }
   // Toggle menu on burger click
   burger.addEventListener('click', (event) => {
     event.stopPropagation();
