@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // === MULTILANGUAGE MODULE – START ===
-(function () {
+document.addEventListener('DOMContentLoaded', () => {
   function loadLanguage(lang) {
     fetch(`lang/${lang}.json`)
       .then(response => response.json())
@@ -228,12 +228,8 @@ document.addEventListener('DOMContentLoaded', () => {
       .catch(err => console.error("Eroare la încărcarea limbii:", err));
   }
 
-  function initLanguage() {
-    const savedLang = localStorage.getItem('selectedLang') || 'en';
-    loadLanguage(savedLang);
-  }
-
-  document.addEventListener('DOMContentLoaded', initLanguage);
+  const savedLang = localStorage.getItem('selectedLang') || 'en';
+  loadLanguage(savedLang);
 
   document.querySelectorAll('.lang-select').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -242,5 +238,5 @@ document.addEventListener('DOMContentLoaded', () => {
       loadLanguage(selectedLang);
     });
   });
-})();
+});
 // === MULTILANGUAGE MODULE – END ===
