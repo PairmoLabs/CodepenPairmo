@@ -20,10 +20,7 @@
   "success_message": "✅ Te-ai abonat cu succes!"
   "email_placeholder": "Introdu adresa ta de email...",
   "submit_button": "Trimite",
-  "error_invalid_email": "Email invalid",
-  "error_required": "Acest câmp este obligatoriu",
   "form_success": "✅ Formular trimis cu succes!",
-  "form_error": "❌ A apărut o eroare. Încearcă din nou."
   "notify_me": "Anunță-mă",
   "scroll_more": "Află mai multe..."
   "domains_title": "Bun venit în domeniile Pairmo!",
