@@ -62,6 +62,8 @@
   "interactive_note_badges": "Badge-urile sunt vizibile pe profil și pot influența șansele de matching.",
   "powerwallet_title": "Portofelul Pairmo",
   "powerwallet_subtitle": "Controlează-ți punctele, upgrade-urile și achizițiile. Totul, într-un singur loc.",
+  "points_title_premium": "Puncte Premium",
+"points_text_premium": "Cumpără și cheltuie cu control deplin.<br>Folosite pentru funcții, vizibilitate și acces.",
   "points_title_bonus": "Puncte Bonus",
   "points_text_bonus": "Câștigă gratuit prin misiuni în aplicație, implicare în comunitate sau prima ta potrivire",
   "no_pressure": "Fără presiune. Doar putere.",
