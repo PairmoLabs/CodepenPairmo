@@ -18,7 +18,7 @@
   "subscribe_title": "SUBSCRIBE TO OUR MAILING LIST<br>TO BE PART OF THE JOURNEY",
   "email_placeholder": "Enter your email address...",
   "submit_button": "Submit",
-  "form_success": "✅ Form submitted successfully!",
+  "success-message": "✅ Form submitted successfully!",
   "notify_me": "Notify me",
   "scroll_more": "Learn more...",
   "domains_title": "Welcome to Pairmo domains!",
