@@ -74,5 +74,12 @@
   "footer_follow": "Follow us on",
   "footer_contact": "contact@pairmo.app",
   "footer_privacy": "Privacy Policy",
-  "footer_terms": "Terms of Use"
+  "footer_terms": "Terms of Use",
+  "footer_privacy": "Privacy Policy",
+"footer_terms": "Terms of Use",
+"submit_button": "Submit",
+"form_success": "✅ Form submitted successfully!",
+"card_hint": "Tap the card for more details",
+"interactive_subtitle_2": "Pairmo profiles are more than just photos — they’re alive with signals of trust, authenticity, and intention.",
+"explore_subtext": "Explore is where you find partners, clients or real-world services from your environment.<br>It’s where you can discover your dream job or hire the right people.<br>And all this... with a simple swipe."
 }
