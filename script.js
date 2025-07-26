@@ -213,34 +213,56 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // === MULTILANGUAGE MODULE – START ===
-// === MULTILANGUAGE MODULE - START ===
+// === MULTILANGUAGE MODULE (Custom Dropdown) ===
+
 document.addEventListener('DOMContentLoaded', () => {
+  const langToggle = document.getElementById('lang-toggle');
+  const langOptions = document.getElementById('lang-options');
+  const langBtnText = document.getElementById('selected-lang-name');
+  const langBtnFlag = document.getElementById('selected-lang-flag');
+
+  const langs = {
+    en: 'English',
+    ro: 'Română',
+    fr: 'Français',
+    it: 'Italiano',
+    de: 'Deutsch',
+    es: 'Español'
+  };
+
   function loadLanguage(lang) {
     fetch(`lang/${lang}.json`)
-      .then(response => response.json())
+      .then(res => res.json())
       .then(data => {
-        document.querySelectorAll('[data-i18n]').forEach(element => {
-          const key = element.getAttribute('data-i18n');
-          if (data[key]) {
-            element.innerHTML = data[key];
-          }
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+          const key = el.getAttribute('data-i18n');
+          if (data[key]) el.innerHTML = data[key];
         });
+
+        langBtnText.textContent = langs[lang];
+        langBtnFlag.textContent = document.querySelector(`li[data-lang="${lang}"]`).textContent.slice(0, 2);
       })
-      .catch(err => console.error("Eroare la încărcarea fișierului de limbă:", err));
+      .catch(err => console.error("Language loading error:", err));
   }
 
-  const savedLang = localStorage.getItem('selectedLang') || 'en';
-  loadLanguage(savedLang);
+  function setLanguage(lang) {
+    localStorage.setItem('selectedLang', lang);
+    loadLanguage(lang);
+  }
 
-  const langSelect = document.getElementById('language-select');
-  if (langSelect) {
-    langSelect.value = savedLang; // setează opțiunea selectată vizual
-    langSelect.addEventListener('change', () => {
-      const selectedLang = langSelect.value;
-      localStorage.setItem('selectedLang', selectedLang);
-      loadLanguage(selectedLang);
+  langToggle.addEventListener('click', () => {
+    langToggle.parentElement.classList.toggle('open');
+  });
+
+  langOptions.querySelectorAll('li').forEach(option => {
+    option.addEventListener('click', () => {
+      const selectedLang = option.getAttribute('data-lang');
+      setLanguage(selectedLang);
+      langToggle.parentElement.classList.remove('open');
     });
-  }
+  });
+
+  // Load saved lang
+  const savedLang = localStorage.getItem('selectedLang') || 'en';
+  setLanguage(savedLang);
 });
-// === MULTILANGUAGE MODULE - END ===
-// === MULTILANGUAGE MODULE – END ===
