@@ -18,16 +18,21 @@
     <!-- Profile Icon -->
     <i class="fas fa-user-circle"></i>
 
-    <!-- Language Switcher -->
-    <div class="language-switcher">
-  <select id="language-select">
-    <option value="en" selected data-i18n="lang_en">🇬🇧 English</option>
-<option value="ro" data-i18n="lang_ro">🇷🇴 Română</option>
-<option value="fr" data-i18n="lang_fr">🇫🇷 Français</option>
-<option value="it" data-i18n="lang_it">🇮🇹 Italiano</option>
-<option value="de" data-i18n="lang_de">🇩🇪 Deutsch</option>
-<option value="es" data-i18n="lang_es">🇪🇸 Español</option>
-  </select>
+    <!-- Language Switcher Dropdown -->
+<div class="custom-lang-dropdown">
+  <button id="lang-toggle" class="lang-btn">
+    <span id="selected-lang-flag">🇬🇧</span>
+    <span id="selected-lang-name">English</span>
+    <span class="arrow">▼</span>
+  </button>
+  <ul class="lang-options" id="lang-options">
+    <li data-lang="en">🇬🇧 English</li>
+    <li data-lang="ro">🇷🇴 Română</li>
+    <li data-lang="fr">🇫🇷 Français</li>
+    <li data-lang="it">🇮🇹 Italiano</li>
+    <li data-lang="de">🇩🇪 Deutsch</li>
+    <li data-lang="es">🇪🇸 Español</li>
+  </ul>
 </div>
 
     <!-- Search Icon -->
