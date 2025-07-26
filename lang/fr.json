@@ -17,10 +17,10 @@
  "callout_text": "Mais d’abord...",
  "subscribe_title": "ABONNEZ-VOUS À NOTRE NEWSLETTER<br>ET FAITES PARTIE DE L’AVENTURE",
   "email_placeholder": "Entrez votre e-mail...",
- "submit_button": "Envoyez...".
+ "submit_button": "Envoyez...",
 "form_success": "✅ Vous êtes sur la liste !",
   "notify_me": "Prévenez-moi",
-  "scroll_more": "En savoir plus..."
+  "scroll_more": "En savoir plus...",
   "domains_title": "Bienvenue dans les domaines Pairmo !",
   "domains_line1": "De la vie sociale à la productivité, nous relions la demande à l’offre",
   "domains_line2": "via un appariement intelligent basé sur des cartes glissables.",
@@ -31,7 +31,7 @@
   "domain-datingmatch": "Rencontrez des personnes partageant vos valeurs et intentions. Créez une vraie connexion.",
   "domain-petmatch": "Trouvez un compagnon de jeu ou d’élevage pour votre animal. Connectez-vous avec d’autres propriétaires qui vous ressemblent.",
   "domain-sportmatch": "Trouvez un partenaire d’entraînement, rejoignez une équipe locale ou créez la vôtre. Soyez actif ensemble.",
-  "domain-moredomains": "...et ce n’est que le début. Découvrez plus de domaines utiles et passionnants."
+  "domain-moredomains": "...et ce n’est que le début. Découvrez plus de domaines utiles et passionnants.",
   "modes_title": "Section des modes",
   "modes_text_1": "Choisissez votre façon d’agir...",
   "modes_text_2": "Vous contrôlez entièrement comment vous interagissez.",
@@ -39,13 +39,13 @@
   "modes_text_4": "SOLO, GROUPE D’AMIS OU ORGANISATEUR",
   "mode_solo_1": "Agir en tant qu’individu.",
   "mode_solo_2": "Créer ou rejoindre des activités 1-à-1 ou même un groupe.",
-  "card_hint": "Touchez la carte pour plus de détails"
+  "card_hint": "Touchez la carte pour plus de détails",
   "mode_friends_1": "Pour les groupes d’amis déjà formés.",
   "mode_friends_2": "Ajoutez de nouveaux membres ou connectez-vous avec d’autres équipes.",
   "mode_planner_1": "Pour les organisateurs et équipes professionnelles.",
-  "mode_planner_2": "Créez des plans publics ou privés, gérez des groupes efficacement."
+  "mode_planner_2": "Créez des plans publics ou privés, gérez des groupes efficacement.",
   "userhub_title": "Votre centre de commande personnel",
-  "userhub_subtitle": "Tout ce dont vous avez besoin, à portée de main.<br />Le Hub est votre tableau de bord personnalisé<br />Accédez à vos matchs, voyages, portefeuille, options premium et plus encore."
+  "userhub_subtitle": "Tout ce dont vous avez besoin, à portée de main.<br />Le Hub est votre tableau de bord personnalisé<br />Accédez à vos matchs, voyages, portefeuille, options premium et plus encore.",
   "interactive_title": "Profils interactifs : Notes & Badges dynamiques",
   "interactive_subtitle": "Un seul coup d’œil suffit.<br>Les profils Pairmo sont plus que des photos – ils vibrent avec des signaux de confiance, d’authenticité et de personnalité.",
  "interactive_subtitle_2": "Les profils Pairmo sont plus que de simples photos — ils révèlent des signes de confiance, d’authenticité et d’intention.",
@@ -59,7 +59,7 @@
   "badge_groupplanner": "🧑‍🧑‍🧒 GroupPlanner Vous organisez des activités en groupe",
   "badge_activevibe": "🚀 ActiveVibe Interactions récentes (3 jours)",
   "badge_lastminute": "⚡️ LastMinuteReady Votre voyage commence dans moins de 3 jours",
-  "interactive_note_badges": "Vous ne demandez pas les badges, <strong>vous les méritez</strong>."
+  "interactive_note_badges": "Vous ne demandez pas les badges, <strong>vous les méritez</strong>.",
   "powerwallet_title": "Portefeuille Pairmo",
   "powerwallet_subtitle": "Achetez des points premium, gérez votre solde et consultez votre historique.<br>Pairmo combine Points Premium et Bonus pour un contrôle total.",
   "points_title_premium": "Points Premium",
@@ -75,11 +75,11 @@
   "chatplus_desc": "Débloquez les réactions, le statut de lecture,<br />les sons de notification et des filtres de chat premium.",
   "plansplus_title": "🧩 Plans+",
   "plansplus_desc": "Choisissez votre Plan Pairmo (Free, Plus ou Premium).<br />Débloquez un accès illimité aux fonctionnalités avancées."
-  "final_line": "Plus de contrôle. Plus de connexion. À votre manière."
+  "final_line": "Plus de contrôle. Plus de connexion. À votre manière.",
   "explore_title": "Section Explorer",
   "explore_subtitle": "C’est ici que la magie opère.<br>Dans Explorer, vous trouvez des partenaires, des clients ou des services réels.<br>C’est aussi là que vous pouvez trouver votre emploi idéal ou recruter les bonnes personnes.<br>Et tout cela... par un simple glissement.",
  "explore_subtext": "Explore est l’endroit où vous trouvez partenaires, clients ou services réels autour de vous.<br>C’est ici que vous pouvez découvrir votre job de rêve ou recruter les bonnes personnes.<br>Et tout cela... d’un simple glissement.",
-  "swipe_text": "Faites glisser les cartes !"
+  "swipe_text": "Faites glisser les cartes !",
   "footer_rights": "© 2025 Pairmo Labs SRL. Tous droits réservés.",
   "footer_follow": "Suivez-nous sur",
   "footer_contact": "contact@pairmo.app",
