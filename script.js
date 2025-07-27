@@ -222,44 +222,45 @@ document.addEventListener('DOMContentLoaded', () => {
   const langBtnFlag = document.getElementById('selected-lang-flag');
 
   const langs = {
-  en: 'English',
-  ro: 'Română',
-  fr: 'Français',
-  it: 'Italiano',
-  de: 'Deutsch',
-  es: 'Español',
-  ru: 'Russian',
-  zh: 'Chinese',
-  hi: 'Hindi',
-  ar: 'Arabic',
-  hu: 'Hungarian',
-  pl: 'Polish',
-  uk: 'Ukrainian',
-  nl: 'Dutch',
-  el: 'Greek',
-  tr: 'Turkish'
-};
+    en: 'English',
+    ro: 'Română',
+    fr: 'Français',
+    it: 'Italiano',
+    de: 'Deutsch',
+    es: 'Español',
+    ru: 'Russian',
+    zh: 'Chinese',
+    hi: 'Hindi',
+    ar: 'Arabic',
+    hu: 'Hungarian',
+    pl: 'Polish',
+    uk: 'Ukrainian',
+    nl: 'Dutch',
+    el: 'Greek',
+    tr: 'Turkish'
+  };
 
   function loadLanguage(lang) {
-  fetch(`lang/${lang}.json`)
-    .then(res => res.json())
-    .then(data => {
-      document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.getAttribute('data-i18n');
-        if (data[key]) {
-          el.innerHTML = data[key]; // permite HTML (ex: <br>)
-        }
-      });
+    fetch(`lang/${lang}.json`)
+      .then(res => res.json())
+      .then(data => {
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+          const key = el.getAttribute('data-i18n');
+          if (data[key]) {
+            // Fix: Asigură că <br> este tratat corect în HTML
+            el.innerHTML = data[key].replace(/<br>/g, '<br/>');
+          }
+        });
 
-      // Actualizează numele și steagul selectat
-      langBtnText.textContent = langs[lang];
-      const selectedFlag = document.querySelector(`li[data-lang="${lang}"]`);
-      if (selectedFlag) {
-        langBtnFlag.textContent = selectedFlag.textContent.slice(0, 2);
-      }
-    })
-    .catch(err => console.error("Language loading error:", err));
-}
+        // Actualizează numele și steagul selectat
+        langBtnText.textContent = langs[lang];
+        const selectedFlag = document.querySelector(`li[data-lang="${lang}"]`);
+        if (selectedFlag) {
+          langBtnFlag.textContent = selectedFlag.textContent.slice(0, 2);
+        }
+      })
+      .catch(err => console.error("Language loading error:", err));
+  }
 
   function setLanguage(lang) {
     localStorage.setItem('selectedLang', lang);
