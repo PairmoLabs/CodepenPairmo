@@ -18,7 +18,7 @@
   "subscribe_title": "ABONNEZ-VOUS À NOTRE NEWSLETTER<br>ET FAITES PARTIE DE L’AVENTURE",
   "email_placeholder": "Entrez votre e-mail...",
   "submit_button": "Envoyez...",
-  "form_success": "✅ Vous êtes sur la liste !",
+  "success-message": "✅ Vous êtes sur la liste !",
   "notify_me": "Prévenez-moi",
   "scroll_more": "En savoir plus...",
   "domains_title": "Bienvenue dans les domaines Pairmo !",
