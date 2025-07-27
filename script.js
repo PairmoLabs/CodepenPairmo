@@ -294,25 +294,3 @@ document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
   setLanguage(savedLang);
 });
 
-@media (max-width: 480px) {
-  .interactive-heading {
-    font-size: 1.3rem;
-    text-align: center;
-  }
-
-  .interactive-text {
-    font-size: 0.95rem;
-    line-height: 1.7;
-    text-align: justify;
-  }
-
-  .interactive-note {
-    font-size: 0.85rem;
-    line-height: 1.5;
-    text-align: center;
-  }
-
-  .interactive-block {
-    padding: 1.5rem;
-  }
-}
