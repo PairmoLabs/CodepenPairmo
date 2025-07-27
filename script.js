@@ -241,25 +241,25 @@ document.addEventListener('DOMContentLoaded', () => {
 };
 
   function loadLanguage(lang) {
-    fetch(`lang/${lang}.json`)
-      .then(res => res.json())
-      .then(data => {
-        document.querySelectorAll('[data-i18n]').forEach(el => {
-          const key = el.getAttribute('data-i18n');
-          if (data[key]) {
-  if (el.firstChild && el.firstChild.nodeType === Node.TEXT_NODE) {
-    el.firstChild.nodeValue = data[key]; // doar textul se schimbă
-  } else {
-    el.innerHTML = data[key]; // fallback dacă e doar text simplu
-  }
-          }
-        });
+  fetch(`lang/${lang}.json`)
+    .then(res => res.json())
+    .then(data => {
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (data[key]) {
+          el.innerHTML = data[key]; // permite HTML (ex: <br>)
+        }
+      });
 
-        langBtnText.textContent = langs[lang];
-        langBtnFlag.textContent = document.querySelector(`li[data-lang="${lang}"]`).textContent.slice(0, 2);
-      })
-      .catch(err => console.error("Language loading error:", err));
-  }
+      // Actualizează numele și steagul selectat
+      langBtnText.textContent = langs[lang];
+      const selectedFlag = document.querySelector(`li[data-lang="${lang}"]`);
+      if (selectedFlag) {
+        langBtnFlag.textContent = selectedFlag.textContent.slice(0, 2);
+      }
+    })
+    .catch(err => console.error("Language loading error:", err));
+}
 
   function setLanguage(lang) {
     localStorage.setItem('selectedLang', lang);
