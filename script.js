@@ -222,13 +222,23 @@ document.addEventListener('DOMContentLoaded', () => {
   const langBtnFlag = document.getElementById('selected-lang-flag');
 
   const langs = {
-    en: 'English',
-    ro: 'Română',
-    fr: 'Français',
-    it: 'Italiano',
-    de: 'Deutsch',
-    es: 'Español'
-  };
+  en: 'English',
+  ro: 'Română',
+  fr: 'Français',
+  it: 'Italiano',
+  de: 'Deutsch',
+  es: 'Español',
+  ru: 'Russian',
+  zh: 'Chinese',
+  hi: 'Hindi',
+  ar: 'Arabic',
+  hu: 'Hungarian',
+  pl: 'Polish',
+  uk: 'Ukrainian',
+  nl: 'Dutch',
+  el: 'Greek',
+  tr: 'Turkish'
+};
 
   function loadLanguage(lang) {
     fetch(`lang/${lang}.json`)
@@ -236,7 +246,13 @@ document.addEventListener('DOMContentLoaded', () => {
       .then(data => {
         document.querySelectorAll('[data-i18n]').forEach(el => {
           const key = el.getAttribute('data-i18n');
-          if (data[key]) el.innerHTML = data[key];
+          if (data[key]) {
+  if (el.firstChild && el.firstChild.nodeType === Node.TEXT_NODE) {
+    el.firstChild.nodeValue = data[key]; // doar textul se schimbă
+  } else {
+    el.innerHTML = data[key]; // fallback dacă e doar text simplu
+  }
+          }
         });
 
         langBtnText.textContent = langs[lang];
