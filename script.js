@@ -254,6 +254,13 @@ document.addEventListener('DOMContentLoaded', () => {
             }
           }
         });
+        // Traduceri pentru atributele placeholder (ex: input email)
+document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+  const key = el.getAttribute('data-i18n-placeholder');
+  if (data[key]) {
+    el.setAttribute('placeholder', data[key]);
+  }
+});
 
         // actualizează numele limbii și iconița steag
         langBtnText.textContent = langs[lang];
