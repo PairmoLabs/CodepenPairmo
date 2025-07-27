@@ -609,12 +609,13 @@ display: block;
   transform: rotateY(360deg);
 }
 .card-hint1, {
-  color: #888;
-  font-size: 14px;
+  display: block;
+  width: 100%;
   text-align: center;
-  margin-top: 12px;
+  font-size: 0.8rem;
   font-style: italic;
-  opacity: 0.8;
+  color: #ccc;
+  margin-top: 8px;
   
 }
 .modes-cards-group {
