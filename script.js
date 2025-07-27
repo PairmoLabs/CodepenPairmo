@@ -247,16 +247,19 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('[data-i18n]').forEach(el => {
           const key = el.getAttribute('data-i18n');
           if (data[key]) {
-            // Fix: Asigură că <br> este tratat corect în HTML
-            el.innerHTML = data[key].replace(/<br>/g, '<br/>');
+            if (el.tagName === 'INPUT' && el.hasAttribute('placeholder')) {
+              el.setAttribute('placeholder', data[key]);
+            } else {
+              el.innerHTML = data[key]; // permite HTML (ex: <br>)
+            }
           }
         });
 
-        // Actualizează numele și steagul selectat
+        // actualizează numele limbii și iconița steag
         langBtnText.textContent = langs[lang];
         const selectedFlag = document.querySelector(`li[data-lang="${lang}"]`);
         if (selectedFlag) {
-          langBtnFlag.textContent = selectedFlag.textContent.slice(0, 2);
+          langBtnFlag.textContent = selectedFlag.textContent.slice(0, 2); // 🇬🇧 etc.
         }
       })
       .catch(err => console.error("Language loading error:", err));
@@ -279,7 +282,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Load saved lang
+  // Load language from localStorage or default to English
   const savedLang = localStorage.getItem('selectedLang') || 'en';
   setLanguage(savedLang);
 });
