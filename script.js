@@ -284,6 +284,11 @@ document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
   langOptions.querySelectorAll('li').forEach(option => {
     option.addEventListener('click', () => {
       const selectedLang = option.getAttribute('data-lang');
+      const flagEmoji = option.textContent.trim().split(' ')[0]; // ia primul caracter (emoji)
+const flagSpan = document.getElementById('selected-lang-flag');
+if (flagSpan) {
+  flagSpan.textContent = flagEmoji;
+}
       setLanguage(selectedLang);
       langToggle.parentElement.classList.remove('open');
     });
