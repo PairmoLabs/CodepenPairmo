@@ -266,7 +266,7 @@ document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
         langBtnText.textContent = langs[lang];
         const selectedFlag = document.querySelector(`li[data-lang="${lang}"]`);
         if (selectedFlag) {
-          langBtnFlag.textContent = selectedFlag.textContent.slice(0, 2); // 🇬🇧 etc.
+          langBtnFlag.textContent = selectedFlag.textContent.trim().split(' ')[0];
         }
       })
       .catch(err => console.error("Language loading error:", err));
