@@ -33,15 +33,33 @@ const mainFlag = document.querySelector('.main-flag');
 });
 // === Funcția pentru afișarea mesajului de succes după abonare ===
 function showSuccess(event) {
-  event.preventDefault(); // Oprește trimiterea automată a formularului (fără refresh de pagină)
+  event.preventDefault();
 
-  const message = document.getElementById("success-message"); // Selectează elementul cu mesajul de succes
-  message.style.display = "block"; // Afișează mesajul (devine vizibil)
+  const form = event.target;
+  const formData = new FormData(form);
 
-  // === Opțional: ascunde mesajul după 5 secunde ===
-  setTimeout(() => {
-    message.style.display = "none"; // Revine la invizibil după 5 secunde
-  }, 5000);
+  fetch(form.action, {
+    method: "POST",
+    body: formData,
+    headers: { Accept: "application/json" }
+  })
+  .then(response => {
+    if (response.ok) {
+      const message = document.getElementById("success-message");
+      message.style.display = "block";
+
+      setTimeout(() => {
+        message.style.display = "none";
+      }, 5000);
+
+      form.reset(); // Resetează formularul
+    } else {
+      alert("❌ Something went wrong. Please try again.");
+    }
+  })
+  .catch(() => {
+    alert("❌ Network error. Please check your connection.");
+  });
 }
 // === Scroll automat către următoarea secțiune ===
 document.querySelector('.scroll-indicator').addEventListener('click', () => {
