@@ -1,57 +1,78 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <title>Official Pairmo App – Avoid Fake Versions</title>
-  <meta name="description" content="This is the official website for the Pairmo app. We are not affiliated with any Pairmo found on APKPure or Google Play.">
+  <meta name="description" content="This page provides official information about the real Pairmo app and helps users avoid fake or unofficial versions found on third-party stores." />
 
-  <link rel="canonical" href="https://www.pairmo.app/pairmo-app.html" />
+  <!-- Canonical: trimite semnal clar că pagina principală este https://www.pairmo.app/ -->
+  <link rel="canonical" href="https://www.pairmo.app/" />
+
+  <!-- Open Graph (aliniat cu canonical, ca să nu dăm semnale mixte) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Official Pairmo App – Avoid Fake Versions" />
+  <meta property="og:description" content="Learn how to identify the official Pairmo app and avoid fake listings on third-party stores." />
+  <meta property="og:url" content="https://www.pairmo.app/" />
+  <meta property="og:site_name" content="Pairmo" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Official Pairmo App – Avoid Fake Versions" />
+  <meta name="twitter:description" content="Official guidance for recognizing the real Pairmo app." />
+
+  <!-- JSON-LD: page-level only, fără Organization/App aici (există pe homepage).
+       Le legăm prin @id ca să păstrăm graful coerent. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "@id": "https://www.pairmo.app/pairmo-app.html#about",
+    "url": "https://www.pairmo.app/pairmo-app.html",
+    "name": "About Pairmo App – Official Information",
+    "description": "Official information about the real Pairmo app and how to avoid fake or unofficial versions.",
+    "inLanguage": "en",
+    "isPartOf": { "@id": "https://www.pairmo.app/#website" },
+    "about": { "@id": "https://www.pairmo.app/#app" }
+  }
+  </script>
+
   <link rel="stylesheet" href="style.css" />
-
-  <!-- Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Official Pairmo App",
-    "url": "https://www.pairmo.app/",
-    "description": "Official information about the real Pairmo app. Avoid fake versions found on APKPure or Google Play."
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Pairmo Labs SRL",
-    "url": "https://www.pairmo.app",
-    "logo": "https://www.pairmo.app/assets/pairmo-preview.png"
-  }
-  </script>
 </head>
-
 <body>
-  <main style="max-width: 800px; margin: auto; padding: 2rem;">
-    <h1>Official Pairmo App</h1>
+  <header class="container">
+    <h1>Official Pairmo App – Avoid Fake Versions</h1>
+    <p>This page helps you verify you’re installing the <strong>official Pairmo app</strong>.</p>
+  </header>
 
-    <p>Pairmo is a real-life matchmaking platform created by <strong>Pairmo Labs SRL</strong>. The official website is <a href="https://www.pairmo.app">https://www.pairmo.app</a>.</p>
+  <main class="container">
+    <section>
+      <h2>How to recognize the official app</h2>
+      <ul>
+        <li>Always check the app name and developer are exactly <strong>Pairmo</strong>.</li>
+        <li>Compare the app icon and screenshots with those on our official website.</li>
+        <li>Be cautious with third-party stores. When in doubt, start from <a href="https://www.pairmo.app/">pairmo.app</a>.</li>
+      </ul>
+    </section>
 
-    <p>We are <strong>not affiliated</strong> with any app currently published on third-party platforms such as:</p>
-    <ul>
-      <li>Google Play (non-official "Pairmo")</li>
-      <li>APKPure or APKMirror</li>
-      <li>Any platform using our name without our consent</li>
-    </ul>
+    <section>
+      <h2>Report a fake listing</h2>
+      <p>If you find a suspicious or fake listing, please contact us via the form on our homepage.</p>
+    </section>
 
-    <p>Any such apps are unauthorized, and we strongly recommend avoiding them.</p>
-
-    <p>The official Pairmo app is currently under development. Updates, launch announcements and beta access will be published only through this site and our future mobile stores.</p>
-
-    <p>If you’ve seen or installed another app named "Pairmo", <strong>it is not us.</strong></p>
-
-    <hr />
-    <p style="font-size: 0.9rem; color: gray;">© 2025 Pairmo Labs SRL – All rights reserved.</p>
+    <nav>
+      <a href="/">← Back to Pairmo homepage</a>
+    </nav>
   </main>
+
+  <footer class="container">
+    <p>© <span id="year"></span> Pairmo</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
