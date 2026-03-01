@@ -61,14 +61,16 @@ function showSuccess(event) {
     alert("❌ Network error. Please check your connection.");
   });
 }
-// === Scroll automat către următoarea secțiune ===
-document.querySelector('.scroll-indicator').addEventListener('click', () => {
-  // Scroll smooth la 600px mai jos (poți ajusta)
-  window.scrollBy({
-    top: 600,
-    behavior: 'smooth'
+// === Scroll automat către următoarea
+const scrollIndicator = document.querySelector('.scroll-indicator');
+if (scrollIndicator) {
+  scrollIndicator.addEventListener('click', () => {
+    window.scrollBy({
+      top: 600,
+      behavior: 'smooth'
+    });
   });
-});
+}
 // === Activare selecție card în carusel ===
 function selectCard(card) {
   const allCards = document.querySelectorAll('.carousel-card');
@@ -149,7 +151,9 @@ const exploreObserver = new IntersectionObserver(entries => {
   });
 }, { threshold: 0.4 });
 
-exploreObserver.observe(exploreLine);
+if (exploreLine) {
+  exploreObserver.observe(exploreLine);
+}
 // === SWIPE STACK LOGIC FOR EXPLORE CARDS ===
 document.addEventListener('DOMContentLoaded', () => {
   const stack = document.getElementById('card-stack');
