@@ -1,4 +1,4 @@
-alert("SCRIPT LOADED");
+
 
 document.addEventListener('DOMContentLoaded', () => {
   const burger = document.querySelector('.burger');
@@ -316,11 +316,12 @@ if (flagSpan) {
   const savedLang = localStorage.getItem('selectedLang') || 'en';
   setLanguage(savedLang);
 });
+
 /* ========================= */
 /* ===== ABOUT PAGE JS ===== */
 /* ========================= */
 
-(function () {
+window.addEventListener("load", function () {
 
   if (!document.body.classList.contains("page-about")) return;
 
@@ -449,4 +450,4 @@ if (flagSpan) {
 
   });
 
-})();
+});
