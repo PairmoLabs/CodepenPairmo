@@ -287,6 +287,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         if (langBtnText) langBtnText.textContent = langs[lang] || lang;
+
+if (langBtnFlag) {
+  const selectedOption = document.querySelector(`#lang-options li[data-lang="${lang}"]`);
+  if (selectedOption) {
+    const flag = selectedOption.textContent.trim().split(' ')[0];
+    langBtnFlag.textContent = flag;
+  }
+}
       })
       .catch(err => console.error("Language loading error:", err));
   }
