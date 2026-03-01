@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.pairmo.app/sitemap.xml
+Sitemap: https://pairmo.app/sitemap.xml
