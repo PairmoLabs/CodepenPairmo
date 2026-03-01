@@ -513,7 +513,6 @@ html, body {
   }
 }
 
-<!-- === MODES CARDS GROUP CONTAINER === -->
 }
 .modes-line.visible {
   width: 80px;
@@ -1026,7 +1025,7 @@ display: block;
   margin: 40px auto 1rem;
   transition: width 1s ease, opacity 1s ease;
   opacity: 0;
-  mmargin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .powerzone-line.visible {
@@ -1335,7 +1334,6 @@ display: block;
   width: 160px;
   max-height: 300px;      /* Limitează înălțimea listei */
   overflow-y: auto;       /* Activează scroll dacă sunt prea multe limbi */
-}
 }
 
 .lang-options li {
