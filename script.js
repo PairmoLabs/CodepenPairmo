@@ -251,6 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
     it: 'Italiano',
     de: 'Deutsch',
     es: 'Español',
+    pt: 'Português',
     ru: 'Russian',
     zh: 'Chinese',
     hi: 'Hindi',
