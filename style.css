@@ -1,5 +1,5 @@
 /* === GLOBAL RESET === */
-body::before {
+body:not(.page-about)::before {
   content: '';
   position: fixed;
   top: 0;
@@ -9,8 +9,8 @@ body::before {
   background: #000;
   z-index: -1;
 }
-body {
-  background-color: #000 !important;
+body:not(.page-about) {
+  background-color: #000;
 }
 html, body {
   margin: 0;
