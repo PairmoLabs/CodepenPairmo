@@ -1,4 +1,4 @@
-
+alert("SCRIPT LOADED");
 
 document.addEventListener('DOMContentLoaded', () => {
   const burger = document.querySelector('.burger');
