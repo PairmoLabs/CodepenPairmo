@@ -3,15 +3,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://www.pairmo.app/</loc>
-    <lastmod>2025-07-28</lastmod>
+    <loc>https://pairmo.app/</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://www.pairmo.app/pairmo-app.html</loc>
-    <lastmod>2025-07-29</lastmod>
+    <loc>https://pairmo.app/pairmo-app.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
