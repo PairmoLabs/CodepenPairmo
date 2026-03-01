@@ -45,7 +45,7 @@ function showSuccess(event) {
   })
   .then(response => {
     if (response.ok) {
-      const message = document.getElementById("success-message");
+      const message = document.getElementById("success_message");
       message.style.display = "block";
 
       setTimeout(() => {
