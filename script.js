@@ -231,13 +231,14 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // === MULTILANGUAGE MODULE – START ===
-// === MULTILANGUAGE MODULE (Custom Dropdown) ===
 
 document.addEventListener('DOMContentLoaded', () => {
   const langToggle = document.getElementById('lang-toggle');
   const langOptions = document.getElementById('lang-options');
   const langBtnText = document.getElementById('selected-lang-name');
   const langBtnFlag = document.getElementById('selected-lang-flag');
+
+  if (!langToggle || !langOptions) return; // 🔥 PROTECȚIE CRITICĂ
 
   const langs = {
     en: 'English',
@@ -259,7 +260,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   function loadLanguage(lang) {
-    fetch(`lang/${lang}.json`)
+    fetch(`/lang/${lang}.json`)
       .then(res => res.json())
       .then(data => {
         document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -268,24 +269,19 @@ document.addEventListener('DOMContentLoaded', () => {
             if (el.tagName === 'INPUT' && el.hasAttribute('placeholder')) {
               el.setAttribute('placeholder', data[key]);
             } else {
-              el.innerHTML = data[key]; // permite HTML (ex: <br>)
+              el.innerHTML = data[key];
             }
           }
         });
-        // Traduceri pentru atributele placeholder (ex: input email)
-document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
-  const key = el.getAttribute('data-i18n-placeholder');
-  if (data[key]) {
-    el.setAttribute('placeholder', data[key]);
-  }
-});
 
-        // actualizează numele limbii și iconița steag
-        langBtnText.textContent = langs[lang];
-        const selectedFlag = document.querySelector(`li[data-lang="${lang}"]`);
-        if (selectedFlag) {
-          langBtnFlag.textContent = selectedFlag.textContent.trim().split(' ')[0];
-        }
+        document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+          const key = el.getAttribute('data-i18n-placeholder');
+          if (data[key]) {
+            el.setAttribute('placeholder', data[key]);
+          }
+        });
+
+        if (langBtnText) langBtnText.textContent = langs[lang] || lang;
       })
       .catch(err => console.error("Language loading error:", err));
   }
@@ -302,21 +298,14 @@ document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
   langOptions.querySelectorAll('li').forEach(option => {
     option.addEventListener('click', () => {
       const selectedLang = option.getAttribute('data-lang');
-      const flagEmoji = option.textContent.trim().split(' ')[0]; // ia primul caracter (emoji)
-const flagSpan = document.getElementById('selected-lang-flag');
-if (flagSpan) {
-  flagSpan.textContent = flagEmoji;
-}
       setLanguage(selectedLang);
       langToggle.parentElement.classList.remove('open');
     });
   });
 
-  // Load language from localStorage or default to English
   const savedLang = localStorage.getItem('selectedLang') || 'en';
-  setLanguage(savedLang);
+  loadLanguage(savedLang);
 });
-
 /* ========================= */
 /* ===== ABOUT PAGE JS ===== */
 /* ========================= */
