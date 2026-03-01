@@ -319,7 +319,4 @@ if (langBtnFlag) {
   const savedLang = localStorage.getItem('selectedLang') || 'en';
   loadLanguage(savedLang);
 });
-/* ========================= */
-/* ===== ABOUT PAGE JS ===== */
-/*
 
