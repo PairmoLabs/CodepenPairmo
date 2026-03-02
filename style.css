@@ -1155,6 +1155,7 @@ display: block;
   z-index: 1;
   cursor: grab;
   user-select: none;
+  will-change: transform;
 }
 
 .top-card {
@@ -1196,6 +1197,7 @@ display: block;
 
   .swipe-card {
     border-radius: 16px;
+
   }
 }
 
