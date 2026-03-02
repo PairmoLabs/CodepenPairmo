@@ -511,7 +511,6 @@ html, body {
   50% {
     transform: scale(1.08);
   }
-}
 
 }
 .modes-line.visible {
@@ -1134,11 +1133,11 @@ display: block;
 
 .card-stack-container {
   position: relative;
-  width: 320px;
-  height: 500px;
+  width: 90%;
+  max-width: 320px;
+  aspect-ratio: 2 / 3;
   margin: 0 auto;
   perspective: 1000px;
-  background-color: transparent;
 }
 
 .swipe-card {
@@ -1191,8 +1190,8 @@ display: block;
 }
 @media (max-width: 768px) {
   .card-stack-container {
-    width: 290px;
-    height: 460px;
+    width: 90%;
+    max-width: 320px;
   }
 
   .swipe-card {
