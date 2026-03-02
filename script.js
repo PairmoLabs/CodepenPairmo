@@ -184,13 +184,14 @@ document.addEventListener('DOMContentLoaded', () => {
     startX = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
 
     document.addEventListener('mousemove', dragMove);
-    document.addEventListener('touchmove', dragMove, { passive: true });
+    document.addEventListener('touchmove', dragMove);
     document.addEventListener('mouseup', dragEnd);
     document.addEventListener('touchend', dragEnd);
   }
 
   function dragMove(e) {
     if (!isDragging || !currentCard) return;
+      if (e.cancelable) e.preventDefault();
     const x = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
     const deltaX = x - startX;
     currentCard.style.transform = `translateX(${deltaX}px) rotate(${deltaX * 0.05}deg)`;
