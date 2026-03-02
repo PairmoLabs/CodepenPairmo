@@ -3,7 +3,20 @@ window.addEventListener("load", function () {
   const sections = document.querySelectorAll('.about-section');
   if (!sections.length) return;
 
-  sections.forEach((section) => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !entry.target.dataset.started) {
+        entry.target.dataset.started = "true";
+        startCanvas(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.2
+  });
+
+  sections.forEach(section => observer.observe(section));
+
+  function startCanvas(section) {
 
     const title = section.querySelector('h2');
     if (!title) return;
@@ -21,7 +34,15 @@ window.addEventListener("load", function () {
     const type = section.dataset.visual;
     const startOffset = Math.random() * 2000;
 
+    let lastTime = 0;
+
     function animate(time) {
+
+      if (time - lastTime < 40) {
+        requestAnimationFrame(animate);
+        return;
+      }
+      lastTime = time;
 
       const adjustedTime = time + startOffset;
 
@@ -30,7 +51,7 @@ window.addEventListener("load", function () {
       ctx.fillStyle = "#00ff9d";
       ctx.lineWidth = 1.8;
       ctx.shadowColor = "#00ff9d";
-      ctx.shadowBlur = 12;
+      ctx.shadowBlur = 8;
 
       // NETWORK
       if (type === "network") {
@@ -47,14 +68,6 @@ window.addEventListener("load", function () {
         ctx.stroke();
       }
 
-      // LAYERS
-      if (type === "layers") {
-        const pulse = Math.abs(Math.sin(adjustedTime * 0.002)) * 10;
-        ctx.strokeRect(20, 10, 80, 12);
-        ctx.strokeRect(30, 25, 60, 10);
-        ctx.strokeRect(40, 40, 40 + pulse, 10);
-      }
-
       // TARGET
       if (type === "target") {
         const r = 20 + Math.sin(adjustedTime * 0.002) * 3;
@@ -64,39 +77,6 @@ window.addEventListener("load", function () {
         ctx.beginPath();
         ctx.arc(60, 30, 10, 0, Math.PI * 2);
         ctx.stroke();
-      }
-
-      // GRID
-      if (type === "grid") {
-        const shift = (adjustedTime * 0.05) % 20;
-        for (let i = 20; i <= 100; i += 20) {
-          ctx.beginPath();
-          ctx.moveTo(i, 10);
-          ctx.lineTo(i, 50);
-          ctx.stroke();
-        }
-        ctx.beginPath();
-        ctx.moveTo(10, 30 + shift);
-        ctx.lineTo(110, 30 + shift);
-        ctx.stroke();
-      }
-
-      // MODES
-      if (type === "modes") {
-        const baseY = 20;
-        const move = Math.sin(adjustedTime * 0.002) * 5;
-        ctx.fillRect(30, baseY + move, 18, 10);
-        ctx.fillRect(55, baseY - move, 18, 10);
-        ctx.fillRect(80, baseY + move, 18, 10);
-      }
-
-      // MATRIX
-      if (type === "matrix") {
-        for (let i = 0; i < 5; i++) {
-          const x = (Math.sin(adjustedTime * 0.001 + i) * 40) + 60;
-          const y = (i * 10) + 10;
-          ctx.fillRect(x, y, 3, 8);
-        }
       }
 
       // ORBIT
@@ -126,6 +106,6 @@ window.addEventListener("load", function () {
     }
 
     requestAnimationFrame(animate);
-  });
+  }
 
 });
