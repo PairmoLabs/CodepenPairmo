@@ -78,7 +78,7 @@ function selectCard(card) {
   card.classList.add('active');
 }
 // === Scroll Observer pentru efect pop-up ===
-const observer = new IntersectionObserver(entries => {
+const modesObserver = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('visible');
@@ -88,7 +88,7 @@ const observer = new IntersectionObserver(entries => {
 
 // Activăm observerul pentru fiecare paragraf
 document.querySelectorAll('.modes-text').forEach((el) => {
-  observer.observe(el);
+  modesObserver.observe(el);
 });
 // === Flip Card Logic ===
 function flipCard(card) {
@@ -97,18 +97,18 @@ function flipCard(card) {
 document.addEventListener('DOMContentLoaded', () => {
   const lines = document.querySelectorAll('#pw-line, #uh-line, #ip-line');
 
-  const observer = new IntersectionObserver((entries) => {
+  const linesObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add('visible'); // ✅ corect
-        observer.unobserve(entry.target);
+        linesObserver.unobserve(entry.target);
       }
     });
   }, {
     threshold: 0.4
   });
 
-  lines.forEach(line => observer.observe(line));
+  lines.forEach(line => linesObserver.observe(line));
 });
 document.addEventListener('DOMContentLoaded', () => {
   // Observator separat pentru Modes Line
