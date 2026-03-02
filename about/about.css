@@ -41,7 +41,7 @@ body::before {
   border: 1px solid rgba(0,255,157,0.1);
   transition: 0.4s ease;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .about-section {
@@ -187,4 +187,18 @@ body::before {
   .section-canvas {
     display: none; /* opțional – scoate animația pe mobil */
   }
+}
+
+@media (max-width: 768px) {
+
+  .about-section h2 {
+    padding-right: 80px;
+  }
+
+  .section-canvas {
+    width: 70px;
+    height: 40px;
+    opacity: 0.3;
+  }
+
 }
