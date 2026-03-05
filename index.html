@@ -1,668 +1,626 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <link rel="canonical" href="https://www.pairmo.app/" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+  <meta name="author" content="Pairmo Labs SRL">
   <meta charset="UTF-8">
-  <title>Pairmo – Smart matching for real-life needs</title>
-<meta name="description" content="Pairmo is a smart, swipe-powered app that connects people and businesses across 10+ domains. Match with travelers, clients, service providers, or even pets.">
-  <link rel="stylesheet" href="./style.css">
-<!-- === OPEN GRAPH META === -->
-<meta property="og:title" content="Pairmo – Smart matching for real-life needs">
-<meta property="og:description" content="Connect with people, services, or businesses across 10+ domains. Real-life needs. Real-time matches.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.pairmo.app">
-<meta property="og:image" content="https://www.pairmo.app/assets/pairmo-preview.png"> <!-- imagine reprezentativă -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://www.pairmo.app/" />
 
-<!-- === TWITTER CARD META === -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Pairmo – Smart matching for real-life needs">
-<meta name="twitter:description" content="Smart. Simple. Swipe-based matchmaking across travel, jobs, dating, rentals, services & more.">
-<meta name="twitter:image" content="https://www.pairmo.app/assets/pairmo-preview.png">
+ 
+  <title>Pairmo – Swipe Matching Platform for Jobs, Travel, Services & More</title>
+
+  <meta name="description" content="Pairmo is a smart, swipe-powered app that connects people and businesses across 10+ domains. Match with travelers, clients, service providers, or even pets.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pairmo – Smart matching for real-life needs">
+  <meta property="og:description" content="Connect with people, services, or businesses across 10+ domains. Real-life needs. Real-time matches.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.pairmo.app">
+  <meta property="og:image" content="https://www.pairmo.app/assets/pairmo-preview.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pairmo – Smart matching for real-life needs">
+  <meta name="twitter:description" content="Smart. Simple. Swipe-based matchmaking across travel, jobs, dating, rentals, services & more.">
+  <meta name="twitter:image" content="https://www.pairmo.app/assets/pairmo-preview.png">
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://www.pairmo.app/#org",
-      "name": "Pairmo Labs SRL",
-      "url": "https://www.pairmo.app/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.pairmo.app/assets/pairmo-preview.png"
-      },
-      "email": "contact@pairmo.app",
-      "sameAs": [
-  "https://www.instagram.com/pairmo.official/"
+ "@context": "https://schema.org",
+ "@graph": [
+
+{
+ "@type": "Organization",
+ "name": "Pairmo Labs SRL",
+ "url": "https://www.pairmo.app",
+ "logo": "https://www.pairmo.app/assets/apple-touch-icon.png",
+ "sameAs": [
+   "https://instagram.com/pairmo.official"
+ ]
+},
+
+{
+ "@type": "WebSite",
+ "name": "Pairmo",
+ "url": "https://www.pairmo.app"
+},
+
+{
+ "@type": "SoftwareApplication",
+ "name": "Pairmo",
+ "applicationCategory": "SocialNetworkingApplication",
+ "operatingSystem": "Web, Android, iOS",
+ "url": "https://www.pairmo.app",
+ "description": "Pairmo is a multi-domain swipe matching platform connecting people, services and opportunities across jobs, travel, services, pets, sports and business.",
+ "offers": {
+   "@type": "Offer",
+   "price": "0",
+   "priceCurrency": "EUR"
+ }
+},
+
+{
+ "@type": "ItemList",
+ "name": "Pairmo Domains",
+ "itemListElement": [
+
+{
+ "@type": "Service",
+ "name": "JobsMatch",
+ "description": "Find jobs and connect with employers through swipe matching."
+},
+
+{
+ "@type": "Service",
+ "name": "TravelMatch",
+ "description": "Match with travel partners and plan trips together."
+},
+
+{
+ "@type": "Service",
+ "name": "ServicesMatch",
+ "description": "Connect with service providers and clients."
+},
+
+{
+ "@type": "Service",
+ "name": "PetsMatch",
+ "description": "Match pets for breeding and social activities."
+},
+
+{
+ "@type": "Service",
+ "name": "SportsMatch",
+ "description": "Find teammates, opponents or sports partners."
+}
+
 ]
-    },
-  {
-  "@type": "WebApplication",
-  "@id": "https://www.pairmo.app/#webapp",
-  "name": "Pairmo",
-  "url": "https://www.pairmo.app/",
-  "applicationCategory": "SocialNetworkingApplication",
-  "operatingSystem": "Web, Android, iOS",
-  "description": "Pairmo is a multi-domain swipe-based social matching platform connecting people, jobs, travel, sports, rent and business opportunities.",
-  "publisher": {
-    "@id": "https://www.pairmo.app/#org"
-  },
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
-},
-    {
-      "@type": "WebSite",
-      "@id": "https://www.pairmo.app/#website",
-      "url": "https://www.pairmo.app/",
-      "name": "Pairmo",
-      "publisher": { "@id": "https://www.pairmo.app/#org" },
-      "inLanguage": "en",
-      "potentialAction": [
-        {
-          "@type": "SubscribeAction",
-          "target": {
-            "@type": "EntryPoint",
-            "urlTemplate": "https://formspree.io/f/xzzvbjll"
-          },
-          "name": "Join waitlist / newsletter"
-        }
-      ]
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://www.pairmo.app/#webpage",
-      "url": "https://www.pairmo.app/",
-      "name": "Pairmo – Smart matching for real-life needs",
-      "isPartOf": { "@id": "https://www.pairmo.app/#website" },
-      "about": { "@id": "https://www.pairmo.app/#webapp" },
-      "description": "Pairmo is a smart, swipe-powered app that connects people and businesses across multiple domains (travel, jobs, dating, services and more).",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://www.pairmo.app/"
-          }
-        ]
-      }
-    },
-    {
-  "@type": "Organization",
-  "@id": "https://www.pairmo.app/#org",
-  "name": "Pairmo Labs SRL",
-  "url": "https://www.pairmo.app/",
-  "logo": {
-    "@type": "ImageObject",
-    "url": "https://www.pairmo.app/assets/pairmo-preview.png"
-  },
-  "email": "contact@pairmo.app",
-  "foundingDate": "2025",
-  "founder": {
-    "@type": "Person",
-    "name": "Cosmin Osan"
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Europe"
-  },
-  "knowsAbout": [
-    "Social networking platform",
-    "Swipe-based matching technology",
-    "Sports matchmaking",
-    "Travel coordination",
-    "Pet breeding and socialization",
-    "Rental marketplace",
-    "Peer-to-peer sharing",
-    "Business partnerships",
-    "Job matching and recruitment",
-    "Online dating",
-    "Service marketplace",
-    "Community social initiatives"
-  ],
-  "sameAs": [
-    "https://www.instagram.com/pairmo.official/"
-  ]
-},
-    {
-      "@type": "ItemList",
-      "@id": "https://www.pairmo.app/#domains",
-      "name": "Pairmo domains",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "TripMatch" },
-        { "@type": "ListItem", "position": 2, "name": "BusinessMatch" },
-        { "@type": "ListItem", "position": 3, "name": "ServiceMatch" },
-        { "@type": "ListItem", "position": 4, "name": "DatingMatch" },
-        { "@type": "ListItem", "position": 5, "name": "PetMatch" },
-        { "@type": "ListItem", "position": 6, "name": "SportMatch" }
-      ],
-      "isPartOf": { "@id": "https://www.pairmo.app/#webpage" }
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.pairmo.app/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Pairmo?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pairmo is a multi-domain, swipe-powered platform that matches people and businesses for real-life needs across travel, services, dating, jobs and more."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I join the waitlist?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Use the subscribe form on the homepage to join the newsletter and get notified about updates and early access."
-          }
-        }
-      ],
-      "isPartOf": { "@id": "https://www.pairmo.app/#webpage" }
-    }
-  ]
+}
+
+]
 }
 </script>
-
-<!-- Preload for main image (optimize LCP) -->
-<link rel="preload" as="image" href="assets/pairmo-preview.webp" type="image/webp">
-
-<!-- Favicon -->
-<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<!-- === SECTION: HEADER === -->
-<header class="section-header">
-<div class="sticky-bar">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <div class="left-icons">
-    <!-- Profile Icon -->
-    <i class="fas fa-user-circle"></i>
-
-    <!-- Language Switcher Dropdown -->
-<div class="custom-lang-dropdown">
-  <button id="lang-toggle" class="lang-btn">
-    <span id="selected-lang-flag">🇬🇧</span>
-    <span id="selected-lang-name">English</span>
-    <span class="arrow">▼</span>
-  </button>
-  <ul class="lang-options" id="lang-options">
-    <li data-lang="en">🇬🇧 English</li>
-    <li data-lang="ro">🇷🇴 Română</li>
-    <li data-lang="fr">🇫🇷 Français</li>
-    <li data-lang="it">🇮🇹 Italiano</li>
-    <li data-lang="de">🇩🇪 Deutsch</li>
-    <li data-lang="es">🇪🇸 Español</li>
-    <li data-lang="ru">🇷🇺 Russian</li>  <!-- Rusă -->
-<li data-lang="pt">🇵🇹 Portugues</li>
-    <li data-lang="zh">🇨🇳 Chinese</li>         <!-- Chineză simplificată -->
-<li data-lang="hi">🇮🇳 Hindi</li>           <!-- Indiană -->
-<li data-lang="ar">🇸🇦 Arabic</li>          <!-- Arabă -->
-<li data-lang="hu">🇭🇺 Hungarian</li>       <!-- Maghiară -->
-<li data-lang="pl">🇵🇱 Polish</li>          <!-- Poloneză -->
-<li data-lang="uk">🇺🇦 Ukrainian</li>       <!-- Ucraineană -->
-<li data-lang="nl">🇳🇱 Dutch</li>           <!-- Olandeză -->
-<li data-lang="el">🇬🇷 Greek</li>           <!-- Greacă -->
-<li data-lang="tr">🇹🇷 Turkish</li>         <!-- Turcă -->
-  </ul>
-</div>
-
-    <!-- Search Icon -->
-    <i class="fas fa-search"></i>
-  </div>
-
-  <div class="right-icons">
-    <!-- Burger Menu -->
-    <div class="burger">
-      <div class="menu" id="mobile-menu">
-  <ul>
-  <li><a href="#home" class="burger-link" data-i18n="menu_home">Home</a></li>
-  <li><a href="#domains" class="burger-link" data-i18n="menu_domains">How it works</a></li>
-  <li>
-  <a href="/about/" class="burger-link" data-i18n="menu_about">
-    About Pairmo
-  </a>
-</li>
-  <li><a href="#roadmap" class="burger-link" data-i18n="menu_roadmap">Roadmap</a></li>
-  <li><a href="#waitlist" class="burger-link" data-i18n="menu_waitlist">Join Waitlist</a></li>
-  <li><a href="#contact" class="burger-link" data-i18n="menu_contact">Contact Us</a></li>
-</ul>
-      </div>
-    
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </div>
-  </div>
-<!-- StickyBar deja existent aici -->
-
-<!-- === Pairmo Branding Block === -->
-  <div class="branding-block">
-  <div class="main-container">
-<!-- între liniile 58 și 59 -->
-<div class="glow-wrap">
-  <!-- Logo -->
-  <div class="logo-wrapper">
-    <img src="https://i.imgur.com/YPssVJZ.png" alt="Pairmo Logo">
-  </div>
-
-  <!-- Title -->
-  <div class="headline">
-    <h1 class="title-main" data-i18n="title_main">The<br>Swipe<br>Experience</h1>
-  </div>
-
-  <!-- Subtitle -->
-  <p class="subtitle-text" data-i18n="subtitle_text">Discover people pairing your interests</p>
-  <!-- înainte de linia 74 -->
-</div> <!-- end glow-wrap -->
-
-  <!-- Description -->
-  <p class="description-text" data-i18n="description_text">
-Whether you're looking to<br>
-match for travel, business or shared interests,<br>
-this section is where the story continues. <br>
-</p>
-
-</div>
-  </div>
-<!-- === End Branding Block === -->
-</header>
-<main>
-  <!-- === SECTION: MIDDLE CONTENT === -->
-<section class="middle-content">
-  <div class="main-container">
-
-    <!-- Exemplu de conținut temporar -->
-    <h2 class="section-title" data-i18n="section_title">Explore what Pairmo does...</h2>
-  
-<!-- Call to Action -->
-    <div class="butfirst-wrapper">
-  <p class="butfirst-animated" data-i18n="callout_text">But first...</p>
-</div>
-  </div>
-</section>
-  <section class="newsletter-section" id="waitlist">
-    <h2 data-i18n="subscribe_title">SUBSCRIBE TO OUR NEWSLETTER TO<br>BE PART OF OUR JOURNEY</h2>
-    <p id="success-message" style="display:none;" data-i18n="success_message">✅ You are now on the list!</p>
-    <form
-      class="newsletter-form"
-      action="https://formspree.io/f/xzzvbjll"
-      method="POST"
-      onsubmit="showSuccess(event)">
-      
-      <input
-  type="email"
-  name="email"
-  placeholder="Enter your email..."
-  data-i18n-placeholder="email_placeholder"
-  required />
-      
-      <button type="submit" data-i18n="notify_me">Notify Me</button>
-    </form>
-  </section>
-  <!-- === Call to Scroll Down (Find out more + săgeată) === -->
-  <section class="scroll-section">
-<div class="scroll-indicator">
-  <p class="scroll-text" data-i18n="scroll_more">Find out more...</p>
-  <div class="arrow-down">&#x25BC;</div> <!-- Unicode pentru ▼ -->
-  </div>
-  </section>
-  <section class="login-image-section">
-  <img
-    src="https://i.imgur.com/zcv25gw.png"
-    alt="Pairmo Login Mockup"
-    class="login-image"
-/>
-  </section>
-
-    <!-- === Intro Text for Pairmo Domains === -->
-<section id="domains" class="pairmo-intro">
-
-  <h2 class="pairmo-intro-title" data-i18n="domains_title">Welcome to Pairmo domains!</h2>
-  <p class="pairmo-intro-line" data-i18n="domains_line1">From social life to productivity, we serve both seekers and providers</p>
-<p class="pairmo-intro-line" data-i18n="domains_line2">through smart, swipe-powered, real-life needs matchmaking.</p>
-<p class="pairmo-intro-tagline" data-i18n="domains_tagline">One app. Two sides. Connected.</p>
-    </section>
-  </div>
-  <!-- === CAROUSEL SECTION === -->
-<section class="carousel-section">
-  <div class="carousel-container">
-
-    <!-- TripMatch -->
-    <div class="carousel-card" onclick="selectCard(this)">
-      <img src="https://i.imgur.com/PrcFTLF.png" alt="TripMatch" />
-      <p data-i18n="domain-tripmatch">Plan city breaks or epic adventures. Match with travelers who share your vibe, dates, and destination.</p>
-    </div>
-
-    <!-- BusinessMatch -->
-    <div class="carousel-card" onclick="selectCard(this)">
-      <img src="https://i.imgur.com/MqQOi75.png" alt="BusinessMatch" />
-      <p data-i18n="domain-businessmatch">Looking for a cofounder, associate or joint venture? Match with professionals sharing your mission.</p>
-    </div>
-
-    <!-- ServiceMatch -->
-    <div class="carousel-card" onclick="selectCard(this)">
-      <img src="https://i.imgur.com/tO24UBe.png" alt="ServiceMatch" />
-      <p data-i18n="domain-servicematch">Whether you're a freelancer, company or just need help – find or offer services across all domains.</p>
-    </div>
-
-    <!-- DatingMatch -->
-    <div class="carousel-card" onclick="selectCard(this)">
-      <img src="https://i.imgur.com/3k7hUDX.jpg" alt="DatingMatch" />
-      <p data-i18n="domain-datingmatch">Connect with people who share your values and intentions in dating. Find something real.</p>
-    </div>
-
-    <!-- PetMatch -->
-    <div class="carousel-card" onclick="selectCard(this)">
-      <img src="https://i.imgur.com/MzjS1eF.png" alt="PetMatch" />
-      <p data-i18n="domain-petmatch">Find your pet the perfect playmate or connect with owners who share your lifestyle and breed preferences.</p>
-    </div>
-
-    <!-- SportMatch -->
-    <div class="carousel-card" onclick="selectCard(this)">
-      <img src="https://i.imgur.com/zuVAe6d.png" alt="SportMatch" />
-      <p data-i18n="domain-sportmatch">Find a gym buddy, join a local team or build your own. Discover people matching your active style.</p>
-    </div>
-
-    <!-- More Domains -->
-    <div class="carousel-card" onclick="selectCard(this)">
-      <img src="https://i.imgur.com/R45bRfU.png" alt="More" />
-      <p data-i18n="domain-moredomains">...and that’s just the beginning. Discover more practical, fresh and exciting domains.</p>
-    </div>
-
-  </div>
-  
-    </section>
-    <!-- === MODES TEXT SECTION === -->
-
-<div class="modes-intro-section">
-  <div class="modes-line" id="modes-line"></div> <!-- ✅ Linia animabilă -->
-  <h2 class="modes-title" data-i18n="modes_title">Modes Section</h2>
-  
-  <p class="modes-text" data-i18n="modes_text_1">Choose your way...</p>
-  <p class="modes-text" data-i18n="modes_text_2">You have full control over how you interact!</p>
-  <p class="modes-text" data-i18n="modes_text_3">On Pairmo Modes you choose between three different using modes!</p>
-  <p class="modes-highlight" data-i18n="modes_text_4">SOLO, FRIENDS CREW OR GROUP PLANNER</p>
-  </div>
-    <section class="modes-cards-group">
-     
-    <section class="mode-card-wrapper">
-  <div class="mode-card" onclick="flipCard(this)">
-    <div class="card-face card-front">
-      <img src="https://i.imgur.com/77bCIWQ.png" alt="Solo Mode Card" />
-    </div>
-    <div class="card-face card-back">
-      <div class="card-text">
-        <p data-i18n="mode_solo_1">Act as individual.</p>
-        <p data-i18n="mode_solo_2">Create or join 1-on-1 activities or even with a group.</p>
-      </div>
-    </div>
-  </div>
-  <p class="card-hint1" data-i18n="card-hint1">Tap the card to see more info</p>
-    </section>
-    
-                                                
-            <!--=== FRIENDS CREW MODE CARD ===-->
-<section class="mode-card-wrapper">
-  <div class="mode-card" onclick="flipCard(this)">
-    <div class="card-face card-front">
-      <img src="https://i.imgur.com/ZkxCISB.png" alt="Friends Crew Mode Card" />
-    </div>
-    <div class="card-face card-back">
-      <div class="card-text">
-        <p data-i18n="mode_friends_1">For ready-made friends groups.</p>
-        <p data-i18n="mode_friends_2">Add new members or match with other teams.</p>
-      </div>
-    </div>
-  </div>
-  <p class="card-hint2" data-i18n="card-hint2">Tap the card to see more info</p>
-      </section>                   
-    <!--=== GROUP PLANNER MODE CARD ===-->
-<section class="mode-card-wrapper">
-  <div class="mode-card" onclick="flipCard(this)">
-    <div class="card-face card-front">
-      <img src="https://i.imgur.com/kea71jl.png" alt="Group Planner Mode Card" />
-    </div>
-    <div class="card-face card-back">
-      <div class="card-text">
-        <p data-i18n="mode_planner_1">For organizers and business teams.</p>
-        <p data-i18n="mode_planner_2">Create public or private plans, manage groups efficiently.</p>
-      </div>
-    </div>
-  </div>
-    </section>
-    
-    <!-- === USER HUB PRESENTATION SECTION === -->
-<section class="userhub-section">
-  <div class="userhub-container"> 
-  </div>
-    <div class="userhub-line" id="uh-line">
-    </div>
-  <h2 class="userhub-title" data-i18n="userhub_title">Your Personal Command Center</h2>
-  <p class="userhub-subtitle" data-i18n="userhub_subtitle">
-  Everything you need, one tap away.<br />
-  The User Hub is your personalized dashboard <br />
-  access your matches, trips, wallet, upgrades and more.
-</p>
-
-  <div class="mockup-wrapper">
-  <div class="userhub-mockup-glow">
-    <img src="https://i.imgur.com/024aO6p.png" class="userhub-mockup-img" />
-  </div>
-</div>
-  
-<!-- === BLOCK 1: INTERACTIVE PROFILES - INTRO === -->
-<section class="interactive-intro-section">
-  <div class="interactive-intro-container">
-    <div class="interactive-line" id="ip-line"></div>
-    <h2 class="interactive-title" data-i18n="interactive_title">Interactive Profiles: Ratings & Dynamic Badges</h2>
-    <p class="interactive-subtitle" data-i18n="interactive_subtitle">
-  One glance says it all.<br>
-  Pairmo profiles are more than photos, they’re alive with signals of trust, authenticity, and personality.
-</p>
-    <div class="interactive-mockup-glow">
-  <img src="https://i.imgur.com/2uDN422.png" alt="Interactive Profile Preview" class="interactive-mockup-img">
-</div>
-  </div>
-  </section>
-  <!-- === BLOCK 2: USER RATING & DYNAMIC BADGES === -->
-<section class="interactive-details-section">
-  <div class="interactive-details-container">
-
-    <!-- Rating System -->
-    <div class="interactive-block">
-      <h3 class="interactive-heading" data-i18n="interactive_heading_rating">⭐ User Rating System</h3>
-      <p class="interactive-text" data-i18n="interactive_text_rating">
-  Each user has a visible <strong>rating score (e.g., 4.7)</strong> based on community feedback.<br>
-  You can rate others <strong>after each completed interaction</strong> – whether it’s a travel buddy, a client, or a conversation.
-      </p>
-      <p class="interactive-note" data-i18n="interactive_note_rating">
-  Higher scores increase visibility and trust on the platform.
-</p>
-    </div>
-
-    <!-- Dynamic Badges -->
-    <div class="interactive-block">
-      <h3 class="interactive-heading" data-i18n="interactive_heading_badges">🏅 Dynamic Badges</h3>
-      <p class="interactive-text" data-i18n="interactive_text_badges">
-  Badges are automatically unlocked based on your behavior, preferences, and activity.<br>
-  They’re fully dynamic — they appear, disappear, and evolve as you use the app.
-</p>
-    
-      <ul class="badge-list">
-  <li>
-    <span>🌆</span>
-    <strong data-i18n="badge_citybreak_name">CityBreak</strong>
-    <span data-i18n="badge_citybreak_desc">You love short urban trips</span>
-  </li>
-  <li>
-    <span>✅</span>
-    <strong data-i18n="badge_safemeet_name">SafeMeet</strong>
-    <span data-i18n="badge_safemeet_desc">ID & selfie verified</span>
-  </li>
-  <li>
-    <span>👥</span>
-    <strong data-i18n="badge_groupplanner_name">GroupPlanner</strong>
-    <span data-i18n="badge_groupplanner_desc">You organize crew or team activities</span>
-  </li>
-  <li>
-    <span>🚀</span>
-    <strong data-i18n="badge_activevibe_name">ActiveVibe</strong>
-    <span data-i18n="badge_activevibe_desc">Interactions in the last 3 days</span>
-  </li>
-  <li>
-    <span>⚡</span>
-    <strong data-i18n="badge_minuteready_name">MinuteReady</strong>
-    <span data-i18n="badge_minuteready_desc">Your trip starts in less than 3 days</span>
-  </li>
-</ul>
-      <p class="interactive-note" data-i18n="interactive_note_badges">
-  You don’t apply for badges, <strong>you earn them</strong>.
-      
-      </p>
-    </div>
-  </div>
-  </section>
-  <section class="powerwallet-section">
-  <div class="powerwallet-container">
-    </div>
- <!-- Linie decorativă animabilă -->
-    <div class="powerwallet-line" id="pw-line"></div>
-    <!-- Titlu + Subtitlu -->
-    <h2 class="powerwallet-title" data-i18n="powerwallet_title">Pairmo Wallet</h2>
-    <p class="powerwallet-subtitle" data-i18n="powerwallet_subtitle">
-  Buy premium points, manage points and check your spending history.<br>
-  Pairmo combines Premium and Bonus Points for full control.
-</p>
-
-    <!-- Carduri pentru Premium / Bonus Points -->
-    <div class="points-container">
-      <div class="points-card">
-        <h3 data-i18n="points_title_premium">Premium Points</h3>
-        <p data-i18n="points_text_premium">
-  Buy and spend with full control.<br>Used for features, visibility and access.
-</p>
-      
- 
-       <h3 data-i18n="points_title_bonus">Bonus Points</h3>
-        <p data-i18n="points_text_bonus">
-  Earn for free through in-app missions, community engagement or your first travel match.
-</p>
-    <div class="no-pressure-message" data-i18n="no_pressure">No pressure. Just power.</div>
-      </div> <!-- închide .points-card -->
-
-</div> <!-- ✅ Închide corect .powerwallet-container -->
-</section> <!-- ✅ Închide corect powerwallet-section -->
-
-<!-- === POWERZONE TITLE SECTION === -->
-<!-- === POWERZONE TITLE SECTION === -->
-<section class="powerzone-intro-section">
-  <div class="powerzone-line" id="pz-line"></div>
-  <h2 class="powerzone-title" data-i18n="powerzone_title">PowerZone</h2>
-  <p class="powerzone-subtitle" data-i18n="powerzone_subtitle">
-    Visibility, interaction and customization tools<br />
-    to boost your impact across Pairmo.
-  </p>
-</section>
-
-<!-- === POWERZONE GRID SECTION === -->
-<section class="powerzone-grid">
-  <!-- Boosts+ Card -->
-  <div class="powerzone-card pz-card">
-    <h3 data-i18n="boosts_title">🚀 Boosts+</h3>
-    <p data-i18n="boosts_desc">
-      Get more views and profile exposure.<br />
-      Appear first in searches and domain listings.
-    </p>
-  </div>
-
-  <!-- Chat+ Card -->
-  <div class="powerzone-card pz-card">
-    <h3 data-i18n="chatplus_title">💬 Chat+</h3>
-    <p data-i18n="chatplus_desc">
-      Unlock chat reactions, seen message tracking,<br />
-      buzz sounds and premium chat filters.
-    </p>
-  </div>
-
-  <!-- Plans+ Card -->
-  <div class="powerzone-card pz-card">
-    <h3 data-i18n="plansplus_title">🧩 Plans+</h3>
-    <p data-i18n="plansplus_desc">
-      Choose your Pairmo Plan (Free, Plus or Premium).<br />
-      Unlock unlimited access to advanced features.
-    </p>
-  </div>
-</section>
-
-<p class="final-line" data-i18n="final_line">More control. More connection. Your way.</p>
-    
-  </div>
-  <!-- === EXPLORE TITLE SECTION === -->
-<section class="explore-intro-section">
-  <div class="explore-line" id="explore-line"></div>
-  <h2 class="explore-title" data-i18n="explore_title">Explore Section</h2>
-  <p class="explore-subtitle" data-i18n="explore_subtitle">
-Here’s where the magic happens.<br>
-Explore is where you match with partners, clients, or real-world services.<br>
-It is the place where you can find your dream job or where you can hire the people you need.<br>
-And all this... through a simple swipe.
-</p>
-  </section>
-  <!-- === SWIPE INDICATOR === -->
-<!-- === SWIPE INDICATOR SECTION === -->
-<section class="swipe-indicator-section">
-  <div class="swipe-indicator-container">
-    <p class="swipe-indicator-text" data-i18n="swipe_text">Swipe the cards!</p>
-    <div class="swipe-indicator-arrow"></div>
-  </div>
-</section>
-  <!-- === EXPLORE CARDS STACK SECTION === -->
-
- <!-- === EXPLORE CARDS STACK SECTION === -->
-<section class="explore-stack-section">
-  <div class="swipe-feedback" id="swipe-feedback"></div>
-  <div class="card-stack-container" id="card-stack">
-    <div class="swipe-card top-card" style="background-image: url('https://i.imgur.com/iwqkfti.jpeg');"></div>
-    <div class="swipe-card" style="background-image: url('https://i.imgur.com/MD8nrYl.png');"></div>
-    <div class="swipe-card" style="background-image: url('https://i.imgur.com/EPamjZC.png');"></div>
-    <div class="swipe-card" style="background-image: url('https://i.imgur.com/uOXcXj8.png');"></div>
-    <div class="swipe-card" style="background-image: url('https://i.imgur.com/YVZwtrI.png');"></div>
-    <div class="swipe-card" style="background-image: url('https://i.imgur.com/iZY7Gz0.png');"></div>
-    <div class="swipe-card" style="background-image: url('https://i.imgur.com/D3VARlK.png');"></div>
-  </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <p data-i18n="footer_rights">© 2025 Pairmo Labs SRL. All rights reserved.</p>
-  
-  <p class="footer-social">
-  <a href="https://www.instagram.com/pairmo.official?igsh=MXJwODN5bno1MGQ4aw==" target="_blank" class="footer-icon">
-    <i class="fab fa-instagram"></i>
-  </a>
-  <span data-i18n="footer_follow">Follow us on</span>
-  <a href="https://www.instagram.com/pairmo.official?igsh=MXJwODN5bno1MGQ4aw==" target="_blank" class="footer-green">@pairmo.official</a>
-</p>
-  
-  <p class="footer-contact" data-i18n="footer_contact">
-  <a href="mailto:contact@pairmo.app">contact@pairmo.app</a>
-</p>
-
-  <a href="#" data-i18n="footer_privacy">Privacy Policy</a> |
-  <a href="#" data-i18n="footer_terms">Terms of Use</a>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="assets/site.webmanifest">
+<meta name="theme-color" content="#0b0c10">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</footer>
-<!-- partial -->
-  <script src="script.js"></script>
 
-</body>
+</head>
+
+<body>
+
+<header class="section-header">
+
+  <div class="sticky-bar">
+
+    <div class="left-icons">
+      <i class="fas fa-user-circle"></i>
+
+      <div class="custom-lang-dropdown">
+        <button id="lang-toggle" class="lang-btn">
+          <span id="selected-lang-flag">🇬🇧</span>
+          <span id="selected-lang-name">English</span>
+          <span class="arrow">▼</span>
+        </button>
+
+        <ul class="lang-options" id="lang-options">
+          <li data-lang="en">🇬🇧 English</li>
+          <li data-lang="ro">🇷🇴 Română</li>
+          <li data-lang="fr">🇫🇷 Français</li>
+          <li data-lang="it">🇮🇹 Italiano</li>
+          <li data-lang="de">🇩🇪 Deutsch</li>
+          <li data-lang="es">🇪🇸 Español</li>
+          <li data-lang="ru">🇷🇺 Russian</li>
+          <li data-lang="pt">🇵🇹 Portuguese</li>
+          <li data-lang="zh">🇨🇳 Chinese</li>
+          <li data-lang="hi">🇮🇳 Hindi</li>
+          <li data-lang="ar">🇸🇦 Arabic</li>
+          <li data-lang="hu">🇭🇺 Hungarian</li>
+          <li data-lang="pl">🇵🇱 Polish</li>
+          <li data-lang="uk">🇺🇦 Ukrainian</li>
+          <li data-lang="nl">🇳🇱 Dutch</li>
+          <li data-lang="el">🇬🇷 Greek</li>
+          <li data-lang="tr">🇹🇷 Turkish</li>
+        </ul>
+      </div>
+
+      <i class="fas fa-search"></i>
+    </div>
+
+    <div class="right-icons">
+      <div class="burger">
+        <div class="menu" id="mobile-menu">
+          <ul>
+
+<li><a href="#home" class="burger-link">Home</a></li>
+
+<li><a href="#what-is-pairmo" class="burger-link">What is Pairmo</a></li>
+
+<li><a href="#how-it-works" class="burger-link">How it Works</a></li>
+
+<li><a href="#inside-pairmo" class="burger-link">Inside Pairmo</a></li>
+
+<li><a href="#roadmap" class="burger-link">Roadmap</a></li>
+
+<li><a href="/about/" class="burger-link">The Ecosystem</a></li>
+
+<li><a href="#waitlist" class="burger-link">Join Waitlist</a></li>
+
+<li><a href="#contact" class="burger-link">Contact Us</a></li>
+
+</ul>
+        </div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="branding-block" id="home">
+    <div class="main-container">
+
+      <div class="glow-wrap">
+        <div class="logo-wrapper">
+
+  <img src="https://cdn.jsdelivr.net/gh/PairmoLabs/CodepenPairmo/assets/hRSEW6L.jpeg" alt="Pairmo Logo">
+
+  <div class="orbit">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+  </div>
+
+</div>
+
+<div class="brand-container">
+  <h2 class="brand-name">PAIRMO</h2>
+</div>
+
+        <h1 class="title-main">
+          The<br>Swipe<br>Experience
+        </h1>
+
+        
+      </div>
+<h2 class="subtitle-text">
+<span id="type-text"></span>
+</h2>
+    </div>
+  </div>
+
+</header>
+  
+<section class="what-section" id="what-is-pairmo">
+
+  <h2 class="what-title">The Platform</h2>
+
+<div class="what-grid">
+
+<div class="what-card">
+
+  <h3>What is Pairmo?</h3>
+
+<p>
+Pairmo is a <strong>multi-domain swipe matching platform</strong> that connects people, services and opportunities.
+</p>
+
+<p>
+Instead of browsing long lists of ads or waiting for replies, users discover opportunities instantly by swiping through cards.
+</p>
+
+<p>
+Pairmo brings together jobs, travel partners, services, pets, rentals and business collaborations in one platform.
+</p>
+
+</div>
+
+<div class="what-card">
+
+<h3>The problem Pairmo solves</h3>
+
+<p>
+Today most platforms work only in one direction: you search and wait.
+</p>
+
+<p>
+<strong>Pairmo resolves the problem of fragmented platforms</strong> by allowing both sides to discover each other instantly.
+</p>
+
+<p>
+Users can find partners, clients, services or opportunities faster without browsing dozens of separate apps.
+</p>
+
+</div>
+
+<div class="what-card">
+
+<h3>How Pairmo connects opportunities</h3>
+
+<p>
+Users create cards describing what they offer or what they are looking for.
+</p>
+
+<p>
+The platform shows relevant opportunities through a <strong>smart swipe discovery system</strong>.
+</p>
+
+<p>
+When interests align, Pairmo creates a match and users can start connecting immediately.
+</p>
+
+</div>
+
+</div>
+
+</section>
+<!-- HOW PAIRMO WORKS -->
+
+<section class="how-section" id="how-it-works">
+
+  <div class="how-container">
+
+    <h2 class="how-title">How Pairmo Works</h2>
+
+    <p class="how-subtitle">
+      A simple swipe flow designed for real-life needs.
+    </p>
+
+    <div class="how-grid">
+
+      <div class="how-card">
+        <div class="how-icon">
+  <div class="mini-swipe-demo">
+    <div class="mini-card"></div>
+  </div>
+</div>
+        <h3>Swipe</h3>
+        <p>
+          Discover people, services and opportunities across multiple domains.
+        </p>
+      </div>
+
+      <div class="how-card">
+        <div class="how-icon">
+  <i class="fas fa-handshake match-icon"></i>
+        </div>
+        <h3>Match</h3>
+        <p>
+          When interests align, Pairmo creates an instant connection.
+        </p>
+      </div>
+
+      
+<div class="how-card">
+
+  <div class="how-icon">
+    <div class="chat-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <h3>Connect</h3>
+
+  <p>
+    Start conversations and turn matches into real plans and experiences.
+  </p>
+
+</div>
+      </div>
+    </div>
+</section>
+  <!-- INSIDE PAIRMO -->
+
+<section class="inside-section" id="inside-pairmo">
+
+  <h2 class="inside-title">Inside Pairmo</h2>
+
+  <p class="inside-subtitle">
+    Discover how Pairmo connects people, services and opportunities through a simple swipe experience.
+  </p>
+
+
+  <!-- STEP 1 -->
+
+  <div class="inside-block">
+
+    <div class="inside-text">
+      <h3>Explore Domains</h3>
+      <p>
+        Start by choosing the domain that fits your needs. Pairmo connects people across multiple areas like jobs, travel, services, pets or business opportunities.
+      </p>
+    </div>
+
+    <div class="inside-image">
+      <img src="https://cdn.jsdelivr.net/gh/PairmoLabs/CodepenPairmo/assets/Screenshot_20260304_135225_Figma.jpg" alt="Pairmo Domains">
+    </div>
+
+  </div>
+
+
+  <!-- STEP 2 -->
+
+  <div class="inside-block reverse">
+
+    <div class="inside-text">
+      <h3>Create Your Card</h3>
+      <p>
+        Describe what you offer or what you are looking for. Your card becomes visible to others and enters the Pairmo matching ecosystem.
+      </p>
+    </div>
+
+    <div class="inside-image">
+    <img src="https://cdn.jsdelivr.net/gh/PairmoLabs/CodepenPairmo/assets/Screenshot_20260304_135321_Figma.jpg"   alt="Create Card">
+    </div>
+
+  </div>
+
+
+  <!-- STEP 3 -->
+
+  <div class="inside-block">
+
+    <div class="inside-text">
+      <h3>Swipe Opportunities</h3>
+      <p>
+        Discover opportunities by swiping through cards across multiple domains.
+      </p>
+    </div>
+
+    <div class="inside-image">
+
+      <div class="deck-container">
+<div class="swipe-indicator">
+  ← Swipe me →
+        </div>
+        <div class="swipe-deck">
+
+          <div class="swipe-card">
+            <img src="https://cdn.jsdelivr.net/gh/PairmoLabs/CodepenPairmo/assets/file_000000009c4c620abc73efb1edd21253.png" alt="Pairmo swipe card">
+          </div>
+
+          <div class="swipe-card">
+            <img src="https://cdn.jsdelivr.net/gh/PairmoLabs/CodepenPairmo/assets/file_00000000c8406243aed5b904d1358108.png" alt="Pairmo swipe card">
+          </div>
+
+          <div class="swipe-card">
+            <img src="https://cdn.jsdelivr.net/gh/PairmoLabs/CodepenPairmo/assets/file_00000000d8a86246b1dfd091fe2e092d.png" alt="Pairmo swipe card">
+          </div>
+
+          <div class="swipe-card">
+            <img src="https://cdn.jsdelivr.net/gh/PairmoLabs/CodepenPairmo/assets/file_00000000b8dc61f480e9f29079a1df32.png" alt="Pairmo swipe card">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- STEP 4 -->
+
+  <div class="inside-block reverse">
+
+    <div class="inside-text">
+      <h3>Manage Everything</h3>
+      <p>
+        Access your dashboard to manage cards, matches and activity inside the Pairmo ecosystem.
+      </p>
+    </div>
+
+    <div class="inside-image">
+    <img src="https://cdn.jsdelivr.net/gh/PairmoLabs/CodepenPairmo/assets/Screenshot_20260304_135219_Figma.jpg"   alt="User Hub">
+    </div>
+
+  </div>
+
+  </section>
+<!-- ROADMAP -->
+<section class="roadmap-section" id="roadmap">
+
+  <h2 class="roadmap-title">Pairmo Roadmap</h2>
+  <p class="roadmap-subtitle">
+    The evolution of Pairmo into a global multi-domain ecosystem.
+  </p>
+
+  <div class="roadmap-flow">
+
+    <!-- Phase 1 -->
+
+    <div class="phase-box">
+      <h3>Phase 1 — Product Launch</h3>
+
+      <p>
+        All matching modes active<br>
+        <strong>Solo • Crew • Group Planner</strong>
+      </p>
+
+      <p>
+        Core domains<br>
+        JobsMatch • TravelMatch • ServicesMatch • PetsMatch • SportsMatch
+      </p>
+
+      <p>
+        Pairmo Wallet<br>
+        User Rating System
+      </p>
+
+      <p>
+        <strong>PowerZone monetization system</strong>
+      </p>
+    </div>
+
+    <div class="connector"></div>
+
+    <!-- Phase 2 -->
+
+    <div class="phase-box">
+      <h3>Phase 2 — Platform Expansion</h3>
+
+      <p>
+        Remaining Pairmo domains
+      </p>
+
+      <p>
+        Advanced chat functionality
+      </p>
+
+      <p>
+        Additional premium features
+      </p>
+
+      <p>
+        Advanced planning tools
+      </p>
+    </div>
+
+    <div class="connector"></div>
+
+    <!-- Phase 3 -->
+
+    <div class="phase-box">
+      <h3>Phase 3 — Pairmo Economy & Social Impact</h3>
+
+      <p>
+        Platform-handled transactions for services and mobility
+      </p>
+
+      <p>
+        Booking and ride coordination systems
+      </p>
+
+      <p>
+        Launch of the <strong>Social domain</strong>
+      </p>
+
+      <p>
+        <strong>Pairmo For Help</strong><br>
+        <strong>Pairmo Social Grant Program</strong>
+      </p>
+    </div>
+
+    <div class="connector"></div>
+
+    <!-- Phase 4 -->
+
+    <div class="phase-box">
+      <h3>Phase 4 — Intelligent Ecosystem</h3>
+
+      <p>
+        Full Cross-Domain matching
+      </p>
+
+      <p>
+        AI-assisted recommendations
+      </p>
+
+      <p>
+        Smart discovery across domains
+      </p>
+
+      <p>
+        <strong>Tokenized platform economy</strong>
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="newsletter-section" id="waitlist">
+  <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+
+  <p id="success-message" style="display:none;">
+    ✅ You are now on the list!
+  </p>
+
+  <form
+    class="newsletter-form"
+    action="https://formspree.io/f/xzzvbjll"
+    method="POST"
+    onsubmit="showSuccess(event)">
+
+    <input type="email" name="email" placeholder="Enter your email..." required>
+    <button type="submit">Notify Me</button>
+
+  </form>
+</section>
+
+<script src="./script.js"></script>
+<section id="contact" class="contact-section">
+  <h2>Contact Us</h2>
+  <p>Questions, partnerships or early access? Reach out anytime.</p>
+
+  <div class="contact-card">
+    <div class="contact-row">
+      <div class="contact-pill">
+        <span>Email:</span>
+        <a href="mailto:contact@pairmo.app">contact@pairmo.app</a>
+      </div>
+
+      <div class="contact-pill">
+        <span>Instagram:</span>
+        <a href="https://instagram.com/pairmo.official" target="_blank" rel="noopener">pairmo.official</a>
+      </div>
+    </div>
+  </div>
+  </section>
+  <footer class="pairmo-footer">
+
+<div class="footer-inner">
+
+
+
+<div class="footer-legal">
+
+<a href="/privacy.html">Privacy Policy</a>
+
+<span>|</span>
+
+<a href="/terms.html">Terms & Conditions</a>
+
+</div>
+
+<div class="footer-copy">
+
+© 2025 Pairmo Labs SRL. All rights reserved.
+
+</div>
+    </div>
+
+  </footer>
+  </body>
 </html>
