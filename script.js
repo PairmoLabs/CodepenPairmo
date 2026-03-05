@@ -7,26 +7,36 @@ document.addEventListener("DOMContentLoaded", () => {
   const langToggle = document.getElementById("lang-toggle");
   const langOptions = document.getElementById("lang-options");
   const langBtnFlag = document.getElementById("selected-lang-flag");
+const langBtnName = document.getElementById("selected-lang-name");
 
   async function loadLanguage(lang) {
-    // Dacă nu folosești JSON de limbi acum, nu crăpă.
-    // Dacă ai /lang/{lang}.json, poți activa blocul de mai jos.
-    try {
-      // const res = await fetch(`lang/${lang}.json`);
-      // const dict = await res.json();
-      // applyTranslations(dict);
 
-      const selected = document.querySelector(
-        `#lang-options li[data-lang="${lang}"]`
-      );
+  try {
 
-      if (selected && langBtnFlag) {
-        // ia primul "emoji/flag" din text (dacă ai)
-        langBtnFlag.textContent = selected.textContent.trim().split(" ")[0];
-      }
-    } catch (err) {
-      console.error("Language loading error:", err);
+    const res = await fetch(`/lang/${lang}.json`);
+    const dict = await res.json();
+
+    applyTranslations(dict);
+
+    const selected = document.querySelector(
+      `#lang-options li[data-lang="${lang}"]`
+    );
+
+    if (selected) {
+
+      const parts = selected.textContent.trim().split(" ");
+      const flag = parts.shift();
+      const name = parts.join(" ");
+
+      if (langBtnFlag) langBtnFlag.textContent = flag;
+      if (langBtnName) langBtnName.textContent = name;
+
     }
+
+  } catch (err) {
+    console.error("Language loading error:", err);
+  }
+
   }
 
   function setLanguage(lang) {
@@ -35,7 +45,19 @@ document.addEventListener("DOMContentLoaded", () => {
     } catch (_) {}
     loadLanguage(lang);
   }
+function applyTranslations(dict){
 
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+
+    const key = el.getAttribute("data-i18n");
+
+    if(dict[key]){
+      el.innerHTML = dict[key];
+    }
+
+  });
+
+}
   // UI: dropdown
   if (langToggle && langOptions) {
     langToggle.addEventListener("click", () => {
