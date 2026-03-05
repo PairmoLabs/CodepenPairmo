@@ -358,3 +358,38 @@ typeObserver.observe(typeTarget);
 
 }
 // force github pages redeploy 2
+async function loadLanguage(lang) {
+
+  try {
+
+    const res = await fetch(`/lang/${lang}.json`);
+    const dict = await res.json();
+
+    applyTranslations(dict);
+
+    const selected = document.querySelector(
+      `#lang-options li[data-lang="${lang}"]`
+    );
+
+    if (selected && langBtnFlag) {
+      langBtnFlag.textContent = selected.textContent.trim().split(" ")[0];
+    }
+
+  } catch (err) {
+    console.error("Language loading error:", err);
+  }
+
+}
+function applyTranslations(dict) {
+
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+
+    const key = el.getAttribute("data-i18n");
+
+    if (dict[key]) {
+      el.innerHTML = dict[key];
+    }
+
+  });
+
+}
