@@ -1,38 +1,299 @@
+document.addEventListener("DOMContentLoaded", () => {
+  /**
+   * =========================
+   *  LANGUAGE (safe guards)
+   * =========================
+   */
+  const langToggle = document.getElementById("lang-toggle");
+  const langOptions = document.getElementById("lang-options");
+  const langBtnFlag = document.getElementById("selected-lang-flag");
 
+  async function loadLanguage(lang) {
+    // Dacă nu folosești JSON de limbi acum, nu crăpă.
+    // Dacă ai /lang/{lang}.json, poți activa blocul de mai jos.
+    try {
+      // const res = await fetch(`lang/${lang}.json`);
+      // const dict = await res.json();
+      // applyTranslations(dict);
 
-document.addEventListener('DOMContentLoaded', () => {
-  const burger = document.querySelector('.burger');
-  const menu = document.getElementById('mobile-menu');
-const mainFlag = document.querySelector('.main-flag');
-  const dropdown = document.querySelector('.dropdown');
+      const selected = document.querySelector(
+        `#lang-options li[data-lang="${lang}"]`
+      );
 
-  if (mainFlag && dropdown) {
-    mainFlag.addEventListener("click", () => {
-      dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
-    });
-  }
-  // Toggle menu on burger click
-  burger.addEventListener('click', (event) => {
-    event.stopPropagation();
-    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
-  });
-
-  // Close menu when clicking on any link
-  document.querySelectorAll('#mobile-menu a').forEach(link => {
-    link.addEventListener('click', () => {
-      menu.style.display = 'none';
-    });
-  });
-
-  // Close menu when clicking outside
-  document.addEventListener('click', (event) => {
-    if (!menu.contains(event.target) && !burger.contains(event.target)) {
-      menu.style.display = 'none';
+      if (selected && langBtnFlag) {
+        // ia primul "emoji/flag" din text (dacă ai)
+        langBtnFlag.textContent = selected.textContent.trim().split(" ")[0];
+      }
+    } catch (err) {
+      console.error("Language loading error:", err);
     }
+  }
+
+  function setLanguage(lang) {
+    try {
+      localStorage.setItem("selectedLang", lang);
+    } catch (_) {}
+    loadLanguage(lang);
+  }
+
+  // UI: dropdown
+  if (langToggle && langOptions) {
+    langToggle.addEventListener("click", () => {
+      langToggle.parentElement?.classList.toggle("open");
+    });
+
+    langOptions.querySelectorAll("li").forEach((option) => {
+      option.addEventListener("click", () => {
+        const lang = option.getAttribute("data-lang");
+        if (lang) setLanguage(lang);
+        langToggle.parentElement?.classList.remove("open");
+      });
+    });
+
+    // close on outside click
+    document.addEventListener("click", (e) => {
+      const wrapper = langToggle.parentElement;
+      if (!wrapper) return;
+      if (!wrapper.contains(e.target)) wrapper.classList.remove("open");
+    });
+
+    // init saved lang
+    const saved =
+      (typeof localStorage !== "undefined" &&
+        localStorage.getItem("selectedLang")) ||
+      "en";
+    loadLanguage(saved);
+  }
+
+  /**
+   * =========================
+   *  "HOW IT WORKS" mini cards
+   *  (dacă există în HTML)
+   * =========================
+   */
+  const howCards = document.querySelectorAll(".how-card");
+  if (howCards.length) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) entry.target.classList.add("show");
+        });
+      },
+      { threshold: 0.2 }
+    );
+    howCards.forEach((card) => observer.observe(card));
+  }
+
+  /**
+   * =========================
+   *  SWIPE DECK (real feel)
+   *  - swipe stânga/dreapta
+   *  - cardul dispare (remove)
+   *  - merge cu mouse + touch (Pointer Events)
+   * =========================
+   *
+   * HTML așteptat:
+   * <div class="swipe-deck" id="demoDeck">
+   *   <div class="swipe-card"><img ...></div>
+   *   <div class="swipe-card"><img ...></div>
+   *   <div class="swipe-card"><img ...></div>
+   * </div>
+   */
+
+  const decks = document.querySelectorAll(".swipe-deck");
+
+  decks.forEach((deck) => {
+    let activeCard = null;
+    let startX = 0;
+    let currentX = 0;
+    let dragging = false;
+
+    function getTopCard() {
+      // top = ultimul .swipe-card din container (ideal să fie “deasupra”)
+      const cards = deck.querySelectorAll(".swipe-card");
+      return cards.length ? cards[cards.length - 1] : null;
+    }
+
+    function setDeckInteractivity() {
+      const top = getTopCard();
+      const cards = deck.querySelectorAll(".swipe-card");
+      cards.forEach((c) => c.classList.remove("is-top"));
+      if (top) top.classList.add("is-top");
+    }
+
+    setDeckInteractivity();
+
+    deck.addEventListener("pointerdown", (e) => {
+      const top = getTopCard();
+      if (!top) return;
+
+      const clicked = e.target.closest(".swipe-card");
+      if (!clicked || clicked !== top) return;
+
+      activeCard = clicked;
+      dragging = true;
+      startX = e.clientX;
+      currentX = 0;
+
+      activeCard.style.transition = "none";
+      activeCard.setPointerCapture?.(e.pointerId);
+    });
+
+    deck.addEventListener("pointermove", (e) => {
+      if (!dragging || !activeCard) return;
+
+      currentX = e.clientX - startX;
+      const rotate = currentX * 0.05; // feel
+
+      activeCard.style.transform = `translateX(${currentX}px) rotate(${rotate}deg)`;
+    });
+
+    function releaseCard() {
+      if (!activeCard) return;
+
+      const threshold = 80;
+      const absX = Math.abs(currentX);
+
+      activeCard.style.transition = "transform .35s ease, opacity .2s ease";
+
+      if (absX > threshold) {
+        const direction = currentX > 0 ? 1 : -1;
+        activeCard.style.transform = `translateX(${direction * 700}px) rotate(${
+          direction * 22
+        }deg)`;
+        activeCard.style.opacity = "0";
+
+        const cardToRemove = activeCard;
+        activeCard = null;
+        dragging = false;
+
+        // după animație, scoate cardul din DOM
+        setTimeout(() => {
+          cardToRemove.remove();
+          setDeckInteractivity();
+        }, 320);
+      } else {
+        // revine la loc
+        activeCard.style.transform = "translateX(0px) rotate(0deg)";
+        activeCard = null;
+        dragging = false;
+      }
+    }
+
+    deck.addEventListener("pointerup", () => releaseCard());
+    deck.addEventListener("pointercancel", () => releaseCard());
+
+    // dacă user iese cu pointer-ul din deck
+    deck.addEventListener("pointerleave", () => {
+      if (dragging) releaseCard();
+    });
   });
 });
-// === Funcția pentru afișarea mesajului de succes după abonare ===
-function showSuccess(event) {
+/**
+ * =========================
+ *  ROADMAP SCROLL ANIMATION
+ * =========================
+ */
+
+const roadmapCards = document.querySelectorAll(".phase-box");
+
+if (roadmapCards.length) {
+
+  const roadmapObserver = new IntersectionObserver(
+    (entries) => {
+
+      entries.forEach((entry) => {
+
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        }
+
+      });
+
+    },
+    { threshold: 0.2 }
+  );
+
+  roadmapCards.forEach(card => roadmapObserver.observe(card));
+
+}
+/* =========================
+   BURGER MENU
+========================= */
+
+const burger = document.querySelector(".burger");
+const menu = document.querySelector(".menu");
+
+if (burger && menu) {
+
+  burger.addEventListener("click", (e) => {
+  // dacă ai dat click în interiorul meniului, nu toggla burger-ul
+  if (e.target.closest(".menu")) return;
+  menu.classList.toggle("open");
+});
+
+}
+
+/* =========================
+   BURGER LINK ANIMATION + DELAY
+========================= */
+
+document.querySelectorAll(".burger-link").forEach(link => {
+
+link.addEventListener("click", function(e){
+
+e.preventDefault();
+  e.stopPropagation();
+
+const target = this.getAttribute("href");
+const li = this.parentElement;
+
+/* animatie */
+li.classList.add("clicked");
+
+setTimeout(()=>{
+
+menu.classList.remove("open");
+
+/* scroll */
+if(target.startsWith("#")){
+
+const section = document.querySelector(target);
+
+if(section){
+section.scrollIntoView({
+behavior:"smooth"
+});
+}
+
+}else{
+
+window.location.href = target;
+
+}
+
+},500);
+
+});
+
+});
+
+
+
+const whatCards = document.querySelectorAll(".what-card");
+
+const observer = new IntersectionObserver(entries=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){
+entry.target.classList.add("show");
+}
+});
+},{threshold:0.3});
+
+whatCards.forEach(card=>{
+observer.observe(card);
+});
+window.showSuccess = function (event) {
   event.preventDefault();
 
   const form = event.target;
@@ -43,281 +304,56 @@ function showSuccess(event) {
     body: formData,
     headers: { Accept: "application/json" }
   })
-  .then(response => {
-    if (response.ok) {
-      const message = document.getElementById("success_message");
-      message.style.display = "block";
-
-      setTimeout(() => {
-        message.style.display = "none";
-      }, 5000);
-
-      form.reset(); // Resetează formularul
-    } else {
-      alert("❌ Something went wrong. Please try again.");
-    }
-  })
-  .catch(() => {
-    alert("❌ Network error. Please check your connection.");
-  });
-}
-// === Scroll automat către următoarea
-const scrollIndicator = document.querySelector('.scroll-indicator');
-if (scrollIndicator) {
-  scrollIndicator.addEventListener('click', () => {
-    window.scrollBy({
-      top: 600,
-      behavior: 'smooth'
-    });
-  });
-}
-// === Activare selecție card în carusel ===
-function selectCard(card) {
-  const allCards = document.querySelectorAll('.carousel-card');
-  allCards.forEach(c => c.classList.remove('active'));
-  card.classList.add('active');
-}
-// === Scroll Observer pentru efect pop-up ===
-const modesObserver = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-    }
-  });
-});
-
-// Activăm observerul pentru fiecare paragraf
-document.querySelectorAll('.modes-text').forEach((el) => {
-  modesObserver.observe(el);
-});
-// === Flip Card Logic ===
-function flipCard(card) {
-  card.classList.toggle("flipped");
-}
-document.addEventListener('DOMContentLoaded', () => {
-  const lines = document.querySelectorAll('#pw-line, #uh-line, #ip-line');
-
-  const linesObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible'); // ✅ corect
-        linesObserver.unobserve(entry.target);
-      }
-    });
-  }, {
-    threshold: 0.4
-  });
-
-  lines.forEach(line => linesObserver.observe(line));
-});
-document.addEventListener('DOMContentLoaded', () => {
-  // Observator separat pentru Modes Line
-  const modesLine = document.getElementById('modes-line');
-
-  if (modesLine) {
-    const observerModes = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          observerModes.unobserve(entry.target);
+    .then((response) => {
+      if (response.ok) {
+        const message = document.getElementById("success-message");
+        if (message) {
+          message.style.display = "block";
+          setTimeout(() => (message.style.display = "none"), 5000);
         }
-      });
-    }, { threshold: 0.4 });
-
-    observerModes.observe(modesLine);
-  }
-});
-// === POWERZONE Line Scroll Animation ===
-const powerzoneLine = document.getElementById('pz-line');
-if (powerzoneLine) {
-  const observerPZ = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        observerPZ.unobserve(entry.target);
+        form.reset();
+      } else {
+        alert("Something went wrong. Please try again.");
       }
-    });
-  }, { threshold: 0.4 });
-  observerPZ.observe(powerzoneLine);
+    })
+    .catch(() => alert("Network error. Please check your connection."));
+};
+/* =========================
+   TYPE EFFECT (start on scroll)
+========================= */
+
+const typeText = "Swipe. Match. Connect.";
+const typeTarget = document.getElementById("type-text");
+
+let typeIndex = 0;
+
+function typeEffect(){
+
+if(typeIndex < typeText.length){
+typeTarget.textContent += typeText.charAt(typeIndex);
+typeIndex++;
+setTimeout(typeEffect, 70);
 }
 
-const exploreLine = document.querySelector('#explore-line');
-const exploreObserver = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-      exploreObserver.unobserve(entry.target);
-    }
-  });
-}, { threshold: 0.4 });
-
-if (exploreLine) {
-  exploreObserver.observe(exploreLine);
 }
-// === SWIPE STACK LOGIC FOR EXPLORE CARDS ===
-document.addEventListener('DOMContentLoaded', () => {
-  const stack = document.getElementById('card-stack');
-  const feedback = document.getElementById('swipe-feedback');
 
-  let isDragging = false;
-  let startX = 0;
-  let currentCard = null;
+if(typeTarget){
 
-  function showFeedback(text) {
-    feedback.textContent = text;
-    feedback.classList.add('show');
-    setTimeout(() => feedback.classList.remove('show'), 1200);
-  }
+const typeObserver = new IntersectionObserver((entries)=>{
 
-  function initSwipe() {
-    const cards = stack.querySelectorAll('.swipe-card');
-    if (!cards.length) return;
-    currentCard = cards[0];
-    currentCard.classList.add('top-card');
+entries.forEach(entry=>{
 
-    currentCard.addEventListener('mousedown', dragStart);
-    currentCard.addEventListener('touchstart', dragStart, { passive: true });
-  }
+if(entry.isIntersecting){
 
-  function dragStart(e) {
-    isDragging = true;
-    startX = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
+typeEffect();
+typeObserver.unobserve(typeTarget);
 
-    document.addEventListener('mousemove', dragMove);
-    document.addEventListener('touchmove', dragMove);
-    document.addEventListener('mouseup', dragEnd);
-    document.addEventListener('touchend', dragEnd);
-  }
+}
 
-  function dragMove(e) {
-    if (!isDragging || !currentCard) return;
-      if (e.cancelable) e.preventDefault();
-    const x = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
-    const deltaX = x - startX;
-    currentCard.style.transform = `translateX(${deltaX}px) rotate(${deltaX * 0.05}deg)`;
-  }
-
-  function dragEnd(e) {
-    if (!isDragging || !currentCard) return;
-    const x = e.type === 'touchend' ? e.changedTouches[0].clientX : e.clientX;
-    const deltaX = x - startX;
-
-    if (deltaX > 100) {
-      // Swipe right = MATCH
-      currentCard.style.transform = 'translateX(1000px) rotate(30deg)';
-      showFeedback('✅ Deal! We have a Match!');
-      removeTopCard();
-    } else if (deltaX < -100) {
-      // Swipe left = NOPE
-      currentCard.style.transform = 'translateX(-1000px) rotate(-30deg)';
-      showFeedback('❌ Nope!');
-      removeTopCard();
-    } else {
-      currentCard.style.transform = 'translateX(0)';
-    }
-
-    isDragging = false;
-    document.removeEventListener('mousemove', dragMove);
-    document.removeEventListener('touchmove', dragMove);
-    document.removeEventListener('mouseup', dragEnd);
-    document.removeEventListener('touchend', dragEnd);
-  }
-
-  function removeTopCard() {
-    setTimeout(() => {
-      if (currentCard) {
-        currentCard.remove();
-        initSwipe(); // next card
-      }
-    }, 400);
-  }
-
-  initSwipe();
 });
 
-// === MULTILANGUAGE MODULE – START ===
+},{threshold:0.6});
 
-document.addEventListener('DOMContentLoaded', () => {
-  const langToggle = document.getElementById('lang-toggle');
-  const langOptions = document.getElementById('lang-options');
-  const langBtnText = document.getElementById('selected-lang-name');
-  const langBtnFlag = document.getElementById('selected-lang-flag');
+typeObserver.observe(typeTarget);
 
-  if (!langToggle || !langOptions) return; // 🔥 PROTECȚIE CRITICĂ
-
-  const langs = {
-    en: 'English',
-    ro: 'Română',
-    fr: 'Français',
-    it: 'Italiano',
-    de: 'Deutsch',
-    es: 'Español',
-    pt: 'Português',
-    ru: 'Russian',
-    zh: 'Chinese',
-    hi: 'Hindi',
-    ar: 'Arabic',
-    hu: 'Hungarian',
-    pl: 'Polish',
-    uk: 'Ukrainian',
-    nl: 'Dutch',
-    el: 'Greek',
-    tr: 'Turkish'
-  };
-
-  function loadLanguage(lang) {
-    fetch(`${window.location.origin}/lang/${lang}.json`)
-      .then(res => res.json())
-      .then(data => {
-        document.querySelectorAll('[data-i18n]').forEach(el => {
-          const key = el.getAttribute('data-i18n');
-         if (Object.prototype.hasOwnProperty.call(data, key))  {
-            if (el.tagName === 'INPUT' && el.hasAttribute('placeholder')) {
-              el.setAttribute('placeholder', data[key]);
-            } else {
-              el.innerHTML = data[key];
-            }
-          }
-        });
-
-        document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
-          const key = el.getAttribute('data-i18n-placeholder');
-          if (Object.prototype.hasOwnProperty.call(data, key)) {
-            el.setAttribute('placeholder', data[key]);
-          }
-        });
-
-        if (langBtnText) langBtnText.textContent = langs[lang] || lang;
-
-if (langBtnFlag) {
-  const selectedOption = document.querySelector(`#lang-options li[data-lang="${lang}"]`);
-  if (selectedOption) {
-    const flag = selectedOption.textContent.trim().split(' ')[0];
-    langBtnFlag.textContent = flag;
-  }
 }
-      })
-      .catch(err => console.error("Language loading error:", err));
-  }
-
-  function setLanguage(lang) {
-    localStorage.setItem('selectedLang', lang);
-    loadLanguage(lang);
-  }
-
-  langToggle.addEventListener('click', () => {
-    langToggle.parentElement.classList.toggle('open');
-  });
-
-  langOptions.querySelectorAll('li').forEach(option => {
-    option.addEventListener('click', () => {
-      const selectedLang = option.getAttribute('data-lang');
-      setLanguage(selectedLang);
-      langToggle.parentElement.classList.remove('open');
-    });
-  });
-
-  const savedLang = localStorage.getItem('selectedLang') || 'en';
-  loadLanguage(savedLang);
-});
-
