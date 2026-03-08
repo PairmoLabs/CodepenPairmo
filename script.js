@@ -56,6 +56,10 @@ function applyTranslations(dict){
     }
 
   });
+  if(dict.hero_typing){
+startTyping(dict.hero_typing);
+  }
+  
 
 }
   // UI: dropdown
@@ -338,39 +342,27 @@ window.showSuccess = function (event) {
    TYPE EFFECT (start on scroll)
 ========================= */
 
-const typeText = "Swipe. Match. Connect.";
 const typeTarget = document.getElementById("type-text");
 
 let typeIndex = 0;
+let typeText = "";
+
+function startTyping(text){
+
+typeText = text;
+typeIndex = 0;
+typeTarget.textContent = "";
 
 function typeEffect(){
 
 if(typeIndex < typeText.length){
 typeTarget.textContent += typeText.charAt(typeIndex);
 typeIndex++;
-setTimeout(typeEffect, 70);
+setTimeout(typeEffect,70);
 }
 
 }
-
-if(typeTarget){
-
-const typeObserver = new IntersectionObserver((entries)=>{
-
-entries.forEach(entry=>{
-
-if(entry.isIntersecting){
 
 typeEffect();
-typeObserver.unobserve(typeTarget);
 
 }
-
-});
-
-},{threshold:0.6});
-
-typeObserver.observe(typeTarget);
-
-}
-
