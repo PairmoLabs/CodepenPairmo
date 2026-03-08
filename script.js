@@ -44,6 +44,7 @@ if (langBtnName) langBtnName.textContent = name;
       localStorage.setItem("selectedLang", lang);
     } catch (_) {}
     document.documentElement.lang = lang;
+    typingStarted = false;   // 🔹 RESET typing
     loadLanguage(lang);
   }
 
@@ -59,9 +60,6 @@ if (langBtnName) langBtnName.textContent = name;
 
   });
 
-  if(dict.hero_typing){
-    startTyping(dict.hero_typing);
-  }
 
   }
   // UI: dropdown
