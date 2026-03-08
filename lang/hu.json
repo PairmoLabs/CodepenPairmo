@@ -1,80 +1,138 @@
 {
-  "lang_current_name": "Magyar",
+"lang_current_name": "Magyar",
 
-  "lang_en": "Angol",
-  "lang_ro": "Román",
-  "lang_fr": "Francia",
-  "lang_it": "Olasz",
-  "lang_de": "Német",
-  "lang_es": "Spanyol",
-  "lang_ru": "Orosz",
-  "lang_pt": "Portugál",
-  "lang_zh": "Kínai",
-  "lang_hi": "Hindi",
-  "lang_ar": "Arab",
-  "lang_hu": "Magyar",
-  "lang_pl": "Lengyel",
-  "lang_uk": "Ukrán",
-  "lang_nl": "Holland",
-  "lang_el": "Görög",
-  "lang_tr": "Török",
+"lang_en": "English",
+"lang_ro": "Română",
+"lang_fr": "Français",
+"lang_it": "Italiano",
+"lang_de": "Deutsch",
+"lang_es": "Español",
+"lang_ru": "Русский",
+"lang_pt": "Português",
+"lang_zh": "中文",
+"lang_hi": "हिन्दी",
+"lang_ar": "العربية",
+"lang_hu": "Magyar",
+"lang_pl": "Polski",
+"lang_uk": "Українська",
+"lang_nl": "Nederlands",
+"lang_el": "Ελληνικά",
+"lang_tr": "Türkçe",
 
-  "menu_home": "Kezdőlap",
-  "menu_what": "Mi az a Pairmo",
-  "menu_how": "Hogyan működik",
-  "menu_inside": "A Pairmo belülről",
-  "menu_roadmap": "Ütemterv",
-  "menu_ecosystem": "Az ökoszisztéma",
-  "menu_waitlist": "Várólista",
-  "menu_contact": "Kapcsolat",
+"menu_home": "Kezdőlap",
+"menu_what": "Mi az a Pairmo",
+"menu_how": "Hogyan működik",
+"menu_inside": "A Pairmo belseje",
+"menu_roadmap": "Fejlesztési terv",
+"menu_ecosystem": "Ökoszisztéma",
+"menu_waitlist": "Várólista",
+"menu_contact": "Kapcsolat",
 
-  "brand_name": "PAIRMO",
+"brand_name": "PAIRMO",
 
-  "hero_title_line1": "A",
-  "hero_title_line2": "swipe",
-  "hero_title_line3": "élmény",
+"hero_title_line1": "A",
+"hero_title_line2": "csúsztatás",
+"hero_title_line3": "élménye",
 
-  "hero_typing": "Húzd • Párosíts • Kapcsolódj",
+"hero_typing": "Húzás • Párosítás • Kapcsolódás",
 
-  "platform_title": "A platform",
+"platform_title": "Platform",
 
-  "what_card1_title": "Mi az a Pairmo?",
+"what_card1_title": "Mi az a Pairmo?",
 
-  "what_card1_p1": "A Pairmo egy több területet lefedő, swipe-alapú párosító platform, amely embereket, szolgáltatásokat és lehetőségeket kapcsol össze.",
+"what_card1_p1": "A Pairmo egy több területet lefedő, húzás alapú párosító platform, amely embereket, szolgáltatásokat és lehetőségeket kapcsol össze.",
 
-  "what_card1_p2": "Hosszú hirdetéslisták böngészése vagy válaszokra való várakozás helyett a felhasználók azonnal felfedezhetik a lehetőségeket kártyák húzásával.",
+"what_card1_p2": "Hosszú hirdetési listák böngészése vagy válaszokra várás helyett a felhasználók azonnal fedezhetnek fel lehetőségeket a kártyák húzásával.",
 
-  "what_card1_p3": "A Pairmo egyetlen platformon egyesíti az állásokat, utazótársakat, szolgáltatásokat, háziállatokat, bérléseket és üzleti együttműködéseket.",
+"what_card1_p3": "A Pairmo egyetlen platformon egyesíti az állásokat, utazótársakat, szolgáltatásokat, háziállatokat, bérléseket és üzleti együttműködéseket.",
 
-  "what_card2_title": "A probléma, amelyet a Pairmo megold",
+"what_card2_title": "Milyen problémát old meg a Pairmo",
 
-  "what_card2_p1": "A legtöbb platform csak egy irányban működik: vagy keresel, vagy hirdetsz.",
+"what_card2_p1": "A legtöbb platform csak egy irányban működik: vagy keresel, vagy hirdetsz.",
 
-  "what_card2_p2": "A Pairmo megoldja a széttöredezett platformok problémáját.",
+"what_card2_p2": "A Pairmo megoldja a széttöredezett platformok problémáját.",
 
-  "what_card2_p3": "A felhasználók másodpercek alatt találhatnak partnereket, ügyfeleket, szolgáltatásokat vagy közösségeket.",
+"what_card2_p3": "A felhasználók másodpercek alatt találhatnak partnereket, ügyfeleket, szolgáltatásokat vagy közösségeket.",
 
-  "how_title": "Hogyan működik a Pairmo",
-  "how_subtitle": "Egy egyszerű swipe-alapú folyamat a valós igényekhez.",
+"what_card3_title": "Hogyan kapcsolja össze a Pairmo a lehetőségeket",
 
-  "how_swipe_title": "Húzás",
-  "how_swipe_text": "Fedezz fel embereket, szolgáltatásokat és lehetőségeket több területen.",
+"what_card3_p1": "A felhasználók kártyákat hoznak létre, amelyek leírják, mit kínálnak vagy mit keresnek.",
 
-  "how_match_title": "Párosítás",
-  "how_match_text": "Amikor az érdeklődések egyeznek, a Pairmo azonnali kapcsolatot hoz létre.",
+"what_card3_p2": "A platform egy intelligens, húzás alapú felfedező rendszer segítségével jeleníti meg a releváns lehetőségeket.",
 
-  "how_connect_title": "Kapcsolódás",
-  "how_connect_text": "Indíts beszélgetéseket, és alakítsd a találatokat valódi tervekké.",
+"what_card3_p3": "Amikor az érdeklődések egyeznek, létrejön egy párosítás, és a felhasználók megkezdhetik az együttműködést.",
 
-  "newsletter_title": "IRATKOZZ FEL A FRISSÍTÉSEKRE",
-  "newsletter_success": "Most már rajta vagy a listán!",
-  "newsletter_placeholder": "Add meg az e-mail címed",
-  "newsletter_button": "Értesíts",
+"how_title": "Hogyan működik a Pairmo",
+"how_subtitle": "Egy egyszerű, húzás alapú folyamat a valódi igényekhez.",
 
-  "contact_title": "Kapcsolat",
-  "contact_text": "Kérdések vagy együttműködés? Írj nekünk bármikor.",
+"how_swipe_title": "Húzás",
+"how_swipe_text": "Fedezz fel embereket, szolgáltatásokat és lehetőségeket.",
 
-  "footer_privacy": "Adatvédelmi irányelvek",
-  "footer_terms": "Felhasználási feltételek",
-  "footer_copy": "© 2025 Pairmo Labs SRL. Minden jog fenntartva."
+"how_match_title": "Párosítás",
+"how_match_text": "Amikor az érdeklődések egyeznek, a Pairmo azonnal kapcsolatot hoz létre.",
+
+"how_connect_title": "Kapcsolódás",
+"how_connect_text": "Kezdj beszélgetéseket, és alakítsd a párosításokat valódi tervekké.",
+
+"inside_title": "A Pairmo belsejében",
+
+"inside_subtitle": "Fedezd fel, hogyan kapcsolja össze a Pairmo az embereket, szolgáltatásokat és lehetőségeket egy egyszerű húzás élményen keresztül.",
+
+"inside_step1_title": "Területek felfedezése",
+"inside_step1_text": "Kezdd azzal, hogy kiválasztod az igényeidnek megfelelő területet.",
+
+"inside_step2_title": "Kártya létrehozása",
+"inside_step2_text": "Írd le, mit kínálsz vagy mit keresel.",
+
+"inside_step3_title": "Lehetőségek felfedezése",
+"inside_step3_text": "Fedezz fel releváns kártyákat a húzás alapú felületen.",
+
+"inside_swipe_hint": "← Húzz →",
+
+"inside_step4_title": "Minden kezelése",
+"inside_step4_text": "Érd el az irányítópultodat a kapcsolatok és beszélgetések kezeléséhez.",
+
+"roadmap_title": "Pairmo fejlesztési terv",
+"roadmap_subtitle": "A Pairmo fejlődése egy globális, több területet lefedő ökoszisztéma felé.",
+
+"roadmap_phase1_title": "1. fázis — Termékindítás",
+"roadmap_phase1_modes": "Minden párosítási mód aktív",
+"roadmap_phase1_modes_list": "Egyéni • Csapat • Csoportszervező",
+
+"roadmap_phase1_domains_label": "Fő területek",
+"roadmap_phase1_domains_list": "Állások • Utazás • Szolgáltatások • Háziállatok • Sport",
+
+"roadmap_phase1_wallet": "Digitális pénztárca",
+"roadmap_phase1_rating": "Felhasználói értékelési rendszer",
+"roadmap_phase1_powerzone": "Monetizációs rendszer",
+
+"roadmap_phase2_title": "2. fázis — Globális terjeszkedés",
+"roadmap_phase2_domains_label": "Új területek",
+"roadmap_phase2_matching": "Fejlett párosító algoritmusok",
+"roadmap_phase2_features": "További prémium funkciók",
+"roadmap_phase2_planning": "Fejlett tervezési eszközök",
+
+"roadmap_phase3_title": "3. fázis — Gazdaság és társadalmi hatás",
+"roadmap_phase3_transactions": "Platform által kezelt tranzakciók szolgáltatásokhoz és mobilitáshoz",
+"roadmap_phase3_booking": "Foglalási és koordinációs rendszerek",
+"roadmap_phase3_social": "A közösségi terület bevezetése",
+"roadmap_phase3_programs": "Segítségnyújtási program • Szociális támogatási program",
+
+"roadmap_phase4_title": "4. fázis — Intelligens ökoszisztéma",
+"roadmap_phase4_cross": "Teljes párosítás a területek között",
+"roadmap_phase4_ai": "AI-alapú ajánlások",
+"roadmap_phase4_discovery": "Intelligens felfedezés a területek között",
+"roadmap_phase4_token": "Token alapú platformgazdaság",
+
+"newsletter_title": "IRATKOZZ FEL A FRISSÍTÉSEKRE",
+"newsletter_success": "Most már a listán vagy!",
+"newsletter_placeholder": "Add meg az email címed",
+"newsletter_button": "Értesíts",
+
+"contact_title": "Kapcsolat",
+"contact_text": "Kérdések vagy partnerség? Írj nekünk bármikor.",
+
+"footer_privacy": "Adatvédelmi irányelvek",
+"footer_terms": "Felhasználási feltételek",
+"footer_copy": "© 2025 Pairmo Labs SRL. Minden jog fenntartva."
 }
