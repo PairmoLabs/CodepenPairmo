@@ -39,13 +39,21 @@ if (langBtnName) langBtnName.textContent = name;
 
   }
 
+
   function setLanguage(lang) {
-    try {
-      localStorage.setItem("selectedLang", lang);
-    } catch (_) {}
-    document.documentElement.lang = lang;
-    typingStarted = false;   // 🔹 RESET typing
-    loadLanguage(lang);
+  try {
+    localStorage.setItem("selectedLang", lang);
+  } catch (_) {}
+
+  document.documentElement.lang = lang;
+
+  typingStarted = false;   // reset typing
+
+  if(typeTarget){
+    typeTarget.textContent = "";   // 🔹 șterge textul typing
+  }
+
+  loadLanguage(lang);
   }
 
   function applyTranslations(dict){
