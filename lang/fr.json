@@ -1,104 +1,170 @@
 {
-  "lang_en": "🇬🇧 Anglais",
-"lang_ro": "🇷🇴 Roumain",
-"lang_fr": "🇫🇷 Français",
-"lang_it": "🇮🇹 Italien",
-"lang_de": "🇩🇪 Allemand",
-"lang_es": "🇪🇸 Espagnol",
-"lang_ru": "🇷🇺 Russe",
-"lang_zh": "🇨🇳 Chinois",
-"lang_hi": "🇮🇳 Hindi",
-"lang_ar": "🇸🇦 Arabe",
-"lang_hu": "🇭🇺 Hongrois",
-"lang_pl": "🇵🇱 Polonais",
-"lang_uk": "🇺🇦 Ukrainien",
-"lang_el": "🇬🇷 Grec",
-"lang_tr": "🇹🇷 Turc",
+  "lang_current_name": "Français",
+
+  "lang_en": "Anglais",
+  "lang_ro": "Roumain",
+  "lang_fr": "Français",
+  "lang_it": "Italien",
+  "lang_de": "Allemand",
+  "lang_es": "Espagnol",
+  "lang_ru": "Russe",
+  "lang_pt": "Portugais",
+  "lang_zh": "Chinois",
+  "lang_hi": "Hindi",
+  "lang_ar": "Arabe",
+  "lang_hu": "Hongrois",
+  "lang_pl": "Polonais",
+  "lang_uk": "Ukrainien",
+  "lang_nl": "Néerlandais",
+  "lang_el": "Grec",
+  "lang_tr": "Turc",
+
   "menu_home": "Accueil",
-  "menu_domains": "Comment ça marche",
-  "menu_about": "À propos de Pairmo",
+  "menu_what": "Qu'est-ce que Pairmo",
+  "menu_how": "Comment ça marche",
+  "menu_inside": "À l'intérieur de Pairmo",
   "menu_roadmap": "Feuille de route",
+  "menu_ecosystem": "L'écosystème",
   "menu_waitlist": "Rejoindre la liste",
   "menu_contact": "Contactez-nous",
-  "title_main": "L’<br>Expérience<br>Swipe",
-  "subtitle_text": "Découvrez des personnes partageant vos intérêts",
-  "description_text": "Que vous cherchiez à<br>partager un voyage, un projet ou une passion,<br>voici l’endroit où l’histoire commence.<br>",
-  "section_title": "Explorez ce que Pairmo propose!",
-  "callout_text": "Mais d’abord...",
-  "subscribe_title": "ABONNEZ-VOUS À NOTRE NEWSLETTER<br>ET FAITES PARTIE DE L’AVENTURE",
-  "email_placeholder": "Entrez votre e-mail...",
-  "submit_button": "Envoyez...",
-  "success-message": "✅ Vous êtes sur la liste !",
-  "notify_me": "Prévenez-moi",
-  "scroll_more": "En savoir plus...",
-  "domains_title": "Bienvenue dans les domaines Pairmo !",
-  "domains_line1": "De la vie sociale à la productivité, nous relions la demande à l’offre",
-  "domains_line2": "via un appariement intelligent basé sur des cartes glissables.",
-  "domains_tagline": "Une seule app. Deux faces. Connectées.",
-  "domain-tripmatch": "Planifiez des escapades urbaines ou de grandes aventures. Trouvez des voyageurs qui partagent votre style, dates et destination.",
-  "domain-businessmatch": "Vous cherchez un cofondateur, un associé ou un partenariat ? Trouvez des pros qui partagent votre vision.",
-  "domain-servicematch": "Freelance, entreprise ou aide ponctuelle ? Offrez ou trouvez des services dans tous les domaines.",
-  "domain-datingmatch": "Rencontrez des personnes partageant vos valeurs et intentions. Créez une vraie connexion.",
-  "domain-petmatch": "Trouvez un compagnon de jeu ou d’élevage pour votre animal. Connectez-vous avec d’autres propriétaires qui vous ressemblent.",
-  "domain-sportmatch": "Trouvez un partenaire d’entraînement, rejoignez une équipe locale ou créez la vôtre. Soyez actif ensemble.",
-  "domain-moredomains": "...et ce n’est que le début. Découvrez plus de domaines utiles et passionnants.",
-  "modes_title": "Section des modes",
-  "modes_text_1": "Choisissez votre façon d’agir...",
-  "modes_text_2": "Vous contrôlez entièrement comment vous interagissez.",
-  "modes_text_3": "Sur Pairmo, vous choisissez entre trois modes d’utilisation.",
-  "modes_text_4": "SOLO, GROUPE D’AMIS OU ORGANISATEUR",
-  "mode_solo_1": "Agir en tant qu’individu.",
-  "mode_solo_2": "Créer ou rejoindre des activités 1-à-1 ou même un groupe.",
-  "card-hint1": "Touchez la carte pour plus de détails",
-  "mode_friends_1": "Pour les groupes d’amis déjà formés.",
-  "mode_friends_2": "Ajoutez de nouveaux membres ou connectez-vous avec d’autres équipes.",
-  "card-hint2": "Touchez la carte pour plus de détails",
-  "mode_planner_1": "Pour les organisateurs et équipes professionnelles.",
-  "mode_planner_2": "Créez des plans publics ou privés, gérez des groupes efficacement.",
-  "userhub_title": "Votre centre de commande personnel",
-  "userhub_subtitle": "Tout ce dont vous avez besoin, à portée de main.<br />Le Hub est votre tableau de bord personnalisé<br />Accédez à vos matchs, voyages, portefeuille, options premium et plus encore.",
-  "interactive_title": "Profils interactifs : Notes & Badges dynamiques",
-  "interactive_subtitle": "Un seul coup d’œil suffit.<br>Les profils Pairmo sont plus que des photos – ils vibrent avec des signaux de confiance, d’authenticité et de personnalité.",
-  "interactive_subtitle_2": "Les profils Pairmo sont plus que de simples photos — ils révèlent des signes de confiance, d’authenticité et d’intention.",
-  "interactive_heading_rating": "⭐ Système de notation",
-  "interactive_text_rating": "Chaque utilisateur a une <strong>note visible (ex : 4.7)</strong> basée sur les retours de la communauté.<br>Vous pouvez évaluer les autres <strong>après chaque interaction complétée</strong> – que ce soit un compagnon de voyage, un client ou une simple discussion.",
-  "interactive_note_rating": "Des scores élevés augmentent la visibilité et la confiance sur la plateforme.",
-  "interactive_heading_badges": "🏅 Badges dynamiques",
-  "interactive_text_badges": "Les badges sont débloqués automatiquement selon votre comportement, vos préférences et votre activité.<br>Ils sont entièrement dynamiques — ils apparaissent, disparaissent et évoluent selon votre utilisation de l’appli.",
-  "badge_citybreak_name": "CityBreak",
-"badge_citybreak_desc": "Tu aimes les escapades urbaines courtes",
-"badge_safemeet_name": "SafeMeet",
-"badge_safemeet_desc": "ID & selfie vérifiés",
-"badge_groupplanner_name": "GroupPlanner",
-"badge_groupplanner_desc": "Tu organises des activités d'équipe ou de groupe",
-"badge_activevibe_name": "ActiveVibe",
-"badge_activevibe_desc": "Interactions dans les 3 derniers jours",
-"badge_minuteready_name": "MinuteReady",
-"badge_minuteready_desc": "Ton voyage commence dans moins de 3 jours",
-  "interactive_note_badges": "Vous ne demandez pas les badges, <strong>vous les méritez</strong>.",
-  "powerwallet_title": "Portefeuille Pairmo",
-  "powerwallet_subtitle": "Achetez des points premium, gérez votre solde et consultez votre historique.<br>Pairmo combine Points Premium et Bonus pour un contrôle total.",
-  "points_title_premium": "Points Premium",
-  "points_text_premium": "Achetez et dépensez avec un contrôle total.<br>Utilisés pour les fonctionnalités, la visibilité et l'accès premium.",
-  "points_title_bonus": "Points Bonus",
-  "points_text_bonus": "Gagnez gratuitement grâce aux missions, à l’engagement communautaire ou à votre première connexion réussie.",
-  "no_pressure": "Aucune pression. Juste du pouvoir.",
-  "powerzone_title": "Zone de Puissance",
-  "powerzone_subtitle": "Visibilité, interaction et outils de personnalisation<br />pour amplifier votre impact sur Pairmo.",
-  "boosts_title": "🚀 Boosts+",
-  "boosts_desc": "Augmentez vos vues et votre visibilité.<br />Apparaissez en tête des recherches et des listes de domaines.",
-  "chatplus_title": "💬 Chat+",
-  "chatplus_desc": "Débloquez les réactions, le statut de lecture,<br />les sons de notification et des filtres de chat premium.",
-  "plansplus_title": "🧩 Plans+",
-  "plansplus_desc": "Choisissez votre Plan Pairmo (Free, Plus ou Premium).<br />Débloquez un accès illimité aux fonctionnalités avancées.",
-  "final_line": "Plus de contrôle. Plus de connexion. À votre manière.",
-  "explore_title": "Section Explorer",
-  "explore_subtitle": "C’est ici que la magie opère.<br>Dans Explorer, vous trouvez des partenaires, des clients ou des services réels.<br>C’est aussi là que vous pouvez trouver votre emploi idéal ou recruter les bonnes personnes.<br>Et tout cela... par un simple glissement.",
-  "explore_subtext": "Explore est l’endroit où vous trouvez partenaires, clients ou services réels autour de vous.<br>C’est ici que vous pouvez découvrir votre job de rêve ou recruter les bonnes personnes.<br>Et tout cela... d’un simple glissement.",
-  "swipe_text": "Faites glisser les cartes !",
-  "footer_rights": "© 2025 Pairmo Labs SRL. Tous droits réservés.",
-  "footer_follow": "Suivez-nous sur",
-  "footer_contact": "contact@pairmo.app",
+
+  "brand_name": "PAIRMO",
+
+  "hero_title_line1": "L'expérience",
+  "hero_title_line2": "du",
+  "hero_title_line3": "Swipe",
+
+  "hero_typing": "Glissez. Associez. Connectez.",
+
+  "platform_title": "La plateforme",
+
+  "what_card1_title": "Qu'est-ce que Pairmo ?",
+
+  "what_card1_p1": "Pairmo est une plateforme de mise en relation multi-domaines basée sur le swipe qui connecte les personnes, les services et les opportunités.",
+
+  "what_card1_p2": "Au lieu de parcourir de longues listes d'annonces ou d'attendre des réponses, les utilisateurs découvrent instantanément des opportunités en parcourant des cartes.",
+
+  "what_card1_p3": "Pairmo réunit emplois, partenaires de voyage, services, animaux, locations et collaborations professionnelles sur une seule plateforme.",
+
+  "what_card2_title": "Le problème que Pairmo résout",
+
+  "what_card2_p1": "Aujourd'hui, la plupart des plateformes fonctionnent dans un seul sens : soit vous recherchez, soit vous publiez.",
+
+  "what_card2_p2": "Pairmo résout le problème des plateformes fragmentées.",
+
+  "what_card2_p3": "Les utilisateurs peuvent trouver des partenaires, des clients, des services ou des communautés en quelques secondes.",
+
+  "what_card3_title": "Comment Pairmo connecte les opportunités",
+
+  "what_card3_p1": "Les utilisateurs créent des cartes décrivant ce qu'ils offrent ou ce dont ils ont besoin.",
+
+  "what_card3_p2": "La plateforme affiche les opportunités pertinentes grâce à un système intelligent de découverte par swipe.",
+
+  "what_card3_p3": "Lorsque les intérêts correspondent, une correspondance est créée et les utilisateurs peuvent commencer à collaborer.",
+
+  "how_title": "Comment fonctionne Pairmo",
+
+  "how_subtitle": "Un flux simple basé sur le swipe conçu pour les besoins de la vie réelle.",
+
+  "how_swipe_title": "Glisser",
+
+  "how_swipe_text": "Découvrez des personnes, des services et des opportunités dans plusieurs domaines.",
+
+  "how_match_title": "Associer",
+
+  "how_match_text": "Lorsque les intérêts correspondent, Pairmo crée une connexion instantanée.",
+
+  "how_connect_title": "Connecter",
+
+  "how_connect_text": "Commencez des conversations et transformez les correspondances en projets et expériences réels.",
+
+  "inside_title": "À l'intérieur de Pairmo",
+
+  "inside_subtitle": "Découvrez comment Pairmo connecte les personnes, les services et les opportunités grâce à une expérience simple basée sur le swipe.",
+
+  "inside_step1_title": "Explorer les domaines",
+
+  "inside_step1_text": "Commencez par choisir le domaine qui correspond à votre besoin.",
+
+  "inside_step2_title": "Créez votre carte",
+
+  "inside_step2_text": "Décrivez ce que vous proposez ou ce que vous recherchez.",
+
+  "inside_step3_title": "Glissez les opportunités",
+
+  "inside_step3_text": "Découvrez des cartes pertinentes grâce à l'interface de swipe.",
+
+  "inside_swipe_hint": "← Glissez →",
+
+  "inside_step4_title": "Tout gérer",
+
+  "inside_step4_text": "Accédez à votre tableau de bord pour gérer les correspondances et les conversations.",
+
+  "roadmap_title": "Feuille de route Pairmo",
+
+  "roadmap_subtitle": "L'évolution de Pairmo vers un écosystème mondial multi-domaines.",
+
+  "roadmap_phase1_title": "Phase 1 — Lancement du produit",
+
+  "roadmap_phase1_modes": "Tous les modes de matching actifs",
+
+  "roadmap_phase1_modes_list": "Solo • Crew • Group Planner",
+
+  "roadmap_phase1_domains_label": "Domaines principaux",
+
+  "roadmap_phase1_domains_list": "JobsMatch • TravelMatch • ServicesMatch • PetsMatch • SportsMatch",
+
+  "roadmap_phase1_wallet": "Pairmo Wallet",
+
+  "roadmap_phase1_rating": "Système d'évaluation des utilisateurs",
+
+  "roadmap_phase1_powerzone": "Système de monétisation PowerZone",
+
+  "roadmap_phase2_title": "Phase 2 — Expansion mondiale",
+
+  "roadmap_phase2_domains_label": "Nouveaux domaines",
+
+  "roadmap_phase2_matching": "Algorithmes de matching avancés",
+
+  "roadmap_phase2_features": "Fonctionnalités premium supplémentaires",
+
+  "roadmap_phase2_planning": "Outils de planification avancés",
+
+  "roadmap_phase3_title": "Phase 3 — Économie Pairmo & Impact social",
+
+  "roadmap_phase3_transactions": "Transactions gérées par la plateforme pour les services et la mobilité",
+
+  "roadmap_phase3_booking": "Systèmes de réservation et coordination des trajets",
+
+  "roadmap_phase3_social": "Lancement du domaine Social",
+
+  "roadmap_phase3_programs": "Pairmo For Help • Programme de subventions sociales Pairmo",
+
+  "roadmap_phase4_title": "Phase 4 — Écosystème intelligent",
+
+  "roadmap_phase4_cross": "Matching complet entre domaines",
+
+  "roadmap_phase4_ai": "Recommandations assistées par IA",
+
+  "roadmap_phase4_discovery": "Découverte intelligente entre domaines",
+
+  "roadmap_phase4_token": "Économie de plateforme tokenisée",
+
+  "newsletter_title": "Abonnez-vous à notre newsletter",
+
+  "newsletter_success": "Vous êtes maintenant inscrit !",
+
+  "newsletter_placeholder": "Entrez votre email...",
+
+  "newsletter_button": "Prévenez-moi",
+
+  "contact_title": "Contactez-nous",
+
+  "contact_text": "Questions, partenariats ou accès anticipé ? Contactez-nous à tout moment.",
+
   "footer_privacy": "Politique de confidentialité",
-  "footer_terms": "Conditions d'utilisation"
+
+  "footer_terms": "Conditions générales",
+
+  "footer_copy": "© 2025 Pairmo Labs SRL. Tous droits réservés."
 }
