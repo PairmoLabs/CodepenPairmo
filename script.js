@@ -468,24 +468,35 @@ if(typeTarget){
 typingObserver.observe(typeTarget);
 }
 
+
 document.addEventListener("DOMContentLoaded", function(){
 
 const banner = document.getElementById("cookie-banner");
 const accept = document.getElementById("cookie-accept");
 const close = document.getElementById("cookie-close");
 
-if(!localStorage.getItem("cookieConsent")){
-banner.style.display="block";
+/* daca userul nu a acceptat cookies */
+
+if(localStorage.getItem("cookieConsent") !== "accepted"){
+banner.style.display = "block";
 }
 
-accept.onclick=function(){
+/* ACCEPT */
+
+accept.onclick = function(){
+
 localStorage.setItem("cookieConsent","accepted");
-banner.style.display="none";
+
+banner.style.display = "none";
+
 }
 
-close.onclick=function(){
-localStorage.setItem("cookieConsent","rejected");
-banner.style.display="none";
+/* X CLOSE (nu salvam nimic) */
+
+close.onclick = function(){
+
+banner.style.display = "none";
+
 }
 
 });
