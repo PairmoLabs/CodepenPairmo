@@ -117,7 +117,19 @@ if (langBtnName) langBtnName.textContent = name;
       if (!wrapper) return;
       if (!wrapper.contains(e.target)) wrapper.classList.remove("open");
     });
-    const savedLang = localStorage.getItem("selectedLang") || "en";
+
+    let savedLang = localStorage.getItem("selectedLang");
+
+if(!savedLang){
+
+  const browserLang = navigator.language.slice(0,2);
+
+  const supported = ["en","fr","it","ro","es","de"];
+
+  savedLang = supported.includes(browserLang) ? browserLang : "en";
+
+}
+
 loadLanguage(savedLang);
 
   }
