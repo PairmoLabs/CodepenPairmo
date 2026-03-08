@@ -1,80 +1,138 @@
 {
-  "lang_current_name": "Polski",
+"lang_current_name": "Polski",
 
-  "lang_en": "Angielski",
-  "lang_ro": "Rumuński",
-  "lang_fr": "Francuski",
-  "lang_it": "Włoski",
-  "lang_de": "Niemiecki",
-  "lang_es": "Hiszpański",
-  "lang_ru": "Rosyjski",
-  "lang_pt": "Portugalski",
-  "lang_zh": "Chiński",
-  "lang_hi": "Hindi",
-  "lang_ar": "Arabski",
-  "lang_hu": "Węgierski",
-  "lang_pl": "Polski",
-  "lang_uk": "Ukraiński",
-  "lang_nl": "Niderlandzki",
-  "lang_el": "Grecki",
-  "lang_tr": "Turecki",
+"lang_en": "English",
+"lang_ro": "Română",
+"lang_fr": "Français",
+"lang_it": "Italiano",
+"lang_de": "Deutsch",
+"lang_es": "Español",
+"lang_ru": "Русский",
+"lang_pt": "Português",
+"lang_zh": "中文",
+"lang_hi": "हिन्दी",
+"lang_ar": "العربية",
+"lang_hu": "Magyar",
+"lang_pl": "Polski",
+"lang_uk": "Українська",
+"lang_nl": "Nederlands",
+"lang_el": "Ελληνικά",
+"lang_tr": "Türkçe",
 
-  "menu_home": "Strona główna",
-  "menu_what": "Czym jest Pairmo",
-  "menu_how": "Jak to działa",
-  "menu_inside": "W środku Pairmo",
-  "menu_roadmap": "Mapa drogowa",
-  "menu_ecosystem": "Ekosystem",
-  "menu_waitlist": "Lista oczekujących",
-  "menu_contact": "Kontakt",
+"menu_home": "Strona główna",
+"menu_what": "Czym jest Pairmo",
+"menu_how": "Jak to działa",
+"menu_inside": "Wewnątrz Pairmo",
+"menu_roadmap": "Plan rozwoju",
+"menu_ecosystem": "Ekosystem",
+"menu_waitlist": "Lista oczekujących",
+"menu_contact": "Kontakt",
 
-  "brand_name": "PAIRMO",
+"brand_name": "PAIRMO",
 
-  "hero_title_line1": "Doświadczenie",
-  "hero_title_line2": "przesuwania",
-  "hero_title_line3": "kart",
+"hero_title_line1": "Doświadczenie",
+"hero_title_line2": "przesuwania",
+"hero_title_line3": "kart",
 
-  "hero_typing": "Przesuń • Dopasuj • Połącz się",
+"hero_typing": "Przesuń • Dopasuj • Połącz się",
 
-  "platform_title": "Platforma",
+"platform_title": "Platforma",
 
-  "what_card1_title": "Czym jest Pairmo?",
+"what_card1_title": "Czym jest Pairmo?",
 
-  "what_card1_p1": "Pairmo to wielodomenowa platforma dopasowań oparta na przesuwaniu kart, która łączy ludzi, usługi i możliwości.",
+"what_card1_p1": "Pairmo to wielodziedzinowa platforma dopasowań oparta na przesuwaniu kart, która łączy ludzi, usługi i możliwości.",
 
-  "what_card1_p2": "Zamiast przeglądać długie listy ogłoszeń lub czekać na odpowiedzi, użytkownicy odkrywają możliwości natychmiast, przesuwając karty.",
+"what_card1_p2": "Zamiast przeglądać długie listy ogłoszeń lub czekać na odpowiedzi, użytkownicy mogą natychmiast odkrywać możliwości, przesuwając karty.",
 
-  "what_card1_p3": "Pairmo łączy oferty pracy, partnerów podróży, usługi, zwierzęta domowe, wynajem oraz współpracę biznesową w jednej platformie.",
+"what_card1_p3": "Pairmo łączy oferty pracy, partnerów podróży, usługi, zwierzęta domowe, wynajem i współpracę biznesową w jednej platformie.",
 
-  "what_card2_title": "Problem, który rozwiązuje Pairmo",
+"what_card2_title": "Problem, który rozwiązuje Pairmo",
 
-  "what_card2_p1": "Większość platform działa tylko w jednym kierunku: albo szukasz, albo publikujesz ogłoszenie.",
+"what_card2_p1": "Większość platform działa tylko w jednym kierunku: albo szukasz, albo publikujesz.",
 
-  "what_card2_p2": "Pairmo rozwiązuje problem rozproszonych platform.",
+"what_card2_p2": "Pairmo rozwiązuje problem rozproszonych platform.",
 
-  "what_card2_p3": "Użytkownicy mogą znaleźć partnerów, klientów, usługi lub społeczności w kilka sekund.",
+"what_card2_p3": "Użytkownicy mogą znaleźć partnerów, klientów, usługi lub społeczności w ciągu kilku sekund.",
 
-  "how_title": "Jak działa Pairmo",
-  "how_subtitle": "Prosty proces oparty na przesuwaniu kart dla rzeczywistych potrzeb.",
+"what_card3_title": "Jak Pairmo łączy możliwości",
 
-  "how_swipe_title": "Przesuń",
-  "how_swipe_text": "Odkrywaj ludzi, usługi i możliwości w wielu dziedzinach.",
+"what_card3_p1": "Użytkownicy tworzą karty opisujące, co oferują lub czego szukają.",
 
-  "how_match_title": "Dopasowanie",
-  "how_match_text": "Gdy zainteresowania się pokrywają, Pairmo natychmiast tworzy połączenie.",
+"what_card3_p2": "Platforma wyświetla odpowiednie możliwości dzięki inteligentnemu systemowi odkrywania opartemu na przesuwaniu kart.",
 
-  "how_connect_title": "Połącz się",
-  "how_connect_text": "Rozpocznij rozmowy i zamień dopasowania w prawdziwe plany.",
+"what_card3_p3": "Gdy zainteresowania się pokrywają, powstaje dopasowanie i użytkownicy mogą rozpocząć współpracę.",
 
-  "newsletter_title": "ZAPISZ SIĘ NA AKTUALNOŚCI",
-  "newsletter_success": "Jesteś teraz na liście!",
-  "newsletter_placeholder": "Wprowadź swój adres e-mail",
-  "newsletter_button": "Powiadom mnie",
+"how_title": "Jak działa Pairmo",
+"how_subtitle": "Prosty proces oparty na przesuwaniu kart dla realnych potrzeb.",
 
-  "contact_title": "Kontakt",
-  "contact_text": "Masz pytania lub chcesz nawiązać współpracę? Skontaktuj się z nami w dowolnym momencie.",
+"how_swipe_title": "Przesuń",
+"how_swipe_text": "Odkrywaj ludzi, usługi i możliwości.",
 
-  "footer_privacy": "Polityka prywatności",
-  "footer_terms": "Regulamin",
-  "footer_copy": "© 2025 Pairmo Labs SRL. Wszelkie prawa zastrzeżone."
+"how_match_title": "Dopasowanie",
+"how_match_text": "Gdy zainteresowania się pokrywają, Pairmo natychmiast tworzy połączenie.",
+
+"how_connect_title": "Połącz się",
+"how_connect_text": "Rozpocznij rozmowy i zamień dopasowania w realne plany.",
+
+"inside_title": "Wewnątrz Pairmo",
+
+"inside_subtitle": "Zobacz, jak Pairmo łączy ludzi, usługi i możliwości poprzez prostą funkcję przesuwania kart.",
+
+"inside_step1_title": "Odkrywaj domeny",
+"inside_step1_text": "Zacznij od wyboru domeny odpowiadającej Twoim potrzebom.",
+
+"inside_step2_title": "Utwórz swoją kartę",
+"inside_step2_text": "Opisz, co oferujesz lub czego szukasz.",
+
+"inside_step3_title": "Odkrywaj możliwości",
+"inside_step3_text": "Przeglądaj odpowiednie karty poprzez interfejs przesuwania.",
+
+"inside_swipe_hint": "← Przesuń →",
+
+"inside_step4_title": "Zarządzaj wszystkim",
+"inside_step4_text": "Uzyskaj dostęp do centrum zarządzania, aby kontrolować połączenia i rozmowy.",
+
+"roadmap_title": "Plan rozwoju Pairmo",
+"roadmap_subtitle": "Ewolucja Pairmo w globalny ekosystem wielodziedzinowy.",
+
+"roadmap_phase1_title": "Faza 1 — Uruchomienie produktu",
+"roadmap_phase1_modes": "Wszystkie tryby dopasowań aktywne",
+"roadmap_phase1_modes_list": "Solo • Zespół • Organizator grupy",
+
+"roadmap_phase1_domains_label": "Główne domeny",
+"roadmap_phase1_domains_list": "Praca • Podróże • Usługi • Zwierzęta • Sport",
+
+"roadmap_phase1_wallet": "Portfel cyfrowy",
+"roadmap_phase1_rating": "System ocen użytkowników",
+"roadmap_phase1_powerzone": "System monetyzacji",
+
+"roadmap_phase2_title": "Faza 2 — Globalna ekspansja",
+"roadmap_phase2_domains_label": "Nowe domeny",
+"roadmap_phase2_matching": "Zaawansowane algorytmy dopasowań",
+"roadmap_phase2_features": "Dodatkowe funkcje premium",
+"roadmap_phase2_planning": "Zaawansowane narzędzia planowania",
+
+"roadmap_phase3_title": "Faza 3 — Ekonomia i wpływ społeczny",
+"roadmap_phase3_transactions": "Transakcje zarządzane przez platformę dla usług i mobilności",
+"roadmap_phase3_booking": "Systemy rezerwacji i koordynacji",
+"roadmap_phase3_social": "Uruchomienie domeny społecznej",
+"roadmap_phase3_programs": "Program pomocy • Program grantów społecznych",
+
+"roadmap_phase4_title": "Faza 4 — Inteligentny ekosystem",
+"roadmap_phase4_cross": "Pełne dopasowanie między domenami",
+"roadmap_phase4_ai": "Rekomendacje wspierane przez AI",
+"roadmap_phase4_discovery": "Inteligentne odkrywanie między domenami",
+"roadmap_phase4_token": "Ekonomia platformy oparta na tokenie",
+
+"newsletter_title": "ZAPISZ SIĘ NA AKTUALIZACJE",
+"newsletter_success": "Jesteś teraz na liście!",
+"newsletter_placeholder": "Wpisz swój email",
+"newsletter_button": "Powiadom mnie",
+
+"contact_title": "Kontakt",
+"contact_text": "Pytania lub partnerstwa? Napisz do nas w dowolnym momencie.",
+
+"footer_privacy": "Polityka prywatności",
+"footer_terms": "Regulamin",
+"footer_copy": "© 2025 Pairmo Labs SRL. Wszelkie prawa zastrzeżone."
 }
