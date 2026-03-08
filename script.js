@@ -415,7 +415,7 @@ startTyping(dict.hero_typing);
 
 });
 
-},{threshold:0.6});
+},{threshold:0.95});
 
 if(typeTarget){
 typingObserver.observe(typeTarget);
