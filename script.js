@@ -59,11 +59,6 @@ el.textContent = dict[key];
 
   });
 
-  if(dict.hero_typing){
-setTimeout(()=>{
-startTyping(dict.hero_typing);
-},100);
-  }
   
 
 }
@@ -385,3 +380,34 @@ typeEffect();
 
 }
 
+let typingStarted = false;
+
+const typingObserver = new IntersectionObserver((entries) => {
+
+entries.forEach(entry => {
+
+if(entry.isIntersecting && !typingStarted){
+
+typingStarted = true;
+
+const lang = localStorage.getItem("selectedLang") || "en";
+
+fetch(`lang/${lang}.json`)
+.then(res => res.json())
+.then(dict => {
+
+if(dict.hero_typing){
+startTyping(dict.hero_typing);
+}
+
+});
+
+}
+
+});
+
+},{threshold:0.6});
+
+if(typeTarget){
+typingObserver.observe(typeTarget);
+}
