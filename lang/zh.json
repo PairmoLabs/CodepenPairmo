@@ -25,7 +25,7 @@
   "menu_inside": "Pairmo 内部",
   "menu_roadmap": "发展路线图",
   "menu_ecosystem": "生态系统",
-  "menu_waitlist": "等待名单",
+  "menu_waitlist": "候补名单",
   "menu_contact": "联系",
 
   "brand_name": "PAIRMO",
@@ -40,35 +40,93 @@
 
   "what_card1_title": "什么是 Pairmo？",
 
-  "what_card1_p1": "Pairmo 是一个多领域滑动匹配平台，用于连接人、服务和机会。",
+  "what_card1_p1": "Pairmo 是一个基于滑动的多领域匹配平台，用于连接人、服务和机会。",
 
-  "what_card1_p2": "用户无需浏览长长的广告列表或等待回复，只需滑动卡片即可即时发现机会。",
+  "what_card1_p2": "用户无需浏览冗长的列表或等待回复，只需滑动卡片即可即时发现机会。",
 
-  "what_card1_p3": "Pairmo 将工作机会、旅行伙伴、服务、宠物、租赁以及商业合作整合到一个平台中。",
+  "what_card1_p3": "Pairmo 将工作、旅行伙伴、服务、宠物、租赁和商业合作整合到一个平台中。",
 
   "what_card2_title": "Pairmo 解决的问题",
 
-  "what_card2_p1": "大多数平台只在一个方向上运作：要么你搜索，要么你发布。",
+  "what_card2_p1": "如今大多数平台只支持单向模式：要么搜索，要么发布。",
 
   "what_card2_p2": "Pairmo 解决了平台碎片化的问题。",
 
   "what_card2_p3": "用户可以在几秒钟内找到合作伙伴、客户、服务或社区。",
 
+  "what_card3_title": "Pairmo 如何连接机会",
+
+  "what_card3_p1": "用户创建卡片，描述他们提供的内容或寻找的内容。",
+
+  "what_card3_p2": "平台通过智能滑动发现系统展示相关机会。",
+
+  "what_card3_p3": "当双方兴趣一致时，就会产生匹配，用户可以开始合作。",
+
   "how_title": "Pairmo 如何运作",
-  "how_subtitle": "为真实需求设计的简单滑动流程。",
+  "how_subtitle": "一个简单的滑动流程，满足现实生活中的需求。",
 
   "how_swipe_title": "滑动",
-  "how_swipe_text": "在多个领域发现人、服务和机会。",
+  "how_swipe_text": "发现人、服务和机会。",
 
   "how_match_title": "匹配",
   "how_match_text": "当兴趣一致时，Pairmo 会立即建立连接。",
 
   "how_connect_title": "连接",
-  "how_connect_text": "开始对话，并将匹配转化为真实计划。",
+  "how_connect_text": "开始对话，将匹配转化为真实的计划。",
 
-  "newsletter_title": "订阅更新",
-  "newsletter_success": "你已加入列表！",
-  "newsletter_placeholder": "输入你的电子邮箱",
+  "inside_title": "Pairmo 内部",
+
+  "inside_subtitle": "了解 Pairmo 如何通过简单的滑动体验连接人、服务和机会。",
+
+  "inside_step1_title": "探索领域",
+  "inside_step1_text": "首先选择与你需求匹配的领域。",
+
+  "inside_step2_title": "创建你的卡片",
+  "inside_step2_text": "描述你提供的内容或正在寻找的内容。",
+
+  "inside_step3_title": "发现机会",
+  "inside_step3_text": "通过滑动界面发现相关卡片。",
+
+  "inside_swipe_hint": "← 滑动 →",
+
+  "inside_step4_title": "管理一切",
+  "inside_step4_text": "访问你的控制中心来管理匹配和对话。",
+
+  "roadmap_title": "Pairmo 路线图",
+  "roadmap_subtitle": "Pairmo 向全球多领域生态系统发展的过程。",
+
+  "roadmap_phase1_title": "阶段 1 — 产品发布",
+  "roadmap_phase1_modes": "所有匹配模式启用",
+  "roadmap_phase1_modes_list": "个人 • 团队 • 团体组织者",
+
+  "roadmap_phase1_domains_label": "核心领域",
+  "roadmap_phase1_domains_list": "工作 • 旅行 • 服务 • 宠物 • 体育",
+
+  "roadmap_phase1_wallet": "数字钱包",
+  "roadmap_phase1_rating": "用户评分系统",
+  "roadmap_phase1_powerzone": "变现系统",
+
+  "roadmap_phase2_title": "阶段 2 — 全球扩展",
+  "roadmap_phase2_domains_label": "新领域",
+  "roadmap_phase2_matching": "高级匹配算法",
+  "roadmap_phase2_features": "更多高级功能",
+  "roadmap_phase2_planning": "高级规划工具",
+
+  "roadmap_phase3_title": "阶段 3 — 经济与社会影响",
+  "roadmap_phase3_transactions": "平台处理服务和出行交易",
+  "roadmap_phase3_booking": "预订和协调系统",
+  "roadmap_phase3_social": "推出社交领域",
+  "roadmap_phase3_programs": "帮助计划 • 社会资助计划",
+
+  "roadmap_phase4_title": "阶段 4 — 智能生态系统",
+  "roadmap_phase4_cross": "跨领域完全匹配",
+  "roadmap_phase4_ai": "AI 辅助推荐",
+  "roadmap_phase4_discovery": "跨领域智能发现",
+  "roadmap_phase4_token": "代币化平台经济",
+
+  "newsletter_title": "订阅我们的新闻",
+  "newsletter_success": "你已成功加入列表！",
+  "newsletter_placeholder": "输入你的邮箱",
   "newsletter_button": "通知我",
 
   "contact_title": "联系",
