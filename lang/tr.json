@@ -1,80 +1,138 @@
 {
-  "lang_current_name": "Türkçe",
+"lang_current_name": "Türkçe",
 
-  "lang_en": "İngilizce",
-  "lang_ro": "Romence",
-  "lang_fr": "Fransızca",
-  "lang_it": "İtalyanca",
-  "lang_de": "Almanca",
-  "lang_es": "İspanyolca",
-  "lang_ru": "Rusça",
-  "lang_pt": "Portekizce",
-  "lang_zh": "Çince",
-  "lang_hi": "Hintçe",
-  "lang_ar": "Arapça",
-  "lang_hu": "Macarca",
-  "lang_pl": "Lehçe",
-  "lang_uk": "Ukraynaca",
-  "lang_nl": "Felemenkçe",
-  "lang_el": "Yunanca",
-  "lang_tr": "Türkçe",
+"lang_en": "English",
+"lang_ro": "Română",
+"lang_fr": "Français",
+"lang_it": "Italiano",
+"lang_de": "Deutsch",
+"lang_es": "Español",
+"lang_ru": "Русский",
+"lang_pt": "Português",
+"lang_zh": "中文",
+"lang_hi": "हिन्दी",
+"lang_ar": "العربية",
+"lang_hu": "Magyar",
+"lang_pl": "Polski",
+"lang_uk": "Українська",
+"lang_nl": "Nederlands",
+"lang_el": "Ελληνικά",
+"lang_tr": "Türkçe",
 
-  "menu_home": "Ana Sayfa",
-  "menu_what": "Pairmo Nedir",
-  "menu_how": "Nasıl Çalışır",
-  "menu_inside": "Pairmo İçinde",
-  "menu_roadmap": "Yol Haritası",
-  "menu_ecosystem": "Ekosistem",
-  "menu_waitlist": "Bekleme Listesi",
-  "menu_contact": "İletişim",
+"menu_home": "Ana Sayfa",
+"menu_what": "Pairmo Nedir",
+"menu_how": "Nasıl Çalışır",
+"menu_inside": "Pairmo İçinde",
+"menu_roadmap": "Gelişim Planı",
+"menu_ecosystem": "Ekosistem",
+"menu_waitlist": "Bekleme Listesi",
+"menu_contact": "İletişim",
 
-  "brand_name": "PAIRMO",
+"brand_name": "PAIRMO",
 
-  "hero_title_line1": "Kaydırma",
-  "hero_title_line2": "deneyimi",
-  "hero_title_line3": "",
+"hero_title_line1": "Kaydırma",
+"hero_title_line2": "Deneyimi",
 
-  "hero_typing": "Kaydır • Eşleş • Bağlan",
 
-  "platform_title": "Platform",
+"hero_typing": "Kaydır • Eşleştir • Bağlan",
 
-  "what_card1_title": "Pairmo Nedir?",
+"platform_title": "Platform",
 
-  "what_card1_p1": "Pairmo, insanları, hizmetleri ve fırsatları birbirine bağlayan çok alanlı bir kaydırma tabanlı eşleştirme platformudur.",
+"what_card1_title": "Pairmo Nedir?",
 
-  "what_card1_p2": "Uzun ilan listelerine göz atmak veya yanıt beklemek yerine kullanıcılar kartları kaydırarak fırsatları anında keşfeder.",
+"what_card1_p1": "Pairmo, insanları, hizmetleri ve fırsatları bir araya getiren, kaydırma tabanlı çok alanlı bir eşleştirme platformudur.",
 
-  "what_card1_p3": "Pairmo, iş fırsatlarını, seyahat partnerlerini, hizmetleri, evcil hayvanları, kiralamaları ve iş birliklerini tek bir platformda bir araya getirir.",
+"what_card1_p2": "Uzun ilan listelerinde gezinmek veya yanıt beklemek yerine, kullanıcılar kartları kaydırarak fırsatları anında keşfeder.",
 
-  "what_card2_title": "Pairmo'nun çözdüğü sorun",
+"what_card1_p3": "Pairmo, iş fırsatlarını, seyahat arkadaşlarını, hizmetleri, evcil hayvanları, kiralamaları ve iş ortaklıklarını tek bir platformda bir araya getirir.",
 
-  "what_card2_p1": "Çoğu platform yalnızca tek yönde çalışır: ya ararsınız ya da ilan verirsiniz.",
+"what_card2_title": "Pairmo’nun Çözdüğü Problem",
 
-  "what_card2_p2": "Pairmo parçalanmış platformlar sorununu çözer.",
+"what_card2_p1": "Çoğu platform yalnızca tek yönde çalışır: ya ararsınız ya da ilan verirsiniz.",
 
-  "what_card2_p3": "Kullanıcılar saniyeler içinde partnerler, müşteriler, hizmetler veya topluluklar bulabilir.",
+"what_card2_p2": "Pairmo, parçalanmış platformlar sorununu çözer.",
 
-  "how_title": "Pairmo Nasıl Çalışır",
-  "how_subtitle": "Gerçek ihtiyaçlar için basit bir kaydırma deneyimi.",
+"what_card2_p3": "Kullanıcılar saniyeler içinde ortaklar, müşteriler, hizmetler veya topluluklar bulabilir.",
 
-  "how_swipe_title": "Kaydır",
-  "how_swipe_text": "Birden fazla alanda insanları, hizmetleri ve fırsatları keşfet.",
+"what_card3_title": "Pairmo Fırsatları Nasıl Bağlar",
 
-  "how_match_title": "Eşleş",
-  "how_match_text": "İlgi alanları örtüştüğünde Pairmo anında bağlantı kurar.",
+"what_card3_p1": "Kullanıcılar ne sunduklarını veya ne aradıklarını anlatan kartlar oluşturur.",
 
-  "how_connect_title": "Bağlan",
-  "how_connect_text": "Sohbet başlat ve eşleşmeleri gerçek planlara dönüştür.",
+"what_card3_p2": "Platform, kaydırma tabanlı akıllı keşif sistemiyle ilgili fırsatları gösterir.",
 
-  "newsletter_title": "GÜNCELLEMELERE ABONE OL",
-  "newsletter_success": "Artık listedesiniz!",
-  "newsletter_placeholder": "E-posta adresinizi girin",
-  "newsletter_button": "Bana bildir",
+"what_card3_p3": "İlgi alanları eşleştiğinde bir eşleşme oluşur ve kullanıcılar iş birliğine başlayabilir.",
 
-  "contact_title": "İletişim",
-  "contact_text": "Sorularınız veya iş birlikleri için istediğiniz zaman bize yazın.",
+"how_title": "Pairmo Nasıl Çalışır",
+"how_subtitle": "Gerçek ihtiyaçlar için kaydırma tabanlı basit bir süreç.",
 
-  "footer_privacy": "Gizlilik Politikası",
-  "footer_terms": "Şartlar ve Koşullar",
-  "footer_copy": "© 2025 Pairmo Labs SRL. Tüm hakları saklıdır."
+"how_swipe_title": "Kaydır",
+"how_swipe_text": "İnsanları, hizmetleri ve fırsatları keşfet.",
+
+"how_match_title": "Eşleş",
+"how_match_text": "İlgi alanları örtüştüğünde Pairmo anında bir bağlantı oluşturur.",
+
+"how_connect_title": "Bağlan",
+"how_connect_text": "Sohbet başlat ve eşleşmeleri gerçek planlara dönüştür.",
+
+"inside_title": "Pairmo İçinde",
+
+"inside_subtitle": "Pairmo’nun insanları, hizmetleri ve fırsatları basit bir kaydırma deneyimiyle nasıl bir araya getirdiğini keşfet.",
+
+"inside_step1_title": "Alanları Keşfet",
+"inside_step1_text": "İhtiyacına uygun alanı seçerek başla.",
+
+"inside_step2_title": "Kartını Oluştur",
+"inside_step2_text": "Ne sunduğunu veya ne aradığını açıkla.",
+
+"inside_step3_title": "Fırsatları Keşfet",
+"inside_step3_text": "Kaydırma arayüzü üzerinden ilgili kartları keşfet.",
+
+"inside_swipe_hint": "← Kaydır →",
+
+"inside_step4_title": "Her Şeyi Yönet",
+"inside_step4_text": "Eşleşmeleri ve konuşmaları yönetmek için kontrol paneline eriş.",
+
+"roadmap_title": "Pairmo Gelişim Planı",
+"roadmap_subtitle": "Pairmo’nun küresel çok alanlı bir ekosisteme dönüşümü.",
+
+"roadmap_phase1_title": "Aşama 1 — Ürün Lansmanı",
+"roadmap_phase1_modes": "Tüm eşleştirme modları aktif",
+"roadmap_phase1_modes_list": "Bireysel • Ekip • Grup Organizatörü",
+
+"roadmap_phase1_domains_label": "Ana Alanlar",
+"roadmap_phase1_domains_list": "İşler • Seyahat • Hizmetler • Evcil Hayvanlar • Spor",
+
+"roadmap_phase1_wallet": "Dijital Cüzdan",
+"roadmap_phase1_rating": "Kullanıcı değerlendirme sistemi",
+"roadmap_phase1_powerzone": "Para kazanma sistemi",
+
+"roadmap_phase2_title": "Aşama 2 — Küresel Genişleme",
+"roadmap_phase2_domains_label": "Yeni Alanlar",
+"roadmap_phase2_matching": "Gelişmiş eşleştirme algoritmaları",
+"roadmap_phase2_features": "Ek premium özellikler",
+"roadmap_phase2_planning": "Gelişmiş planlama araçları",
+
+"roadmap_phase3_title": "Aşama 3 — Ekonomi ve Sosyal Etki",
+"roadmap_phase3_transactions": "Hizmetler ve mobilite için platform tarafından yönetilen işlemler",
+"roadmap_phase3_booking": "Rezervasyon ve koordinasyon sistemleri",
+"roadmap_phase3_social": "Sosyal alanın lansmanı",
+"roadmap_phase3_programs": "Yardım programı • Sosyal hibe programı",
+
+"roadmap_phase4_title": "Aşama 4 — Akıllı Ekosistem",
+"roadmap_phase4_cross": "Alanlar arasında tam eşleşme",
+"roadmap_phase4_ai": "Yapay zekâ destekli öneriler",
+"roadmap_phase4_discovery": "Alanlar arası akıllı keşif",
+"roadmap_phase4_token": "Token tabanlı platform ekonomisi",
+
+"newsletter_title": "GÜNCELLEMELER İÇİN ABONE OL",
+"newsletter_success": "Artık listedesiniz!",
+"newsletter_placeholder": "E-posta adresinizi girin",
+"newsletter_button": "Beni bilgilendir",
+
+"contact_title": "İletişim",
+"contact_text": "Sorular veya iş birlikleri için bize istediğiniz zaman yazabilirsiniz.",
+
+"footer_privacy": "Gizlilik Politikası",
+"footer_terms": "Şartlar ve Koşullar",
+"footer_copy": "© 2025 Pairmo Labs SRL. Tüm hakları saklıdır."
 }
