@@ -40,6 +40,7 @@ if (langBtnName) langBtnName.textContent = name;
   }
 
 
+
   function setLanguage(lang) {
   try {
     localStorage.setItem("selectedLang", lang);
@@ -47,13 +48,39 @@ if (langBtnName) langBtnName.textContent = name;
 
   document.documentElement.lang = lang;
 
-  typingStarted = false;   // reset typing
+  typingStarted = false;
 
   if(typeTarget){
-    typeTarget.textContent = "";   // 🔹 șterge textul typing
+    typeTarget.textContent = "";
   }
 
   loadLanguage(lang);
+
+  // 🔹 dacă userul este deja la hero
+  if(typeTarget){
+
+    const rect = typeTarget.getBoundingClientRect();
+    const inView = rect.top < window.innerHeight && rect.bottom > 0;
+
+    if(inView){
+
+      const lang = localStorage.getItem("selectedLang") || "en";
+
+      fetch(`lang/${lang}.json`)
+      .then(res => res.json())
+      .then(dict => {
+
+        if(dict.hero_typing){
+          startTyping(dict.hero_typing);
+          typingStarted = true;
+        }
+
+      });
+
+    }
+
+  }
+
   }
 
   function applyTranslations(dict){
