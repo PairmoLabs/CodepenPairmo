@@ -23,18 +23,18 @@
   "menu_what": "O que é Pairmo",
   "menu_how": "Como funciona",
   "menu_inside": "Dentro do Pairmo",
-  "menu_roadmap": "Roteiro",
+  "menu_roadmap": "Plano de desenvolvimento",
   "menu_ecosystem": "O ecossistema",
   "menu_waitlist": "Lista de espera",
   "menu_contact": "Contato",
 
   "brand_name": "PAIRMO",
 
-  "hero_title_line1": "A",
-  "hero_title_line2": "experiência",
-  "hero_title_line3": "de deslizar",
+  "hero_title_line1": "Experiência",
+  "hero_title_line2": "de",
+  "hero_title_line3": "deslizar",
 
-  "hero_typing": "Deslize • Combine • Conecte",
+  "hero_typing": "Deslizar • Combinar • Conectar",
 
   "platform_title": "A plataforma",
 
@@ -46,27 +46,85 @@
 
   "what_card1_p3": "Pairmo reúne empregos, parceiros de viagem, serviços, animais de estimação, alugueres e colaborações empresariais numa única plataforma.",
 
-  "what_card2_title": "O problema que o Pairmo resolve",
+  "what_card2_title": "O problema que Pairmo resolve",
 
   "what_card2_p1": "A maioria das plataformas funciona apenas numa direção: ou procuras ou publicas.",
 
   "what_card2_p2": "Pairmo resolve o problema das plataformas fragmentadas.",
 
-  "what_card2_p3": "Os utilizadores podem encontrar parceiros, clientes, serviços ou comunidades em segundos.",
+  "what_card2_p3": "Os utilizadores podem encontrar parceiros, clientes, serviços ou comunidades em poucos segundos.",
+
+  "what_card3_title": "Como Pairmo conecta oportunidades",
+
+  "what_card3_p1": "Os utilizadores criam cartões que descrevem o que oferecem ou o que procuram.",
+
+  "what_card3_p2": "A plataforma mostra oportunidades relevantes através de um sistema inteligente de descoberta baseado em deslizar.",
+
+  "what_card3_p3": "Quando os interesses coincidem, surge uma correspondência e os utilizadores podem iniciar a colaboração.",
 
   "how_title": "Como funciona o Pairmo",
   "how_subtitle": "Um fluxo simples baseado em deslizar para necessidades reais.",
 
   "how_swipe_title": "Deslizar",
-  "how_swipe_text": "Descobre pessoas, serviços e oportunidades em vários domínios.",
+  "how_swipe_text": "Descobre pessoas, serviços e oportunidades.",
 
   "how_match_title": "Correspondência",
-  "how_match_text": "Quando os interesses coincidem, o Pairmo cria uma ligação instantânea.",
+  "how_match_text": "Quando os interesses coincidem, Pairmo cria instantaneamente uma ligação.",
 
   "how_connect_title": "Conectar",
   "how_connect_text": "Inicia conversas e transforma correspondências em planos reais.",
 
-  "newsletter_title": "SUBSCREVE AS ATUALIZAÇÕES",
+  "inside_title": "Dentro do Pairmo",
+
+  "inside_subtitle": "Descobre como Pairmo conecta pessoas, serviços e oportunidades através de uma experiência simples de deslizar.",
+
+  "inside_step1_title": "Explora domínios",
+  "inside_step1_text": "Começa escolhendo o domínio que corresponde à tua necessidade.",
+
+  "inside_step2_title": "Cria o teu cartão",
+  "inside_step2_text": "Descreve o que ofereces ou o que procuras.",
+
+  "inside_step3_title": "Descobre oportunidades",
+  "inside_step3_text": "Descobre cartões relevantes através da interface de deslizar.",
+
+  "inside_swipe_hint": "← Desliza →",
+
+  "inside_step4_title": "Gere tudo",
+  "inside_step4_text": "Acede ao teu centro de controlo para gerir conexões e conversas.",
+
+  "roadmap_title": "Plano de desenvolvimento do Pairmo",
+  "roadmap_subtitle": "A evolução do Pairmo para um ecossistema global multidomínio.",
+
+  "roadmap_phase1_title": "Fase 1 — Lançamento do produto",
+  "roadmap_phase1_modes": "Todos os modos de correspondência ativos",
+  "roadmap_phase1_modes_list": "Individual • Equipa • Organizador de grupo",
+
+  "roadmap_phase1_domains_label": "Domínios principais",
+  "roadmap_phase1_domains_list": "Empregos • Viagens • Serviços • Animais de estimação • Desporto",
+
+  "roadmap_phase1_wallet": "Carteira digital",
+  "roadmap_phase1_rating": "Sistema de avaliação de utilizadores",
+  "roadmap_phase1_powerzone": "Sistema de monetização",
+
+  "roadmap_phase2_title": "Fase 2 — Expansão global",
+  "roadmap_phase2_domains_label": "Novos domínios",
+  "roadmap_phase2_matching": "Algoritmos avançados de correspondência",
+  "roadmap_phase2_features": "Funcionalidades premium adicionais",
+  "roadmap_phase2_planning": "Ferramentas avançadas de planeamento",
+
+  "roadmap_phase3_title": "Fase 3 — Economia e impacto social",
+  "roadmap_phase3_transactions": "Transações geridas pela plataforma para serviços e mobilidade",
+  "roadmap_phase3_booking": "Sistemas de reserva e coordenação",
+  "roadmap_phase3_social": "Lançamento do domínio social",
+  "roadmap_phase3_programs": "Programa de ajuda • Programa de bolsas sociais",
+
+  "roadmap_phase4_title": "Fase 4 — Ecossistema inteligente",
+  "roadmap_phase4_cross": "Correspondência completa entre domínios",
+  "roadmap_phase4_ai": "Recomendações assistidas por inteligência artificial",
+  "roadmap_phase4_discovery": "Descoberta inteligente entre domínios",
+  "roadmap_phase4_token": "Economia de plataforma baseada em token",
+
+  "newsletter_title": "SUBSCREVE AS NOVIDADES",
   "newsletter_success": "Agora estás na lista!",
   "newsletter_placeholder": "Introduz o teu email",
   "newsletter_button": "Notifica-me",
