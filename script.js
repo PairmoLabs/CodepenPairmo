@@ -467,3 +467,15 @@ startTyping(dict.hero_typing);
 if(typeTarget){
 typingObserver.observe(typeTarget);
 }
+document.addEventListener("DOMContentLoaded", function() {
+
+if (!localStorage.getItem("cookieConsent")) {
+document.getElementById("cookie-banner").style.display = "block";
+}
+
+document.getElementById("accept-cookies").onclick = function() {
+localStorage.setItem("cookieConsent", "true");
+document.getElementById("cookie-banner").style.display = "none";
+};
+
+});
