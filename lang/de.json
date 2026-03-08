@@ -1,170 +1,139 @@
 {
-"lang_current_name": "Deutsch",
+  "lang_current_name": "Deutsch",
 
-"lang_en": "Englisch",
-"lang_ro": "Rumänisch",
-"lang_fr": "Französisch",
-"lang_it": "Italienisch",
-"lang_de": "Deutsch",
-"lang_es": "Spanisch",
-"lang_ru": "Russisch",
-"lang_pt": "Portugiesisch",
-"lang_zh": "Chinesisch",
-"lang_hi": "Hindi",
-"lang_ar": "Arabisch",
-"lang_hu": "Ungarisch",
-"lang_pl": "Polnisch",
-"lang_uk": "Ukrainisch",
-"lang_nl": "Niederländisch",
-"lang_el": "Griechisch",
-"lang_tr": "Türkisch",
+  "lang_en": "Englisch",
+  "lang_ro": "Rumänisch",
+  "lang_fr": "Französisch",
+  "lang_it": "Italienisch",
+  "lang_de": "Deutsch",
+  "lang_es": "Spanisch",
+  "lang_ru": "Russisch",
+  "lang_pt": "Portugiesisch",
+  "lang_zh": "Chinesisch",
+  "lang_hi": "Hindi",
+  "lang_ar": "Arabisch",
+  "lang_hu": "Ungarisch",
+  "lang_pl": "Polnisch",
+  "lang_uk": "Ukrainisch",
+  "lang_nl": "Niederländisch",
+  "lang_el": "Griechisch",
+  "lang_tr": "Türkisch",
 
-"menu_home": "Startseite",
-"menu_what": "Was ist Pairmo",
-"menu_how": "Wie es funktioniert",
-"menu_inside": "Inside Pairmo",
-"menu_roadmap": "Roadmap",
-"menu_ecosystem": "Das Ökosystem",
-"menu_waitlist": "Warteliste beitreten",
-"menu_contact": "Kontakt",
+  "menu_home": "Startseite",
+  "menu_what": "Was ist Pairmo",
+  "menu_how": "Wie es funktioniert",
+  "menu_inside": "Im Inneren von Pairmo",
+  "menu_roadmap": "Fahrplan",
+  "menu_ecosystem": "Das Ökosystem",
+  "menu_waitlist": "Warteliste",
+  "menu_contact": "Kontakt",
 
-"brand_name": "PAIRMO",
+  "brand_name": "PAIRMO",
 
-"hero_title_line1": "Die",
-"hero_title_line2": "Swipe",
-"hero_title_line3": "Erfahrung",
+  "hero_title_line1": "Die",
+  "hero_title_line2": "Wisch",
+  "hero_title_line3": "Erfahrung",
 
-"hero_typing": "Wischen. Verbinden. Entdecken.",
+  "hero_typing": "Wischen • Verbinden • Zusammenarbeiten",
 
-"platform_title": "Die Plattform",
+  "platform_title": "Die Plattform",
 
-"what_card1_title": "Was ist Pairmo?",
+  "what_card1_title": "Was ist Pairmo?",
 
-"what_card1_p1": "Pairmo ist eine Multi-Domain Swipe-Matching-Plattform, die Menschen, Dienstleistungen und Möglichkeiten verbindet.",
+  "what_card1_p1": "Pairmo ist eine plattformübergreifende Vermittlungsplattform auf Wischbasis, die Menschen, Dienstleistungen und Möglichkeiten verbindet.",
 
-"what_card1_p2": "Anstatt lange Anzeigenlisten zu durchsuchen oder auf Antworten zu warten, entdecken Nutzer Möglichkeiten sofort durch das Durchswipen von Karten.",
+  "what_card1_p2": "Anstatt lange Listen von Anzeigen zu durchsuchen oder auf Antworten zu warten, entdecken Nutzer Möglichkeiten sofort durch das Wischen von Karten.",
 
-"what_card1_p3": "Pairmo vereint Jobs, Reisepartner, Dienstleistungen, Haustiere, Vermietungen und Geschäftspartnerschaften auf einer einzigen Plattform.",
+  "what_card1_p3": "Pairmo vereint Arbeitsmöglichkeiten, Reisepartner, Dienstleistungen, Haustiere, Vermietungen und geschäftliche Kooperationen auf einer einzigen Plattform.",
 
-"what_card2_title": "Das Problem, das Pairmo löst",
+  "what_card2_title": "Das Problem, das Pairmo löst",
 
-"what_card2_p1": "Heute funktionieren die meisten Plattformen nur in eine Richtung: entweder man sucht oder man veröffentlicht.",
+  "what_card2_p1": "Heute funktionieren die meisten Plattformen nur in eine Richtung: Entweder man sucht oder man veröffentlicht.",
 
-"what_card2_p2": "Pairmo löst das Problem fragmentierter Plattformen.",
+  "what_card2_p2": "Pairmo löst das Problem fragmentierter Plattformen.",
 
-"what_card2_p3": "Nutzer können Partner, Kunden, Dienstleistungen oder Communities in Sekunden finden.",
+  "what_card2_p3": "Nutzer können Partner, Kunden, Dienstleistungen oder Gemeinschaften in wenigen Sekunden finden.",
 
-"what_card3_title": "Wie Pairmo Möglichkeiten verbindet",
+  "what_card3_title": "Wie Pairmo Möglichkeiten verbindet",
 
-"what_card3_p1": "Nutzer erstellen Karten, die beschreiben, was sie anbieten oder suchen.",
+  "what_card3_p1": "Nutzer erstellen Karten, die beschreiben, was sie anbieten oder was sie suchen.",
 
-"what_card3_p2": "Die Plattform zeigt relevante Möglichkeiten durch ein intelligentes Swipe-Discovery-System.",
+  "what_card3_p2": "Die Plattform zeigt relevante Möglichkeiten durch ein intelligentes Entdeckungssystem auf Wischbasis.",
 
-"what_card3_p3": "Wenn Interessen übereinstimmen, entsteht ein Match und Nutzer können zusammenarbeiten.",
+  "what_card3_p3": "Wenn Interessen übereinstimmen, entsteht eine Verbindung und die Nutzer können zusammenarbeiten.",
 
-"how_title": "Wie Pairmo funktioniert",
+  "how_title": "Wie Pairmo funktioniert",
 
-"how_subtitle": "Ein einfacher Swipe-Flow für reale Bedürfnisse.",
+  "how_subtitle": "Ein einfacher Ablauf auf Wischbasis für reale Bedürfnisse.",
 
-"how_swipe_title": "Wischen",
+  "how_swipe_title": "Wischen",
+  "how_swipe_text": "Entdecken Sie Menschen, Dienstleistungen und Möglichkeiten in verschiedenen Bereichen.",
 
-"how_swipe_text": "Entdecke Menschen, Dienstleistungen und Möglichkeiten in mehreren Bereichen.",
+  "how_match_title": "Verbinden",
+  "how_match_text": "Wenn Interessen übereinstimmen, stellt Pairmo sofort eine Verbindung her.",
 
-"how_match_title": "Matchen",
+  "how_connect_title": "Kommunizieren",
+  "how_connect_text": "Beginnen Sie Gespräche und verwandeln Sie Verbindungen in echte Pläne und Erfahrungen.",
 
-"how_match_text": "Wenn Interessen übereinstimmen, erstellt Pairmo sofort eine Verbindung.",
+  "inside_title": "Im Inneren von Pairmo",
 
-"how_connect_title": "Verbinden",
+  "inside_subtitle": "Entdecken Sie, wie Pairmo Menschen, Dienstleistungen und Möglichkeiten durch eine einfache Wischerfahrung verbindet.",
 
-"how_connect_text": "Beginne Gespräche und verwandle Matches in echte Pläne und Erfahrungen.",
+  "inside_step1_title": "Bereiche erkunden",
+  "inside_step1_text": "Beginnen Sie mit der Auswahl des Bereichs, der Ihrem Bedürfnis entspricht.",
 
-"inside_title": "Inside Pairmo",
+  "inside_step2_title": "Ihre Karte erstellen",
+  "inside_step2_text": "Beschreiben Sie, was Sie anbieten oder was Sie suchen.",
 
-"inside_subtitle": "Entdecke, wie Pairmo Menschen, Dienstleistungen und Möglichkeiten durch eine einfache Swipe-Erfahrung verbindet.",
+  "inside_step3_title": "Möglichkeiten entdecken",
+  "inside_step3_text": "Entdecken Sie relevante Karten durch die Wischoberfläche.",
 
-"inside_step1_title": "Domains entdecken",
+  "inside_swipe_hint": "← Wischen →",
 
-"inside_step1_text": "Wähle zuerst den Bereich, der zu deinem Bedürfnis passt.",
+  "inside_step4_title": "Alles verwalten",
+  "inside_step4_text": "Greifen Sie auf Ihr persönliches Steuerzentrum zu, um Verbindungen und Gespräche zu verwalten.",
 
-"inside_step2_title": "Erstelle deine Karte",
+  "roadmap_title": "Fahrplan von Pairmo",
+  "roadmap_subtitle": "Die Entwicklung von Pairmo zu einem globalen plattformübergreifenden Ökosystem.",
 
-"inside_step2_text": "Beschreibe, was du anbietest oder suchst.",
+  "roadmap_phase1_title": "Phase 1 — Produkteinführung",
+  "roadmap_phase1_modes": "Alle Vermittlungsarten aktiv",
+  "roadmap_phase1_modes_list": "Einzeln • Gruppe • Gruppenorganisation",
 
-"inside_step3_title": "Möglichkeiten swipen",
-
-"inside_step3_text": "Entdecke relevante Karten über die Swipe-Oberfläche.",
-
-"inside_swipe_hint": "← Wische →",
-
-"inside_step4_title": "Alles verwalten",
-
-"inside_step4_text": "Greife auf dein Dashboard zu, um Matches und Gespräche zu verwalten.",
-
-"roadmap_title": "Pairmo Roadmap",
-
-"roadmap_subtitle": "Die Entwicklung von Pairmo zu einem globalen Multi-Domain-Ökosystem.",
-
-"roadmap_phase1_title": "Phase 1 — Produktstart",
-
-"roadmap_phase1_modes": "Alle Matching-Modi aktiv",
-
-"roadmap_phase1_modes_list": "Solo • Crew • Group Planner",
-
-"roadmap_phase1_domains_label": "Kernbereiche",
-
-"roadmap_phase1_domains_list": "JobsMatch • TravelMatch • ServicesMatch • PetsMatch • SportsMatch",
-
-"roadmap_phase1_wallet": "Pairmo Wallet",
-
-"roadmap_phase1_rating": "Benutzerbewertungssystem",
-
-"roadmap_phase1_powerzone": "PowerZone Monetarisierungssystem",
-
-"roadmap_phase2_title": "Phase 2 — Globale Expansion",
-
-"roadmap_phase2_domains_label": "Neue Domains",
-
-"roadmap_phase2_matching": "Erweiterte Matching-Algorithmen",
-
-"roadmap_phase2_features": "Zusätzliche Premium-Funktionen",
-
-"roadmap_phase2_planning": "Erweiterte Planungstools",
-
-"roadmap_phase3_title": "Phase 3 — Pairmo Economy & Social Impact",
-
-"roadmap_phase3_transactions": "Plattformabwicklung von Transaktionen für Dienstleistungen und Mobilität",
-
-"roadmap_phase3_booking": "Buchungs- und Fahrkoordination",
-
-"roadmap_phase3_social": "Start der Social-Domain",
-
-"roadmap_phase3_programs": "Pairmo For Help • Pairmo Social Grant Program",
-
-"roadmap_phase4_title": "Phase 4 — Intelligentes Ökosystem",
-
-"roadmap_phase4_cross": "Vollständiges Cross-Domain Matching",
-
-"roadmap_phase4_ai": "KI-gestützte Empfehlungen",
-
-"roadmap_phase4_discovery": "Intelligente Domain-übergreifende Entdeckung",
-
-"roadmap_phase4_token": "Tokenisierte Plattformökonomie",
-
-"newsletter_title": "Abonniere unseren Newsletter",
-
-"newsletter_success": "Du bist jetzt auf der Liste!",
-
-"newsletter_placeholder": "Gib deine E-Mail ein...",
-
-"newsletter_button": "Benachrichtige mich",
-
-"contact_title": "Kontakt",
-
-"contact_text": "Fragen, Partnerschaften oder Early Access? Kontaktiere uns jederzeit.",
-
-"footer_privacy": "Datenschutzrichtlinie",
-
-"footer_terms": "Allgemeine Geschäftsbedingungen",
-
-"footer_copy": "© 2025 Pairmo Labs SRL. Alle Rechte vorbehalten."
+  "roadmap_phase1_domains_label": "Hauptbereiche",
+  "roadmap_phase1_domains_list": "Arbeit • Reisen • Dienstleistungen • Haustiere • Sport",
+
+  "roadmap_phase1_wallet": "Digitales Guthaben",
+  "roadmap_phase1_rating": "Nutzerbewertungssystem",
+  "roadmap_phase1_powerzone": "Monetarisierungssystem",
+
+  "roadmap_phase2_title": "Phase 2 — Globale Erweiterung",
+  "roadmap_phase2_domains_label": "Neue Bereiche",
+  "roadmap_phase2_matching": "Fortgeschrittene Vermittlungsalgorithmen",
+  "roadmap_phase2_features": "Zusätzliche Premiumfunktionen",
+  "roadmap_phase2_planning": "Fortgeschrittene Planungswerkzeuge",
+
+  "roadmap_phase3_title": "Phase 3 — Wirtschaft und sozialer Einfluss",
+  "roadmap_phase3_transactions": "Plattformverwaltete Transaktionen für Dienstleistungen und Mobilität",
+  "roadmap_phase3_booking": "Buchungs- und Koordinierungssysteme",
+  "roadmap_phase3_social": "Einführung des sozialen Bereichs",
+  "roadmap_phase3_programs": "Hilfsprogramm • Sozialförderprogramm",
+
+  "roadmap_phase4_title": "Phase 4 — Intelligentes Ökosystem",
+  "roadmap_phase4_cross": "Vollständige Vermittlung zwischen Bereichen",
+  "roadmap_phase4_ai": "Empfehlungen durch künstliche Intelligenz",
+  "roadmap_phase4_discovery": "Intelligente Entdeckung zwischen Bereichen",
+  "roadmap_phase4_token": "Tokenbasierte Plattformwirtschaft",
+
+  "newsletter_title": "ABONNIEREN SIE UNSEREN NEWSLETTER",
+  "newsletter_success": "Sie stehen jetzt auf der Liste!",
+  "newsletter_placeholder": "E-Mail-Adresse eingeben",
+  "newsletter_button": "Benachrichtige mich",
+
+  "contact_title": "Kontakt",
+  "contact_text": "Fragen, Partnerschaften oder früher Zugang? Schreiben Sie uns jederzeit.",
+
+  "footer_privacy": "Datenschutzrichtlinie",
+  "footer_terms": "Allgemeine Geschäftsbedingungen",
+  "footer_copy": "© 2025 Pairmo Labs SRL. Alle Rechte vorbehalten."
 }
