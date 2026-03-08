@@ -1229,3 +1229,70 @@ font-size:15px;
 
 }
 /* force github pages redeploy 2 */
+/* COOKIE BANNER */
+
+.cookie-banner{
+position:fixed;
+bottom:20px;
+left:50%;
+transform:translateX(-50%);
+width:92%;
+max-width:850px;
+background:#0f1115;
+border-radius:14px;
+padding:18px 20px;
+z-index:9999;
+display:none;
+box-shadow:0 15px 40px rgba(0,0,0,0.55);
+border:1px solid rgba(255,255,255,0.08);
+}
+
+.cookie-content{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:20px;
+flex-wrap:wrap;
+position:relative;
+}
+
+.cookie-text strong{
+font-size:16px;
+}
+
+.cookie-text p{
+font-size:14px;
+opacity:0.8;
+margin-top:4px;
+}
+
+.cookie-text a{
+color:#00e0b9;
+text-decoration:none;
+}
+
+.cookie-accept{
+background:#00e0b9;
+color:#000;
+border:none;
+padding:10px 18px;
+border-radius:8px;
+cursor:pointer;
+font-weight:600;
+}
+
+.cookie-close{
+position:absolute;
+top:-8px;
+right:-8px;
+background:transparent;
+border:none;
+color:#aaa;
+font-size:14px;
+cursor:pointer;
+opacity:0.6;
+}
+
+.cookie-close:hover{
+opacity:1;
+}
