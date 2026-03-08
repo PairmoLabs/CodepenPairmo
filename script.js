@@ -251,10 +251,11 @@ const menu = document.querySelector(".menu");
 if (burger && menu) {
 
   burger.addEventListener("click", (e) => {
-  // dacă ai dat click în interiorul meniului, nu toggla burger-ul
+  e.stopPropagation();
   if (e.target.closest(".menu")) return;
   menu.classList.toggle("open");
 });
+  
 document.addEventListener("click", (e) => {
 
   if (!menu.classList.contains("open")) return;
