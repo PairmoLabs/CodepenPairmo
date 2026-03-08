@@ -34,7 +34,7 @@
   "hero_title_line2": "de",
   "hero_title_line3": "glisare",
 
-  "hero_typing": "Glisează • Potrivește • Conectează",
+  "hero_typing": "Glisare • Potrivire • Conectare",
 
   "platform_title": "Platforma",
 
@@ -54,6 +54,14 @@
 
   "what_card2_p3": "Utilizatorii pot găsi parteneri, clienți, servicii sau comunități în câteva secunde.",
 
+  "what_card3_title": "Cum conectează Pairmo oportunitățile",
+
+  "what_card3_p1": "Utilizatorii creează carduri care descriu ce oferă sau ce caută.",
+
+  "what_card3_p2": "Platforma afișează oportunități relevante printr-un sistem inteligent de descoperire bazat pe glisare.",
+
+  "what_card3_p3": "Când interesele coincid, apare o potrivire și utilizatorii pot începe colaborarea.",
+
   "how_title": "Cum funcționează Pairmo",
   "how_subtitle": "Un flux simplu bazat pe glisare pentru nevoi reale.",
 
@@ -65,6 +73,56 @@
 
   "how_connect_title": "Conectare",
   "how_connect_text": "Începe conversații și transformă potrivirile în planuri reale.",
+
+  "inside_title": "În interiorul Pairmo",
+
+  "inside_subtitle": "Descoperă cum Pairmo conectează oameni, servicii și oportunități printr-o experiență simplă de glisare.",
+
+  "inside_step1_title": "Explorează domenii",
+  "inside_step1_text": "Începe alegând domeniul care corespunde nevoii tale.",
+
+  "inside_step2_title": "Creează cardul tău",
+  "inside_step2_text": "Descrie ce oferi sau ce cauți.",
+
+  "inside_step3_title": "Descoperă oportunități",
+  "inside_step3_text": "Descoperă carduri relevante prin interfața de glisare.",
+
+  "inside_swipe_hint": "← Glisează →",
+
+  "inside_step4_title": "Gestionează totul",
+  "inside_step4_text": "Accesează centrul tău de control pentru a gestiona conexiuni și conversații.",
+
+  "roadmap_title": "Planul de dezvoltare Pairmo",
+  "roadmap_subtitle": "Evoluția Pairmo către un ecosistem global multi-domeniu.",
+
+  "roadmap_phase1_title": "Faza 1 — Lansarea produsului",
+  "roadmap_phase1_modes": "Toate modurile de potrivire active",
+  "roadmap_phase1_modes_list": "Individual • Echipă • Organizator de grup",
+
+  "roadmap_phase1_domains_label": "Domenii principale",
+  "roadmap_phase1_domains_list": "Joburi • Călătorii • Servicii • Animale de companie • Sport",
+
+  "roadmap_phase1_wallet": "Portofel digital",
+  "roadmap_phase1_rating": "Sistem de evaluare utilizatori",
+  "roadmap_phase1_powerzone": "Sistem de monetizare",
+
+  "roadmap_phase2_title": "Faza 2 — Extindere globală",
+  "roadmap_phase2_domains_label": "Domenii noi",
+  "roadmap_phase2_matching": "Algoritmi avansați de potrivire",
+  "roadmap_phase2_features": "Funcționalități premium suplimentare",
+  "roadmap_phase2_planning": "Instrumente avansate de planificare",
+
+  "roadmap_phase3_title": "Faza 3 — Economie și impact social",
+  "roadmap_phase3_transactions": "Tranzacții gestionate de platformă pentru servicii și mobilitate",
+  "roadmap_phase3_booking": "Sisteme de rezervare și coordonare",
+  "roadmap_phase3_social": "Lansarea domeniului social",
+  "roadmap_phase3_programs": "Program de ajutor • Program de granturi sociale",
+
+  "roadmap_phase4_title": "Faza 4 — Ecosistem inteligent",
+  "roadmap_phase4_cross": "Potrivire completă între domenii",
+  "roadmap_phase4_ai": "Recomandări asistate de inteligență artificială",
+  "roadmap_phase4_discovery": "Descoperire inteligentă între domenii",
+  "roadmap_phase4_token": "Economie de platformă bazată pe token",
 
   "newsletter_title": "ABONEAZĂ-TE LA NOUTĂȚI",
   "newsletter_success": "Acum ești pe listă!",
