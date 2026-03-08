@@ -1,7 +1,7 @@
 {
-  "lang_current_name": "Nederlands",
+"lang_current_name": "Nederlands",
 
-  "lang_en": "English",
+"lang_en": "English",
 "lang_ro": "Română",
 "lang_fr": "Français",
 "lang_it": "Italiano",
@@ -19,62 +19,120 @@
 "lang_el": "Ελληνικά",
 "lang_tr": "Türkçe",
 
-  "menu_home": "Home",
-  "menu_what": "Wat is Pairmo",
-  "menu_how": "Hoe het werkt",
-  "menu_inside": "Binnen Pairmo",
-  "menu_roadmap": "Routekaart",
-  "menu_ecosystem": "Het ecosysteem",
-  "menu_waitlist": "Wachtlijst",
-  "menu_contact": "Contact",
+"menu_home": "Home",
+"menu_what": "Wat is Pairmo",
+"menu_how": "Hoe werkt het",
+"menu_inside": "Binnen Pairmo",
+"menu_roadmap": "Ontwikkelingsplan",
+"menu_ecosystem": "Ecosysteem",
+"menu_waitlist": "Wachtlijst",
+"menu_contact": "Contact",
 
-  "brand_name": "PAIRMO",
+"brand_name": "PAIRMO",
 
-  "hero_title_line1": "De",
-  "hero_title_line2": "swipe",
-  "hero_title_line3": "ervaring",
+"hero_title_line1": "De",
+"hero_title_line2": "swipe",
+"hero_title_line3": "ervaring",
 
-  "hero_typing": "Swipe • Match • Verbind",
+"hero_typing": "Swipe • Match • Connect",
 
-  "platform_title": "Het platform",
+"platform_title": "Platform",
 
-  "what_card1_title": "Wat is Pairmo?",
+"what_card1_title": "Wat is Pairmo?",
 
-  "what_card1_p1": "Pairmo is een multi-domein swipe matching platform dat mensen, diensten en kansen met elkaar verbindt.",
+"what_card1_p1": "Pairmo is een multidomein swipe-gebaseerd matchingplatform dat mensen, diensten en kansen met elkaar verbindt.",
 
-  "what_card1_p2": "In plaats van lange lijsten met advertenties te doorzoeken of op reacties te wachten, ontdekken gebruikers direct kansen door door kaarten te swipen.",
+"what_card1_p2": "In plaats van lange lijsten met advertenties te doorzoeken of op antwoorden te wachten, ontdekken gebruikers direct kansen door kaarten te swipen.",
 
-  "what_card1_p3": "Pairmo brengt banen, reispartners, diensten, huisdieren, verhuur en zakelijke samenwerkingen samen op één platform.",
+"what_card1_p3": "Pairmo brengt banen, reispartners, diensten, huisdieren, verhuur en zakelijke samenwerkingen samen op één platform.",
 
-  "what_card2_title": "Het probleem dat Pairmo oplost",
+"what_card2_title": "Het probleem dat Pairmo oplost",
 
-  "what_card2_p1": "De meeste platforms werken slechts in één richting: je zoekt of je plaatst.",
+"what_card2_p1": "De meeste platforms werken slechts in één richting: je zoekt of je plaatst.",
 
-  "what_card2_p2": "Pairmo lost het probleem van gefragmenteerde platforms op.",
+"what_card2_p2": "Pairmo lost het probleem van gefragmenteerde platforms op.",
 
-  "what_card2_p3": "Gebruikers kunnen binnen enkele seconden partners, klanten, diensten of communities vinden.",
+"what_card2_p3": "Gebruikers kunnen binnen enkele seconden partners, klanten, diensten of communities vinden.",
 
-  "how_title": "Hoe Pairmo werkt",
-  "how_subtitle": "Een eenvoudige swipe-flow voor echte behoeften.",
+"what_card3_title": "Hoe Pairmo kansen verbindt",
 
-  "how_swipe_title": "Swipe",
-  "how_swipe_text": "Ontdek mensen, diensten en kansen in meerdere domeinen.",
+"what_card3_p1": "Gebruikers maken kaarten die beschrijven wat ze aanbieden of waarnaar ze op zoek zijn.",
 
-  "how_match_title": "Match",
-  "how_match_text": "Wanneer interesses overeenkomen, creëert Pairmo direct een verbinding.",
+"what_card3_p2": "Het platform toont relevante kansen via een slim swipe-gebaseerd ontdekkingssysteem.",
 
-  "how_connect_title": "Verbinden",
-  "how_connect_text": "Start gesprekken en verander matches in echte plannen.",
+"what_card3_p3": "Wanneer interesses overeenkomen ontstaat er een match en kunnen gebruikers een samenwerking starten.",
 
-  "newsletter_title": "ABONNEER OP UPDATES",
-  "newsletter_success": "Je staat nu op de lijst!",
-  "newsletter_placeholder": "Voer je e-mailadres in",
-  "newsletter_button": "Informeer mij",
+"how_title": "Hoe Pairmo werkt",
+"how_subtitle": "Een eenvoudige swipe-flow voor echte behoeften.",
 
-  "contact_title": "Contact",
-  "contact_text": "Vragen of samenwerkingen? Neem op elk moment contact met ons op.",
+"how_swipe_title": "Swipe",
+"how_swipe_text": "Ontdek mensen, diensten en kansen.",
 
-  "footer_privacy": "Privacybeleid",
-  "footer_terms": "Algemene voorwaarden",
-  "footer_copy": "© 2025 Pairmo Labs SRL. Alle rechten voorbehouden."
+"how_match_title": "Match",
+"how_match_text": "Wanneer interesses overeenkomen creëert Pairmo direct een verbinding.",
+
+"how_connect_title": "Connect",
+"how_connect_text": "Start gesprekken en verander matches in echte plannen.",
+
+"inside_title": "Binnen Pairmo",
+
+"inside_subtitle": "Ontdek hoe Pairmo mensen, diensten en kansen verbindt via een eenvoudige swipe-ervaring.",
+
+"inside_step1_title": "Ontdek domeinen",
+"inside_step1_text": "Begin door het domein te kiezen dat bij jouw behoefte past.",
+
+"inside_step2_title": "Maak je kaart",
+"inside_step2_text": "Beschrijf wat je aanbiedt of waarnaar je op zoek bent.",
+
+"inside_step3_title": "Ontdek kansen",
+"inside_step3_text": "Ontdek relevante kaarten via de swipe-interface.",
+
+"inside_swipe_hint": "← Swipe →",
+
+"inside_step4_title": "Beheer alles",
+"inside_step4_text": "Ga naar je controlecentrum om verbindingen en gesprekken te beheren.",
+
+"roadmap_title": "Pairmo ontwikkelingsplan",
+"roadmap_subtitle": "De evolutie van Pairmo naar een wereldwijd multidomein ecosysteem.",
+
+"roadmap_phase1_title": "Fase 1 — Productlancering",
+"roadmap_phase1_modes": "Alle matchingsmodi actief",
+"roadmap_phase1_modes_list": "Solo • Team • Groepsorganisator",
+
+"roadmap_phase1_domains_label": "Belangrijkste domeinen",
+"roadmap_phase1_domains_list": "Jobs • Reizen • Diensten • Huisdieren • Sport",
+
+"roadmap_phase1_wallet": "Digitale wallet",
+"roadmap_phase1_rating": "Gebruikersbeoordelingssysteem",
+"roadmap_phase1_powerzone": "Monetisatiesysteem",
+
+"roadmap_phase2_title": "Fase 2 — Wereldwijde uitbreiding",
+"roadmap_phase2_domains_label": "Nieuwe domeinen",
+"roadmap_phase2_matching": "Geavanceerde matchingalgoritmen",
+"roadmap_phase2_features": "Extra premium functies",
+"roadmap_phase2_planning": "Geavanceerde planningstools",
+
+"roadmap_phase3_title": "Fase 3 — Economie en sociale impact",
+"roadmap_phase3_transactions": "Door het platform beheerde transacties voor diensten en mobiliteit",
+"roadmap_phase3_booking": "Boekings- en coördinatiesystemen",
+"roadmap_phase3_social": "Lancering van het sociale domein",
+"roadmap_phase3_programs": "Hulpprogramma • Sociale subsidieprogramma's",
+
+"roadmap_phase4_title": "Fase 4 — Intelligent ecosysteem",
+"roadmap_phase4_cross": "Volledige matching tussen domeinen",
+"roadmap_phase4_ai": "AI-ondersteunde aanbevelingen",
+"roadmap_phase4_discovery": "Slimme ontdekking tussen domeinen",
+"roadmap_phase4_token": "Token-gebaseerde platformeconomie",
+
+"newsletter_title": "ABONNEER OP UPDATES",
+"newsletter_success": "Je staat nu op de lijst!",
+"newsletter_placeholder": "Voer je e-mailadres in",
+"newsletter_button": "Laat het me weten",
+
+"contact_title": "Contact",
+"contact_text": "Vragen of partnerschappen? Schrijf ons op elk moment.",
+
+"footer_privacy": "Privacybeleid",
+"footer_terms": "Algemene voorwaarden",
+"footer_copy": "© 2025 Pairmo Labs SRL. Alle rechten voorbehouden."
 }
