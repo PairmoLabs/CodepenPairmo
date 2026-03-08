@@ -31,10 +31,10 @@
 "brand_name": "PAIRMO",
 
 "hero_title_line1": "Experiența",
-"hero_title_line2": "de",
-"hero_title_line3": "Glisare",
+"hero_title_line2": "Swipe",
+"hero_title_line3": "",
 
-"hero_typing": "Glisează. Potrivește. Conectează-te.",
+"hero_typing": "Glisare ● Potrivire ● Conectare",
 
 "platform_title": "Platforma",
 
@@ -56,13 +56,13 @@
 "how_title": "Cum funcționează Pairmo",
 "how_subtitle": "Un flux simplu de utilizare, creat pentru nevoi reale.",
 
-"how_swipe_title": "Glisează",
+"how_swipe_title": "Glisare",
 "how_swipe_text": "Descoperă oameni, servicii și oportunități din diferite domenii.",
 
 "how_match_title": "Potrivire",
 "how_match_text": "Când interesele coincid, Pairmo creează instant o conexiune.",
 
-"how_connect_title": "Conectează-te",
+"how_connect_title": "Conectare",
 "how_connect_text": "Pornește conversații și transformă potrivirile în planuri reale.",
 
 "inside_title": "În interiorul Pairmo",
@@ -104,7 +104,7 @@
 "roadmap_phase3_transactions": "Tranzacții gestionate direct de platformă pentru servicii și mobilitate",
 "roadmap_phase3_booking": "Sisteme integrate de rezervare și coordonare a transportului",
 "roadmap_phase3_social": "Lansarea domeniului Social",
-"roadmap_phase3_programs": "Pairmo For Help • Programul Pairmo Social Grant",
+"roadmap_phase3_programs": "Pairmo Pentru Ajutor• Programul Pairmo Granturi Sociale",
 
 "roadmap_phase4_title": "Faza 4 — Ecosistem inteligent",
 "roadmap_phase4_cross": "Potrivire între toate domeniile platformei",
@@ -112,7 +112,7 @@
 "roadmap_phase4_discovery": "Descoperire inteligentă de oportunități",
 "roadmap_phase4_token": "Economie de platformă tokenizată",
 
-"newsletter_title": "Abonează-te la newsletter",
+"newsletter_title": "Abonează-te la noutăți",
 "newsletter_success": "Ai fost adăugat pe listă!",
 "newsletter_placeholder": "Introdu adresa ta de email",
 "newsletter_button": "Anunță-mă",
@@ -122,5 +122,5 @@
 
 "footer_privacy": "Politica de confidențialitate",
 "footer_terms": "Termeni și condiții",
-"footer_copy": "© 2025 Pairmo Labs SRL. Toate drepturile rezervate."
+"footer_copy": "© 2026 Pairmo Labs SRL. Toate drepturile rezervate."
 }
