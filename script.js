@@ -46,22 +46,24 @@ if (langBtnName) langBtnName.textContent = name;
     document.documentElement.lang = lang;
     loadLanguage(lang);
   }
-function applyTranslations(dict){
+
+  function applyTranslations(dict){
 
   document.querySelectorAll("[data-i18n]").forEach(el => {
 
     const key = el.getAttribute("data-i18n");
 
-
     if(dict[key] && key !== "hero_typing"){
-el.textContent = dict[key];
+      el.textContent = dict[key];
     }
 
   });
 
-  
+  if(dict.hero_typing){
+    startTyping(dict.hero_typing);
+  }
 
-}
+  }
   // UI: dropdown
   if (langToggle && langOptions) {
     langToggle.addEventListener("click", () => {
