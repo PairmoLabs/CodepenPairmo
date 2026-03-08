@@ -82,7 +82,9 @@ startTyping(dict.hero_typing);
       if (!wrapper) return;
       if (!wrapper.contains(e.target)) wrapper.classList.remove("open");
     });
-loadLanguage("en");
+    const savedLang = localStorage.getItem("selectedLang") || "en";
+loadLanguage(savedLang);
+
   }
 
   /**
