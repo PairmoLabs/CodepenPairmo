@@ -42,6 +42,7 @@ if (langBtnName) langBtnName.textContent = name;
     try {
       localStorage.setItem("selectedLang", lang);
     } catch (_) {}
+    document.documentElement.lang = lang;
     loadLanguage(lang);
   }
 function applyTranslations(dict){
