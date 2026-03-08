@@ -255,7 +255,15 @@ if (burger && menu) {
   if (e.target.closest(".menu")) return;
   menu.classList.toggle("open");
 });
+document.addEventListener("click", (e) => {
 
+  if (!menu.classList.contains("open")) return;
+
+  if (!menu.contains(e.target) && !burger.contains(e.target)) {
+    menu.classList.remove("open");
+  }
+
+});
 }
 
 /* =========================
