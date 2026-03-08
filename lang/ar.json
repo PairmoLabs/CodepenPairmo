@@ -23,7 +23,7 @@
   "menu_what": "ما هو Pairmo",
   "menu_how": "كيف يعمل",
   "menu_inside": "داخل Pairmo",
-  "menu_roadmap": "خريطة الطريق",
+  "menu_roadmap": "خطة التطوير",
   "menu_ecosystem": "النظام البيئي",
   "menu_waitlist": "قائمة الانتظار",
   "menu_contact": "اتصل بنا",
@@ -31,48 +31,106 @@
   "brand_name": "PAIRMO",
 
   "hero_title_line1": "تجربة",
-  "hero_title_line2": "التمرير",
-  "hero_title_line3": "الجديدة",
+  "hero_title_line2": "السحب",
+  "hero_title_line3": "والتصفح",
 
-  "hero_typing": "اسحب • طابق • تواصل",
+  "hero_typing": "اسحب • تطابق • تواصل",
 
   "platform_title": "المنصة",
 
   "what_card1_title": "ما هو Pairmo؟",
 
-  "what_card1_p1": "Pairmo هي منصة مطابقة متعددة المجالات تعتمد على التمرير وتربط بين الأشخاص والخدمات والفرص.",
+  "what_card1_p1": "Pairmo هي منصة مطابقة متعددة المجالات تعتمد على السحب وتربط بين الأشخاص والخدمات والفرص.",
 
-  "what_card1_p2": "بدلاً من تصفح قوائم طويلة من الإعلانات أو انتظار الردود، يكتشف المستخدمون الفرص فوراً عبر تمرير البطاقات.",
+  "what_card1_p2": "بدلاً من تصفح قوائم طويلة من الإعلانات أو انتظار الردود، يكتشف المستخدمون الفرص فوراً من خلال سحب البطاقات.",
 
   "what_card1_p3": "يجمع Pairmo الوظائف وشركاء السفر والخدمات والحيوانات الأليفة والإيجارات والتعاونات التجارية في منصة واحدة.",
 
   "what_card2_title": "المشكلة التي يحلها Pairmo",
 
-  "what_card2_p1": "معظم المنصات تعمل في اتجاه واحد فقط: إما أن تبحث أو تنشر.",
+  "what_card2_p1": "تعمل معظم المنصات في اتجاه واحد فقط: إما أن تبحث أو أن تنشر.",
 
-  "what_card2_p2": "Pairmo يحل مشكلة المنصات المجزأة.",
+  "what_card2_p2": "يحل Pairmo مشكلة المنصات المجزأة.",
 
   "what_card2_p3": "يمكن للمستخدمين العثور على شركاء أو عملاء أو خدمات أو مجتمعات خلال ثوانٍ.",
 
+  "what_card3_title": "كيف يربط Pairmo بين الفرص",
+
+  "what_card3_p1": "ينشئ المستخدمون بطاقات تصف ما يقدمونه أو ما يبحثون عنه.",
+
+  "what_card3_p2": "تعرض المنصة الفرص المناسبة من خلال نظام اكتشاف ذكي يعتمد على السحب.",
+
+  "what_card3_p3": "عندما تتطابق الاهتمامات، يتم إنشاء تطابق ويمكن للمستخدمين بدء التعاون.",
+
   "how_title": "كيف يعمل Pairmo",
-  "how_subtitle": "تجربة بسيطة قائمة على التمرير لتلبية الاحتياجات الحقيقية.",
+  "how_subtitle": "تدفق بسيط قائم على السحب لتلبية الاحتياجات الحقيقية.",
 
-  "how_swipe_title": "اسحب",
-  "how_swipe_text": "اكتشف الأشخاص والخدمات والفرص عبر مجالات متعددة.",
+  "how_swipe_title": "السحب",
+  "how_swipe_text": "اكتشف الأشخاص والخدمات والفرص.",
 
-  "how_match_title": "تطابق",
+  "how_match_title": "التطابق",
   "how_match_text": "عندما تتطابق الاهتمامات، ينشئ Pairmo اتصالاً فورياً.",
 
-  "how_connect_title": "تواصل",
-  "how_connect_text": "ابدأ المحادثات وحوّل التطابقات إلى خطط وتجارب حقيقية.",
+  "how_connect_title": "التواصل",
+  "how_connect_text": "ابدأ المحادثات وحوّل التطابقات إلى خطط حقيقية.",
+
+  "inside_title": "داخل Pairmo",
+
+  "inside_subtitle": "اكتشف كيف يربط Pairmo بين الأشخاص والخدمات والفرص من خلال تجربة سحب بسيطة.",
+
+  "inside_step1_title": "استكشف المجالات",
+  "inside_step1_text": "ابدأ باختيار المجال الذي يتوافق مع احتياجك.",
+
+  "inside_step2_title": "أنشئ بطاقتك",
+  "inside_step2_text": "صف ما تقدمه أو ما تبحث عنه.",
+
+  "inside_step3_title": "اكتشف الفرص",
+  "inside_step3_text": "اكتشف البطاقات المناسبة من خلال واجهة السحب.",
+
+  "inside_swipe_hint": "← اسحب →",
+
+  "inside_step4_title": "إدارة كل شيء",
+  "inside_step4_text": "ادخل إلى مركز التحكم لإدارة الاتصالات والمحادثات.",
+
+  "roadmap_title": "خطة تطوير Pairmo",
+  "roadmap_subtitle": "تطور Pairmo نحو نظام عالمي متعدد المجالات.",
+
+  "roadmap_phase1_title": "المرحلة 1 — إطلاق المنتج",
+  "roadmap_phase1_modes": "جميع أوضاع المطابقة مفعّلة",
+  "roadmap_phase1_modes_list": "فردي • فريق • منظم مجموعة",
+
+  "roadmap_phase1_domains_label": "المجالات الرئيسية",
+  "roadmap_phase1_domains_list": "وظائف • سفر • خدمات • حيوانات أليفة • رياضة",
+
+  "roadmap_phase1_wallet": "محفظة رقمية",
+  "roadmap_phase1_rating": "نظام تقييم المستخدمين",
+  "roadmap_phase1_powerzone": "نظام تحقيق الدخل",
+
+  "roadmap_phase2_title": "المرحلة 2 — التوسع العالمي",
+  "roadmap_phase2_domains_label": "مجالات جديدة",
+  "roadmap_phase2_matching": "خوارزميات مطابقة متقدمة",
+  "roadmap_phase2_features": "ميزات مميزة إضافية",
+  "roadmap_phase2_planning": "أدوات تخطيط متقدمة",
+
+  "roadmap_phase3_title": "المرحلة 3 — الاقتصاد والتأثير الاجتماعي",
+  "roadmap_phase3_transactions": "معاملات مُدارة عبر المنصة للخدمات والتنقل",
+  "roadmap_phase3_booking": "أنظمة الحجز والتنسيق",
+  "roadmap_phase3_social": "إطلاق المجال الاجتماعي",
+  "roadmap_phase3_programs": "برنامج مساعدة • برنامج منح اجتماعية",
+
+  "roadmap_phase4_title": "المرحلة 4 — نظام ذكي",
+  "roadmap_phase4_cross": "مطابقة كاملة بين المجالات",
+  "roadmap_phase4_ai": "توصيات مدعومة بالذكاء الاصطناعي",
+  "roadmap_phase4_discovery": "اكتشاف ذكي بين المجالات",
+  "roadmap_phase4_token": "اقتصاد منصة قائم على التوكن",
 
   "newsletter_title": "اشترك في التحديثات",
-  "newsletter_success": "أنت الآن في القائمة!",
+  "newsletter_success": "لقد انضممت إلى القائمة!",
   "newsletter_placeholder": "أدخل بريدك الإلكتروني",
   "newsletter_button": "أبلغني",
 
   "contact_title": "اتصل بنا",
-  "contact_text": "هل لديك أسئلة أو شراكات؟ تواصل معنا في أي وقت.",
+  "contact_text": "أسئلة أو شراكات؟ اكتب لنا في أي وقت.",
 
   "footer_privacy": "سياسة الخصوصية",
   "footer_terms": "الشروط والأحكام",
