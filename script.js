@@ -24,7 +24,7 @@ const langBtnName = document.getElementById("selected-lang-name");
 
     if (selected) {
 const flag = selected.getAttribute("data-flag");
-const name = dict["lang_" + lang];
+const name = dict["lang_" + lang].replace(/^[^\s]+\s/, "");
 
 if (langBtnFlag) langBtnFlag.textContent = flag;
 if (langBtnName) langBtnName.textContent = name;
@@ -51,7 +51,8 @@ function applyTranslations(dict){
     const key = el.getAttribute("data-i18n");
 
     if(dict[key]){
-      el.innerHTML = dict[key];
+      el.textContent = dict[key];
+      
     }
 
   });
