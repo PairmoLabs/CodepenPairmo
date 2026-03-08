@@ -467,15 +467,25 @@ startTyping(dict.hero_typing);
 if(typeTarget){
 typingObserver.observe(typeTarget);
 }
-document.addEventListener("DOMContentLoaded", function() {
 
-if (!localStorage.getItem("cookieConsent")) {
-document.getElementById("cookie-banner").style.display = "block";
+document.addEventListener("DOMContentLoaded", function(){
+
+const banner = document.getElementById("cookie-banner");
+const accept = document.getElementById("cookie-accept");
+const close = document.getElementById("cookie-close");
+
+if(!localStorage.getItem("cookieConsent")){
+banner.style.display="block";
 }
 
-document.getElementById("accept-cookies").onclick = function() {
-localStorage.setItem("cookieConsent", "true");
-document.getElementById("cookie-banner").style.display = "none";
-};
+accept.onclick=function(){
+localStorage.setItem("cookieConsent","accepted");
+banner.style.display="none";
+}
+
+close.onclick=function(){
+localStorage.setItem("cookieConsent","rejected");
+banner.style.display="none";
+}
 
 });
