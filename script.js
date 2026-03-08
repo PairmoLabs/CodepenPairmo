@@ -348,19 +348,30 @@ const typeTarget = document.getElementById("type-text");
 
 let typeIndex = 0;
 let typeText = "";
+let typingTimeout = null;
 
 function startTyping(text){
 
+if(!typeTarget) return;
+
 typeText = text;
 typeIndex = 0;
+
 typeTarget.textContent = "";
+
+if(typingTimeout){
+clearTimeout(typingTimeout);
+}
 
 function typeEffect(){
 
 if(typeIndex < typeText.length){
+
 typeTarget.textContent += typeText.charAt(typeIndex);
 typeIndex++;
-setTimeout(typeEffect,70);
+
+typingTimeout = setTimeout(typeEffect,70);
+
 }
 
 }
@@ -368,3 +379,4 @@ setTimeout(typeEffect,70);
 typeEffect();
 
 }
+
