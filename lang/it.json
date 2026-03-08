@@ -1,104 +1,170 @@
 {
-  "lang_en": "🇬🇧 Inglese",
-"lang_ro": "🇷🇴 Romeno",
-"lang_fr": "🇫🇷 Francese",
-"lang_it": "🇮🇹 Italiano",
-"lang_de": "🇩🇪 Tedesco",
-"lang_es": "🇪🇸 Spagnolo",
-"lang_ru": "🇷🇺 Russo",
-"lang_zh": "🇨🇳 Cinese",
-"lang_hi": "🇮🇳 Hindi",
-"lang_ar": "🇸🇦 Arabo",
-"lang_hu": "🇭🇺 Ungherese",
-"lang_pl": "🇵🇱 Polacco",
-"lang_uk": "🇺🇦 Ucraino",
-"lang_el": "🇬🇷 Greco",
-"lang_tr": "🇹🇷 Turco",
-  "menu_home": "Home",
-  "menu_domains": "Come funziona",
-  "menu_about": "Informazioni su Pairmo",
+  "lang_current_name": "Italiano",
+
+  "lang_en": "Inglese",
+  "lang_ro": "Rumeno",
+  "lang_fr": "Francese",
+  "lang_it": "Italiano",
+  "lang_de": "Tedesco",
+  "lang_es": "Spagnolo",
+  "lang_ru": "Russo",
+  "lang_pt": "Portoghese",
+  "lang_zh": "Cinese",
+  "lang_hi": "Hindi",
+  "lang_ar": "Arabo",
+  "lang_hu": "Ungherese",
+  "lang_pl": "Polacco",
+  "lang_uk": "Ucraino",
+  "lang_nl": "Olandese",
+  "lang_el": "Greco",
+  "lang_tr": "Turco",
+
+  "menu_home": "Pagina iniziale",
+  "menu_what": "Cos'è Pairmo",
+  "menu_how": "Come funziona",
+  "menu_inside": "All'interno di Pairmo",
   "menu_roadmap": "Tabella di marcia",
-  "menu_waitlist": "Unisciti alla lista",
-  "menu_contact": "Contatto",
-  "title_main": "L'<br>Esperienza<br>Swipe",
-  "subtitle_text": "Scopri persone in diversi ambiti che condividono i tuoi interessi.",
-  "description_text": "Che tu voglia connetterti<br>per viaggi, affari o passioni comuni,<br>qui inizia la storia.<br>",
-  "section_title": "Scopri cosa offre Pairmo!",
-  "callout_text": "Ma prima...",
-  "subscribe_title": "ISCRIVITI ALLA NOSTRA NEWSLETTER<br>PER PARTECIPARE AL VIAGGIO",
-  "email_placeholder": "Inserisci il tuo indirizzo email...",
-  "submit_button": "Invia",
-  "success-message": "✅ Modulo inviato con successo!",
-  "notify_me": "Avvisami",
-  "scroll_more": "Scopri di più...",
-  "domains_title": "Benvenuto nei domini di Pairmo!",
-  "domains_line1": "Dalla vita sociale alla produttività, colleghiamo domanda e offerta.",
-  "domains_line2": "tramite una mediazione smart basata su card.",
-  "domains_tagline": "Un’unica app. Due lati. Connessi.",
-  "domain-tripmatch": "Pianifica viaggi in città o grandi avventure. Collabora con altri viaggiatori.",
-  "domain-businessmatch": "Cerchi un cofondatore, un partner o vuoi unirti a un’azienda? Sei nel posto giusto.",
-  "domain-servicematch": "Freelancer, azienda o bisogno d’aiuto? Trova e offri servizi facilmente.",
-  "domain-datingmatch": "Connettiti con persone che condividono i tuoi valori e visione.",
-  "domain-petmatch": "Trova un compagno di giochi o partner per il tuo animale o altri amanti degli animali.",
-  "domain-sportmatch": "Trova un partner per allenarti, unisciti a una squadra o crea la tua.",
-  "domain-moredomains": "...e questo è solo l'inizio. Scopri di più su Pairmo.",
-  "modes_title": "Sezione modalità",
-  "modes_text_1": "Scegli la modalità che preferisci...",
-  "modes_text_2": "Hai pieno controllo su come interagisci.",
-  "modes_text_3": "Su Pairmo, scegli la modalità in base al tuo obiettivo.",
-  "modes_text_4": "SOLO, GRUPPO AMICI o ORGANIZZATORE",
-  "mode_solo_1": "Agisci come individuo.",
-  "mode_solo_2": "Crea o unisciti ad attività 1 a 1 o entra in un gruppo.",
-  "card-hint1": "Tocca la card per maggiori info",
-  "mode_friends_1": "Per gruppi di amici già formati.",
-  "mode_friends_2": "Aggiungi membri o trova team compatibili.",
-  "card-hint2": "Tocca la card per maggiori info",
-  "mode_planner_1": "Per organizzatori di gruppo e team aziendali.",
-  "mode_planner_2": "Crea piani pubblici o privati, gestisci gruppi e partecipa.",
-  "userhub_title": "Centro di Controllo Personale",
-  "userhub_subtitle": "Tutto ciò che ti serve a portata di mano.<br />Il Centro di Comando è il tuo cruscotto personalizzato.<br />Esplora viaggi, wallet, upgrade e altro.",
-  "interactive_title": "Profili Interattivi",
-  "interactive_subtitle": "Un solo sguardo racconta la storia.<br>",
-  "interactive_subtitle_2": "I profili Pairmo sono più di foto — mostrano segnali di fiducia, autenticità e intenzione reale.",
-  "interactive_heading_rating": "⭐ Valutazione Utente",
-  "interactive_text_rating": "Ogni utente ha un <strong>punteggio visibile</strong> (es. 4.7) basato su comunicazione, affidabilità e feedback. Puoi <strong>valutare dopo ogni interazione</strong> – incontro, collaborazione o altro.",
-  "interactive_note_rating": "Punteggi più alti aumentano visibilità e fiducia nella piattaforma.",
-  "interactive_heading_badges": "🏅 Badge Dinamici",
-  "interactive_text_badges": "I badge si sbloccano automaticamente in base a comportamento, preferenze e attività. Sono dinamici – appaiono, spariscono e si evolvono durante l’uso.",
-  "badge_citybreak_name": "CityBreak",
-"badge_citybreak_desc": "Ti piacciono le fughe urbane brevi",
-"badge_safemeet_name": "SafeMeet",
-"badge_safemeet_desc": "ID & selfie verificati",
-"badge_groupplanner_name": "GroupPlanner",
-"badge_groupplanner_desc": "Organizzi piani di gruppo o attività di squadra",
-"badge_activevibe_name": "ActiveVibe",
-"badge_activevibe_desc": "Interazioni negli ultimi 3 giorni",
-"badge_minuteready_name": "MinuteReady",
-"badge_minuteready_desc": "Il tuo viaggio inizia in meno di 3 giorni",
-  "interactive_note_badges": "I badge sono visibili sul profilo e influenzano le possibilità di match.",
-  "powerwallet_title": "Wallet Pairmo",
-  "powerwallet_subtitle": "Gestisci punti, upgrade e acquisti – tutto in un posto.",
-  "points_title_premium": "Punti Premium",
-  "points_text_premium": "Acquista e usa con pieno controllo.<br>Utilizzati per funzionalità, visibilità e accesso.",
-  "points_title_bonus": "Punti Bonus",
-  "points_text_bonus": "Guadagna gratis completando missioni, interagendo o al primo match.",
-  "no_pressure": "Nessuna pressione. Solo potere.",
-  "powerzone_title": "PowerZone",
-  "powerzone_subtitle": "Visibilità, interazione e strumenti<br>per potenziare il tuo impatto su Pairmo.",
-  "boosts_title": "🚀 Boosts+",
-  "boosts_desc": "Ottieni più visualizzazioni e visibilità.<br>Sii primo nei risultati e nelle liste.",
-  "chatplus_title": "💬 Chat+",
-  "chatplus_desc": "Sblocca reazioni, lettura messaggi,<br>suoni buzz e altri strumenti premium.",
-  "plansplus_title": "🛠️ Plans+",
-  "plansplus_desc": "Scegli il tuo Piano Pairmo (Free, Plus o Premium).<br>Accesso illimitato a funzionalità avanzate.",
-  "final_line": "Più controllo. Più connessione. A modo tuo.",
-  "explore_title": "Sezione Esplora",
-  "explore_subtitle": "Qui inizia la magia.<br>Scopri, confronta e connettiti con chi ti serve.",
-  "explore_subtext": "Trova partner reali, clienti o servizi.<br>Scopri il lavoro dei sogni o assumi chi ti serve.<br>Tutto questo… con uno swipe.",
-  "swipe_text": "Swipe le card!",
-  "footer_rights": "© 2025 Pairmo Labs SRL. Tutti i diritti riservati.",
-  "footer_follow": "Seguici su",
-  "footer_contact": "contact@pairmo.app",
+  "menu_ecosystem": "L'ecosistema",
+  "menu_waitlist": "Lista d'attesa",
+  "menu_contact": "Contattaci",
+
+  "brand_name": "PAIRMO",
+
+  "hero_title_line1": "L'esperienza",
+  "hero_title_line2": "dello",
+  "hero_title_line3": "scorrimento",
+
+  "hero_typing": "Scorri. Abbina. Connettiti.",
+
+  "platform_title": "La piattaforma",
+
+  "what_card1_title": "Cos'è Pairmo?",
+
+  "what_card1_p1": "Pairmo è una piattaforma multi-dominio basata sullo scorrimento che connette persone, servizi e opportunità.",
+
+  "what_card1_p2": "Invece di sfogliare lunghe liste di annunci o aspettare risposte, gli utenti scoprono opportunità immediatamente scorrendo le schede.",
+
+  "what_card1_p3": "Pairmo riunisce lavoro, compagni di viaggio, servizi, animali domestici, affitti e collaborazioni professionali in un'unica piattaforma.",
+
+  "what_card2_title": "Il problema che Pairmo risolve",
+
+  "what_card2_p1": "Oggi la maggior parte delle piattaforme funziona in una sola direzione: o cerchi oppure pubblichi.",
+
+  "what_card2_p2": "Pairmo risolve il problema delle piattaforme frammentate.",
+
+  "what_card2_p3": "Gli utenti possono trovare partner, clienti, servizi o comunità in pochi secondi.",
+
+  "what_card3_title": "Come Pairmo connette le opportunità",
+
+  "what_card3_p1": "Gli utenti creano schede che descrivono ciò che offrono o ciò che cercano.",
+
+  "what_card3_p2": "La piattaforma mostra opportunità rilevanti attraverso un sistema intelligente di scoperta basato sullo scorrimento.",
+
+  "what_card3_p3": "Quando gli interessi coincidono, viene creato un abbinamento e gli utenti possono iniziare a collaborare.",
+
+  "how_title": "Come funziona Pairmo",
+
+  "how_subtitle": "Un flusso semplice basato sullo scorrimento progettato per bisogni reali.",
+
+  "how_swipe_title": "Scorri",
+
+  "how_swipe_text": "Scopri persone, servizi e opportunità in diversi ambiti.",
+
+  "how_match_title": "Abbina",
+
+  "how_match_text": "Quando gli interessi coincidono, Pairmo crea una connessione immediata.",
+
+  "how_connect_title": "Connettiti",
+
+  "how_connect_text": "Inizia conversazioni e trasforma gli abbinamenti in piani ed esperienze reali.",
+
+  "inside_title": "All'interno di Pairmo",
+
+  "inside_subtitle": "Scopri come Pairmo connette persone, servizi e opportunità attraverso una semplice esperienza di scorrimento.",
+
+  "inside_step1_title": "Esplora gli ambiti",
+
+  "inside_step1_text": "Inizia scegliendo l'ambito che corrisponde al tuo bisogno.",
+
+  "inside_step2_title": "Crea la tua scheda",
+
+  "inside_step2_text": "Descrivi ciò che offri o ciò che stai cercando.",
+
+  "inside_step3_title": "Scorri le opportunità",
+
+  "inside_step3_text": "Scopri schede rilevanti attraverso l'interfaccia di scorrimento.",
+
+  "inside_swipe_hint": "← Scorri →",
+
+  "inside_step4_title": "Gestisci tutto",
+
+  "inside_step4_text": "Accedi al tuo pannello di controllo per gestire abbinamenti e conversazioni.",
+
+  "roadmap_title": "Tabella di marcia di Pairmo",
+
+  "roadmap_subtitle": "L'evoluzione di Pairmo verso un ecosistema globale multi-dominio.",
+
+  "roadmap_phase1_title": "Fase 1 — Lancio del prodotto",
+
+  "roadmap_phase1_modes": "Tutte le modalità di abbinamento attive",
+
+  "roadmap_phase1_modes_list": "Individuale • Squadra • Organizzatore di gruppo",
+
+  "roadmap_phase1_domains_label": "Ambiti principali",
+
+  "roadmap_phase1_domains_list": "Lavoro • Viaggi • Servizi • Animali domestici • Sport",
+
+  "roadmap_phase1_wallet": "Portafoglio digitale Pairmo",
+
+  "roadmap_phase1_rating": "Sistema di valutazione degli utenti",
+
+  "roadmap_phase1_powerzone": "Sistema di monetizzazione Zona di potenziamento",
+
+  "roadmap_phase2_title": "Fase 2 — Espansione globale",
+
+  "roadmap_phase2_domains_label": "Nuovi ambiti",
+
+  "roadmap_phase2_matching": "Algoritmi avanzati di abbinamento",
+
+  "roadmap_phase2_features": "Funzionalità premium aggiuntive",
+
+  "roadmap_phase2_planning": "Strumenti avanzati di pianificazione",
+
+  "roadmap_phase3_title": "Fase 3 — Economia Pairmo e impatto sociale",
+
+  "roadmap_phase3_transactions": "Transazioni gestite dalla piattaforma per servizi e mobilità",
+
+  "roadmap_phase3_booking": "Sistemi di prenotazione e coordinamento dei viaggi",
+
+  "roadmap_phase3_social": "Lancio del dominio sociale",
+
+  "roadmap_phase3_programs": "Pairmo per l'aiuto • Programma di sovvenzioni sociali Pairmo",
+
+  "roadmap_phase4_title": "Fase 4 — Ecosistema intelligente",
+
+  "roadmap_phase4_cross": "Abbinamento completo tra ambiti",
+
+  "roadmap_phase4_ai": "Raccomandazioni assistite da intelligenza artificiale",
+
+  "roadmap_phase4_discovery": "Scoperta intelligente tra ambiti",
+
+  "roadmap_phase4_token": "Economia della piattaforma basata su token",
+
+  "newsletter_title": "ISCRIVITI ALLA NOSTRA NEWSLETTER",
+
+  "newsletter_success": "✅ Ora sei nella lista!",
+
+  "newsletter_placeholder": "Inserisci la tua email...",
+
+  "newsletter_button": "Avvisami",
+
+  "contact_title": "Contattaci",
+
+  "contact_text": "Domande, partnership o accesso anticipato? Scrivici in qualsiasi momento.",
+
   "footer_privacy": "Informativa sulla privacy",
-  "footer_terms": "Termini e Condizioni"
+
+  "footer_terms": "Termini e condizioni",
+
+  "footer_copy": "© 2025 Pairmo Labs SRL. Tutti i diritti riservati."
 }
