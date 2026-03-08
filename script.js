@@ -23,13 +23,12 @@ const langBtnName = document.getElementById("selected-lang-name");
     );
 
     if (selected) {
+const flag = selected.getAttribute("data-flag");
+const name = dict["lang_" + lang];
 
-      const parts = selected.textContent.trim().split(" ");
-      const flag = parts.shift();
-      const name = parts.join(" ");
-
-      if (langBtnFlag) langBtnFlag.textContent = flag;
-      if (langBtnName) langBtnName.textContent = name;
+if (langBtnFlag) langBtnFlag.textContent = flag;
+if (langBtnName) langBtnName.textContent = name;
+      
 
     }
 
