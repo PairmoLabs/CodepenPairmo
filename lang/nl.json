@@ -1,0 +1,80 @@
+{
+  "lang_current_name": "Nederlands",
+
+  "lang_en": "Engels",
+  "lang_ro": "Roemeens",
+  "lang_fr": "Frans",
+  "lang_it": "Italiaans",
+  "lang_de": "Duits",
+  "lang_es": "Spaans",
+  "lang_ru": "Russisch",
+  "lang_pt": "Portugees",
+  "lang_zh": "Chinees",
+  "lang_hi": "Hindi",
+  "lang_ar": "Arabisch",
+  "lang_hu": "Hongaars",
+  "lang_pl": "Pools",
+  "lang_uk": "Oekraïens",
+  "lang_nl": "Nederlands",
+  "lang_el": "Grieks",
+  "lang_tr": "Turks",
+
+  "menu_home": "Home",
+  "menu_what": "Wat is Pairmo",
+  "menu_how": "Hoe het werkt",
+  "menu_inside": "Binnen Pairmo",
+  "menu_roadmap": "Routekaart",
+  "menu_ecosystem": "Het ecosysteem",
+  "menu_waitlist": "Wachtlijst",
+  "menu_contact": "Contact",
+
+  "brand_name": "PAIRMO",
+
+  "hero_title_line1": "De",
+  "hero_title_line2": "swipe",
+  "hero_title_line3": "ervaring",
+
+  "hero_typing": "Swipe • Match • Verbind",
+
+  "platform_title": "Het platform",
+
+  "what_card1_title": "Wat is Pairmo?",
+
+  "what_card1_p1": "Pairmo is een multi-domein swipe matching platform dat mensen, diensten en kansen met elkaar verbindt.",
+
+  "what_card1_p2": "In plaats van lange lijsten met advertenties te doorzoeken of op reacties te wachten, ontdekken gebruikers direct kansen door door kaarten te swipen.",
+
+  "what_card1_p3": "Pairmo brengt banen, reispartners, diensten, huisdieren, verhuur en zakelijke samenwerkingen samen op één platform.",
+
+  "what_card2_title": "Het probleem dat Pairmo oplost",
+
+  "what_card2_p1": "De meeste platforms werken slechts in één richting: je zoekt of je plaatst.",
+
+  "what_card2_p2": "Pairmo lost het probleem van gefragmenteerde platforms op.",
+
+  "what_card2_p3": "Gebruikers kunnen binnen enkele seconden partners, klanten, diensten of communities vinden.",
+
+  "how_title": "Hoe Pairmo werkt",
+  "how_subtitle": "Een eenvoudige swipe-flow voor echte behoeften.",
+
+  "how_swipe_title": "Swipe",
+  "how_swipe_text": "Ontdek mensen, diensten en kansen in meerdere domeinen.",
+
+  "how_match_title": "Match",
+  "how_match_text": "Wanneer interesses overeenkomen, creëert Pairmo direct een verbinding.",
+
+  "how_connect_title": "Verbinden",
+  "how_connect_text": "Start gesprekken en verander matches in echte plannen.",
+
+  "newsletter_title": "ABONNEER OP UPDATES",
+  "newsletter_success": "Je staat nu op de lijst!",
+  "newsletter_placeholder": "Voer je e-mailadres in",
+  "newsletter_button": "Informeer mij",
+
+  "contact_title": "Contact",
+  "contact_text": "Vragen of samenwerkingen? Neem op elk moment contact met ons op.",
+
+  "footer_privacy": "Privacybeleid",
+  "footer_terms": "Algemene voorwaarden",
+  "footer_copy": "© 2025 Pairmo Labs SRL. Alle rechten voorbehouden."
+}
