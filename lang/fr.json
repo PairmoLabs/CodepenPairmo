@@ -1,52 +1,163 @@
 {
   "lang_current_name": "Français",
 
+  "lang_en": "Anglais",
+  "lang_ro": "Roumain",
+  "lang_fr": "Français",
+  "lang_it": "Italien",
+  "lang_de": "Allemand",
+  "lang_es": "Espagnol",
+  "lang_ru": "Russe",
+  "lang_pt": "Portugais",
+  "lang_zh": "Chinois",
+  "lang_hi": "Hindi",
+  "lang_ar": "Arabe",
+  "lang_hu": "Hongrois",
+  "lang_pl": "Polonais",
+  "lang_uk": "Ukrainien",
+  "lang_nl": "Néerlandais",
+  "lang_el": "Grec",
+  "lang_tr": "Turc",
+
   "menu_home": "Accueil",
   "menu_what": "Qu'est-ce que Pairmo",
-  "menu_how": "Comment ça fonctionne",
+  "menu_how": "Comment cela fonctionne",
   "menu_inside": "À l'intérieur de Pairmo",
   "menu_roadmap": "Feuille de route",
-  "menu_ecosystem": "Écosystème",
+  "menu_ecosystem": "L'écosystème",
   "menu_waitlist": "Liste d'attente",
   "menu_contact": "Contact",
 
   "brand_name": "PAIRMO",
 
   "hero_title_line1": "L'expérience",
-  "hero_title_line2": "du",
+  "hero_title_line2": "de",
   "hero_title_line3": "glissement",
 
-  "hero_typing": "Glissez • Associez • Connectez",
+  "hero_typing": "Glissez. Associez. Connectez.",
 
   "platform_title": "La plateforme",
 
   "what_card1_title": "Qu'est-ce que Pairmo ?",
 
-  "what_card1_p1": "Pairmo est une plateforme de mise en relation multi-domaines basée sur le glissement qui connecte personnes, services et opportunités.",
+  "what_card1_p1": "Pairmo est une plateforme multi-domaines basée sur le glissement qui connecte des personnes, des services et des opportunités.",
 
   "what_card1_p2": "Au lieu de parcourir de longues listes d'annonces ou d'attendre des réponses, les utilisateurs découvrent instantanément des opportunités en faisant glisser des cartes.",
 
+  "what_card1_p3": "Pairmo réunit emplois, partenaires de voyage, services, animaux de compagnie, locations et collaborations professionnelles sur une seule plateforme.",
+
+  "what_card2_title": "Le problème que Pairmo résout",
+
+  "what_card2_p1": "Aujourd'hui, la plupart des plateformes fonctionnent dans une seule direction : soit vous recherchez, soit vous publiez.",
+
+  "what_card2_p2": "Pairmo résout le problème des plateformes fragmentées.",
+
+  "what_card2_p3": "Les utilisateurs peuvent trouver partenaires, clients, services ou communautés en quelques secondes.",
+
+  "what_card3_title": "Comment Pairmo connecte les opportunités",
+
+  "what_card3_p1": "Les utilisateurs créent des cartes décrivant ce qu'ils offrent ou ce qu'ils recherchent.",
+
+  "what_card3_p2": "La plateforme affiche des opportunités pertinentes grâce à un système intelligent de découverte basé sur le glissement.",
+
+  "what_card3_p3": "Lorsque les intérêts correspondent, une connexion est créée et les utilisateurs peuvent commencer à collaborer.",
+
   "how_title": "Comment fonctionne Pairmo",
-  "how_subtitle": "Un flux simple basé sur le glissement pour les besoins réels.",
 
-  "how_swipe_title": "Glisser",
-  "how_swipe_text": "Découvrez des personnes, services et opportunités.",
+  "how_subtitle": "Un flux simple basé sur le glissement conçu pour les besoins réels.",
 
-  "how_match_title": "Association",
-  "how_match_text": "Lorsque les intérêts correspondent, Pairmo crée une connexion instantanée.",
+  "how_swipe_title": "Glissez",
+  "how_swipe_text": "Découvrez des personnes, des services et des opportunités dans différents domaines.",
 
-  "how_connect_title": "Connexion",
-  "how_connect_text": "Commencez des conversations et transformez les connexions en projets réels.",
+  "how_match_title": "Associez",
+  "how_match_text": "Lorsque les intérêts correspondent, Pairmo crée instantanément une connexion.",
 
-  "newsletter_title": "ABONNEZ-VOUS À NOTRE LETTRE D'INFORMATION",
+  "how_connect_title": "Connectez",
+  "how_connect_text": "Commencez des conversations et transformez les associations en projets et expériences réels.",
+
+  "inside_title": "À l'intérieur de Pairmo",
+
+  "inside_subtitle": "Découvrez comment Pairmo connecte personnes, services et opportunités grâce à une expérience simple basée sur le glissement.",
+
+  "inside_step1_title": "Explorez les domaines",
+  "inside_step1_text": "Commencez par choisir le domaine qui correspond à votre besoin.",
+
+  "inside_step2_title": "Créez votre carte",
+  "inside_step2_text": "Décrivez ce que vous offrez ou ce que vous recherchez.",
+
+  "inside_step3_title": "Découvrez les opportunités",
+  "inside_step3_text": "Découvrez des cartes pertinentes grâce à l'interface de glissement.",
+
+  "inside_swipe_hint": "← Glissez →",
+
+  "inside_step4_title": "Gérez tout",
+  "inside_step4_text": "Accédez à votre tableau de bord pour gérer les connexions et les conversations.",
+
+  "roadmap_title": "Feuille de route de Pairmo",
+
+  "roadmap_subtitle": "L'évolution de Pairmo vers un écosystème mondial multi-domaines.",
+
+  "roadmap_phase1_title": "Phase 1 — Lancement du produit",
+
+  "roadmap_phase1_modes": "Tous les modes de connexion actifs",
+
+  "roadmap_phase1_modes_list": "Individuel • Équipe • Organisation de groupe",
+
+  "roadmap_phase1_domains_label": "Domaines principaux",
+
+  "roadmap_phase1_domains_list": "Emploi • Voyage • Services • Animaux de compagnie • Sport",
+
+  "roadmap_phase1_wallet": "Portefeuille numérique",
+
+  "roadmap_phase1_rating": "Système d'évaluation des utilisateurs",
+
+  "roadmap_phase1_powerzone": "Système de monétisation",
+
+  "roadmap_phase2_title": "Phase 2 — Expansion mondiale",
+
+  "roadmap_phase2_domains_label": "Nouveaux domaines",
+
+  "roadmap_phase2_matching": "Algorithmes de correspondance avancés",
+
+  "roadmap_phase2_features": "Fonctionnalités premium supplémentaires",
+
+  "roadmap_phase2_planning": "Outils de planification avancés",
+
+  "roadmap_phase3_title": "Phase 3 — Économie Pairmo et impact social",
+
+  "roadmap_phase3_transactions": "Transactions gérées par la plateforme pour les services et la mobilité",
+
+  "roadmap_phase3_booking": "Systèmes de réservation et de coordination des déplacements",
+
+  "roadmap_phase3_social": "Lancement du domaine social",
+
+  "roadmap_phase3_programs": "Programme d'aide • Programme de subventions sociales",
+
+  "roadmap_phase4_title": "Phase 4 — Écosystème intelligent",
+
+  "roadmap_phase4_cross": "Correspondance complète entre domaines",
+
+  "roadmap_phase4_ai": "Recommandations assistées par intelligence artificielle",
+
+  "roadmap_phase4_discovery": "Découverte intelligente entre domaines",
+
+  "roadmap_phase4_token": "Économie de plateforme basée sur des jetons",
+
+  "newsletter_title": "ABONNEZ-VOUS À NOTRE NEWSLETTER",
+
   "newsletter_success": "Vous êtes maintenant sur la liste !",
-  "newsletter_placeholder": "Entrez votre adresse électronique",
+
+  "newsletter_placeholder": "Entrez votre adresse e-mail...",
+
   "newsletter_button": "Prévenez-moi",
 
   "contact_title": "Contact",
-  "contact_text": "Questions ou partenariats ? Contactez-nous à tout moment.",
+
+  "contact_text": "Questions, partenariats ou accès anticipé ? Contactez-nous à tout moment.",
 
   "footer_privacy": "Politique de confidentialité",
+
   "footer_terms": "Conditions générales",
+
   "footer_copy": "© 2025 Pairmo Labs SRL. Tous droits réservés."
 }
