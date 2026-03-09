@@ -469,34 +469,54 @@ typingObserver.observe(typeTarget);
 }
 
 
+
 document.addEventListener("DOMContentLoaded", function(){
 
 const banner = document.getElementById("cookie-banner");
 const accept = document.getElementById("cookie-accept");
 const close = document.getElementById("cookie-close");
 
-/* daca userul nu a acceptat cookies */
+/* dacă userul nu a acceptat cookies */
 
 if(localStorage.getItem("cookieConsent") !== "accepted"){
 banner.style.display = "block";
 }
 
-/* ACCEPT */
+/* ACCEPT - foarte sensibil */
 
-accept.onclick = function(){
+accept.addEventListener("pointerdown", function(e){
+
+e.preventDefault();
 
 localStorage.setItem("cookieConsent","accepted");
 
 banner.style.display = "none";
 
-}
+});
 
-/* X CLOSE (nu salvam nimic) */
+/* X - mai rigid */
 
-close.onclick = function(){
+let closeDownTime = 0;
+
+close.addEventListener("pointerdown", function(){
+
+closeDownTime = Date.now();
+
+});
+
+close.addEventListener("pointerup", function(){
+
+const heldTime = Date.now() - closeDownTime;
+
+/* trebuie tinut apasat 300ms */
+
+if(heldTime > 300){
 
 banner.style.display = "none";
 
 }
 
 });
+
+});
+
