@@ -1,138 +1,491 @@
-<!DOCTYPE html>
+
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Untitled</title>
-    <link rel="stylesheet" href="/about/about.css">
-<script src="/about/about.js" defer></script>
-  </head>
-  
+<head>
 
-  <body class="page-about tech-2026">
-  <section class="about-container">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <h1>About Pairmo</h1>
+<title data-i18n="ecosystem_page_title">
+About Pairmo – The Ecosystem
+</title>
 
-  <!-- About -->
-  <div class="about-section" data-visual="network">
-    <h2>About Pairmo</h2>
-    <p>
-      Pairmo is a global multi-domain matching infrastructure designed to standardize
-      intent-based coordination across multiple sectors of real-world interaction.
-    </p>
-    <p>
-      The platform integrates independent functional domains into a unified operational
-      framework powered by a centralized matching architecture. Rather than operating
-      as a single-vertical application, Pairmo functions as a modular coordination layer.
-    </p>
+<meta name="description"
+content="Pairmo is a global multi-domain matching infrastructure designed to standardize intent-based coordination across travel, sports, employment, renting, dating, business and social interaction.">
+
+<meta name="keywords"
+content="Pairmo ecosystem, intent based matching platform, multi domain matching infrastructure, coordination platform, travel matching, sports matching, job matching, rental coordination platform">
+
+<meta name="robots" content="index, follow, max-image-preview:large">
+
+<link rel="canonical" href="https://www.pairmo.app/about/">
+
+<meta name="author" content="Pairmo Labs SRL">
+
+<meta name="theme-color" content="#0b0c10">
+
+<link rel="icon" href="/favicon.ico">
+
+<link rel="stylesheet" href="../style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Open Graph -->
+
+<meta property="og:title"
+content="Pairmo Ecosystem – Multi-Domain Matching Infrastructure">
+
+<meta property="og:description"
+content="Discover how Pairmo standardizes real-world coordination across multiple domains through an intent-based matching architecture.">
+
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="https://www.pairmo.app/about/">
+
+<meta property="og:image"
+content="https://www.pairmo.app/assets/pairmo-og.jpg">
+
+<meta property="og:site_name" content="Pairmo">
+
+<!-- Twitter -->
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:title"
+content="Pairmo Ecosystem – Multi-Domain Matching Infrastructure">
+
+<meta name="twitter:description"
+content="Pairmo is a global coordination infrastructure enabling intent-based matching across multiple domains of real-world interaction.">
+
+<meta name="twitter:image"
+content="https://www.pairmo.app/assets/pairmo-og.jpg">
+
+<!-- AEO / Schema -->
+
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "TechArticle",
+"name": "Pairmo Ecosystem",
+"headline": "Pairmo Multi-Domain Matching Infrastructure",
+"description": "Pairmo is a global intent-based coordination infrastructure enabling users to match across multiple domains including travel, sports, jobs, renting, business and social activities.",
+"author": {
+  "@type": "Organization",
+  "name": "Pairmo Labs SRL"
+},
+"publisher": {
+  "@type": "Organization",
+  "name": "Pairmo",
+  "url": "https://www.pairmo.app"
+},
+"mainEntityOfPage": "https://www.pairmo.app/about/"
+}
+</script>
+
+</head>
+
+<body>
+
+<header class="section-header">
+
+<div class="sticky-bar">
+
+<div class="left-icons">
+
+<i class="fas fa-user-circle"></i>
+
+<div class="custom-lang-dropdown">
+
+<button id="lang-toggle" class="lang-btn">
+
+<span id="selected-lang-flag">🇬🇧</span>
+
+<span id="selected-lang-name" data-i18n="lang_current_name">
+English
+</span>
+
+<span class="arrow">▼</span>
+
+</button>
+
+<ul class="lang-options" id="lang-options">
+
+<li data-lang="en" data-flag="🇬🇧" data-i18n="lang_en">English</li>
+<li data-lang="ro" data-flag="🇷🇴" data-i18n="lang_ro">Română</li>
+<li data-lang="fr" data-flag="🇫🇷" data-i18n="lang_fr">Français</li>
+<li data-lang="it" data-flag="🇮🇹" data-i18n="lang_it">Italiano</li>
+<li data-lang="de" data-flag="🇩🇪" data-i18n="lang_de">Deutsch</li>
+<li data-lang="es" data-flag="🇪🇸" data-i18n="lang_es">Español</li>
+<li data-lang="ru" data-flag="🇷🇺" data-i18n="lang_ru">Русский</li>
+<li data-lang="pt" data-flag="🇵🇹" data-i18n="lang_pt">Português</li>
+<li data-lang="zh" data-flag="🇨🇳" data-i18n="lang_zh">中文</li>
+<li data-lang="hi" data-flag="🇮🇳" data-i18n="lang_hi">हिन्दी</li>
+<li data-lang="ar" data-flag="🇸🇦" data-i18n="lang_ar">العربية</li>
+<li data-lang="hu" data-flag="🇭🇺" data-i18n="lang_hu">Magyar</li>
+<li data-lang="pl" data-flag="🇵🇱" data-i18n="lang_pl">Polski</li>
+<li data-lang="uk" data-flag="🇺🇦" data-i18n="lang_uk">Українська</li>
+<li data-lang="nl" data-flag="🇳🇱" data-i18n="lang_nl">Nederlands</li>
+<li data-lang="el" data-flag="🇬🇷" data-i18n="lang_el">Ελληνικά</li>
+<li data-lang="tr" data-flag="🇹🇷" data-i18n="lang_tr">Türkçe</li>
+
+</ul>
+
+</div>
+
+<i class="fas fa-search"></i>
+
+</div>
+
+
+
+
+  <div class="right-icons">
+
+  <div class="burger" id="burger-btn">
+    <span></span>
+    <span></span>
+    <span></span>
   </div>
 
-  <!-- Core Infrastructure -->
-  <div class="about-section" data-visual="layers">
-    <h2>Core Infrastructure</h2>
-    <p>
-      At its foundation, Pairmo operates through a centralized matching engine designed to:
-    </p>
+  <div class="menu" id="mobile-menu">
+
     <ul>
-      <li>Capture structured user intent</li>
-      <li>Normalize interaction parameters</li>
-      <li>Apply deterministic filtering mechanisms</li>
-      <li>Execute domain-specific scoring logic</li>
-      <li>Maintain controlled matching sessions</li>
+
+      <li>
+        <a href="/" class="burger-link" data-i18n="menu_home">
+          Home
+        </a>
+      </li>
+
+      <li>
+        <a href="/#what-is-pairmo" class="burger-link" data-i18n="menu_what">
+          What is Pairmo
+        </a>
+      </li>
+
+      <li>
+        <a href="/#how-it-works" class="burger-link" data-i18n="menu_how">
+          How it Works
+        </a>
+      </li>
+
+      <li>
+        <a href="/#inside-pairmo" class="burger-link" data-i18n="menu_inside">
+          Inside Pairmo
+        </a>
+      </li>
+
+      <li>
+        <a href="/#roadmap" class="burger-link" data-i18n="menu_roadmap">
+          Roadmap
+        </a>
+      </li>
+
+      <li>
+        <a href="/about/" class="burger-link" data-i18n="menu_ecosystem">
+          The Ecosystem
+        </a>
+      </li>
+
+      <li>
+        <a href="/#waitlist" class="burger-link waitlist-link" data-i18n="menu_waitlist">
+          Join Waitlist
+        </a>
+      </li>
+
+      <li>
+        <a href="/#contact" class="burger-link" data-i18n="menu_contact">
+          Contact Us
+        </a>
+      </li>
+
     </ul>
-    <p>
-      Each domain operates as an independent functional module while relying on the same
-      architectural backbone. This ensures global scalability without structural fragmentation.
-    </p>
+
   </div>
 
-  <!-- Intent-Based -->
-  <div class="about-section" data-visual="target">
-    <h2>Intent-Based Architecture</h2>
-    <p>
-      Pairmo is structured around an intent-based interaction model, where users explicitly
-      define objectives within each domain. This architecture enables controlled matching
-      environments while maintaining flexibility across sectors and geographic regions.
-    </p>
   </div>
 
-  <!-- Multi Mode -->
-  <div class="about-section" data-visual="modes">
-    <h2>Multi-Mode Operational Framework</h2>
-    <p>
-      Pairmo operates through a structured multi-mode system, allowing users to interact
-      either individually or as part of coordinated groups, depending on the objective
-      defined within each domain.
-    </p>
-    <p>
-      This framework enables flexible participation models while preserving consistent
-      matching logic across all operational areas.
-    </p>
-  </div>
+</div>
 
-  <!-- Operational Domains -->
-  <div class="about-section" data-visual="grid">
-    <h2>Operational Domains</h2>
-    <p>
-      The infrastructure currently supports the following coordination domains:
-    </p>
-    <ul>
-      <li>Sport coordination</li>
-      <li>Travel planning</li>
-      <li>Employment matching</li>
-      <li>Relationship matching</li>
-      <li>Rental coordination</li>
-      <li>Pet breeding and socialization</li>
-      <li>Peer-to-peer sharing</li>
-      <li>Business partnerships</li>
-      <li>Service provision</li>
-      <li>Civic and community initiatives</li>
-    </ul>
-    <p>
-      Each domain is structurally separated at the ruleset level while remaining
-      interoperable at the infrastructure level.
-    </p>
-  </div>
+</header>
 
-  <!-- Governance -->
-  <div class="about-section" data-visual="matrix">
-    <h2>Governance Model</h2>
-    <p>
-      Pairmo is developed and operated by Pairmo Labs SRL, a European technology entity
-      focused on long-term platform governance and modular ecosystem expansion.
-    </p>
-    <p>
-      The system is designed to allow deterministic rule management, controlled ruleset
-      versioning, structured monetization layers, and transparent reputation metrics.
-    </p>
-    <p>
-      The objective is not short-term user growth, but sustainable infrastructure development.
-    </p>
-  </div>
 
-  <!-- Global -->
-  <div class="about-section" data-visual="orbit">
-    <h2>Global Perspective</h2>
-    <p>
-      Pairmo is designed as a worldwide infrastructure adaptable to regional, cultural
-      and sector-specific contexts.
-    </p>
-    <ul>
-      <li>International expansion</li>
-      <li>Multi-language deployment</li>
-      <li>Sector-specific extensions</li>
-      <li>Licensing of its matching infrastructure</li>
-    </ul>
-    <p>
-      Pairmo is built to scale structurally, not virally.
-    </p>
-  </div>
 
-</section>
-    
+<main class="about-container tech-2026">
 
-  </body>
-  
+<h1 data-i18n="about_title">
+The Ecosystem 
+</h1>
+
+
+
+<div class="about-section" data-visual="network">
+
+<h2 data-i18n="about_section_1_title">
+About Pairmo
+</h2>
+
+<p data-i18n="about_section_1_p1">
+Pairmo is a global multi-domain matching infrastructure designed to standardize intent-based coordination across multiple sectors of real-world interaction.
+</p>
+
+<p data-i18n="about_section_1_p2">
+The platform integrates independent functional domains into a unified operational framework powered by a centralized matching architecture. Rather than operating as a single-vertical application, Pairmo functions as a modular coordination layer.
+</p>
+
+</div>
+
+
+
+<div class="about-section" data-visual="layers">
+
+<h2 data-i18n="about_section_2_title">
+Core Infrastructure
+</h2>
+
+<p data-i18n="about_section_2_p1">
+At its foundation, Pairmo operates through a centralized matching engine designed to:
+</p>
+
+<ul>
+
+<li data-i18n="about_core_li1">
+Capture structured user intent
+</li>
+
+<li data-i18n="about_core_li2">
+Normalize interaction parameters
+</li>
+
+<li data-i18n="about_core_li3">
+Apply deterministic filtering mechanisms
+</li>
+
+<li data-i18n="about_core_li4">
+Execute domain-specific scoring logic
+</li>
+
+<li data-i18n="about_core_li5">
+Maintain controlled matching sessions
+</li>
+
+</ul>
+
+<p data-i18n="about_section_2_p2">
+Each domain operates as an independent functional module while relying on the same architectural backbone. This ensures global scalability without structural fragmentation.
+</p>
+
+</div>
+
+
+
+<div class="about-section" data-visual="target">
+
+<h2 data-i18n="about_section_3_title">
+Intent-Based Architecture
+</h2>
+
+<p data-i18n="about_section_3_p1">
+Pairmo is structured around an intent-based interaction model, where users explicitly define objectives within each domain. This architecture enables controlled matching environments while maintaining flexibility across sectors and geographic regions.
+</p>
+
+</div>
+
+
+
+<div class="about-section" data-visual="modes">
+
+<h2 data-i18n="about_section_4_title">
+Multi-Mode Operational Framework
+</h2>
+
+<p data-i18n="about_section_4_p1">
+Pairmo operates through a structured multi-mode system, allowing users to interact either individually or as part of coordinated groups, depending on the objective defined within each domain.
+</p>
+
+<p data-i18n="about_section_4_p2">
+This framework enables flexible participation models while preserving consistent matching logic across all operational areas.
+</p>
+
+</div>
+
+
+
+<div class="about-section" data-visual="grid">
+
+<h2 data-i18n="about_section_5_title">
+Operational Domains
+</h2>
+
+<p data-i18n="about_section_5_p1">
+The infrastructure currently supports the following coordination domains:
+</p>
+
+<ul>
+
+<li data-i18n="domain_sport">Sport coordination</li>
+<li data-i18n="domain_travel">Travel planning</li>
+<li data-i18n="domain_jobs">Employment matching</li>
+<li data-i18n="domain_dating">Relationship matching</li>
+<li data-i18n="domain_rent">Rental coordination</li>
+<li data-i18n="domain_pets">Pet breeding and socialization</li>
+<li data-i18n="domain_sharing">Peer-to-peer sharing</li>
+<li data-i18n="domain_business">Business partnerships</li>
+<li data-i18n="domain_services">Service provision</li>
+<li data-i18n="domain_civic">Civic and community initiatives</li>
+
+</ul>
+
+<p data-i18n="about_section_5_p2">
+Each domain is structurally separated at the ruleset level while remaining interoperable at the infrastructure level.
+</p>
+
+</div>
+
+
+
+<div class="about-section" data-visual="matrix">
+
+<h2 data-i18n="about_section_6_title">
+Governance Model
+</h2>
+
+<p data-i18n="about_section_6_p1">
+Pairmo is developed and operated by Pairmo Labs SRL, a European technology entity focused on long-term platform governance and modular ecosystem expansion.
+</p>
+
+<p data-i18n="about_section_6_p2">
+The system is designed to allow deterministic rule management, controlled ruleset versioning, structured monetization layers, and transparent reputation metrics.
+</p>
+
+<p data-i18n="about_section_6_p3">
+The objective is not short-term user growth, but sustainable infrastructure development.
+</p>
+
+</div>
+
+
+
+<div class="about-section" data-visual="orbit">
+
+<h2 data-i18n="about_section_7_title">
+Global Perspective
+</h2>
+
+<p data-i18n="about_section_7_p1">
+Pairmo is designed as a worldwide infrastructure adaptable to regional, cultural and sector-specific contexts.
+</p>
+
+<ul>
+
+<li data-i18n="global_li1">International expansion</li>
+<li data-i18n="global_li2">Multi-language deployment</li>
+<li data-i18n="global_li3">Sector-specific extensions</li>
+<li data-i18n="global_li4">Licensing of its matching infrastructure</li>
+
+</ul>
+
+<p data-i18n="about_section_7_p2">
+Pairmo is built to scale structurally, not virally.
+</p>
+
+</div>
+
+
+
+</main>
+  <footer class="site-footer">
+
+<div class="footer-container">
+
+<div class="footer-left">
+
+<div class="footer-logo">
+PAIRMO
+</div>
+
+<p class="footer-description" data-i18n="footer_desc">
+Pairmo is a global multi-domain matching infrastructure designed to coordinate real-world interactions across multiple domains.
+</p>
+
+</div>
+
+<div class="footer-links">
+
+<div class="footer-column">
+
+<h4 data-i18n="footer_product">
+Product
+</h4>
+
+<a href="/#what-is-pairmo" data-i18n="menu_what">
+What is Pairmo
+</a>
+
+<a href="/#how-it-works" data-i18n="menu_how">
+How it Works
+</a>
+
+<a href="/#roadmap" data-i18n="menu_roadmap">
+Roadmap
+</a>
+
+</div>
+
+
+<div class="footer-column">
+
+<h4 data-i18n="footer_ecosystem">
+Ecosystem
+</h4>
+
+<a href="/about/" data-i18n="menu_ecosystem">
+The Ecosystem
+</a>
+
+<a href="/#inside-pairmo" data-i18n="menu_inside">
+Inside Pairmo
+</a>
+
+</div>
+
+
+<div class="footer-column">
+
+<h4 data-i18n="footer_legal">
+Legal
+</h4>
+
+<a href="/privacy.html">
+Privacy Policy
+</a>
+
+<a href="/terms.html">
+Terms & Conditions
+</a>
+
+<a href="/cookies.html">
+Cookies Policy
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<span>
+© 2026 Pairmo Labs SRL
+</span>
+
+</div>
+
+  </footer>
+
+<script src="../script.js"></script>
+
+</body>
 </html>
