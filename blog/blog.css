@@ -972,3 +972,58 @@ flex-direction: row-reverse;
 html[dir="rtl"] .desktop-nav {
 flex-direction: row-reverse;
 }
+/* YEAR ARTICLES CAROUSEL */
+
+.articles-year{
+margin-top:60px;
+}
+
+.year-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:20px;
+}
+
+.year-header h3{
+font-size:28px;
+font-weight:700;
+}
+
+.carousel-controls{
+display:flex;
+gap:10px;
+}
+
+.carousel-btn{
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(255,255,255,0.1);
+color:#fff;
+width:36px;
+height:36px;
+border-radius:8px;
+cursor:pointer;
+}
+
+.articles-carousel{
+display:flex;
+gap:20px;
+overflow-x:auto;
+scroll-behavior:smooth;
+padding-bottom:10px;
+}
+
+.article-card{
+min-width:280px;
+max-width:280px;
+background:rgba(255,255,255,0.03);
+border:1px solid rgba(255,255,255,0.08);
+border-radius:14px;
+padding:20px;
+transition:0.25s;
+}
+
+.article-card:hover{
+border-color:#00ff9d;
+transform:translateY(-4px);
+}
