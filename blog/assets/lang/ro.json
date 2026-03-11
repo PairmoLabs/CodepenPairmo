@@ -89,5 +89,12 @@
   "footer_rights": "© 2025 Pairmo Labs SRL. Toate drepturile rezervate.",
   "footer_privacy": "Politica de confidențialitate",
   "footer_terms": "Termeni și condiții",
-  "footer_instagram": "Instagram"
+  "footer_instagram": "Instagram",
+  "menu_articles": "Articole",
+
+"blog_articles_title": "Articole",
+"blog_articles_desc": "Explorează articole detaliate și idei despre produs din partea echipei Pairmo.",
+
+"blog_upcoming_articles": "Articole viitoare",
+"blog_upcoming_desc": "Articole noi și perspective despre ecosistem vor apărea aici în curând."
 }
