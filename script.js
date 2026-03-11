@@ -132,7 +132,23 @@ if(!savedLang){
 
   const browserLang = navigator.language.slice(0,2);
 
-  const supported = ["en","fr","it","ro","es","de"];
+
+  const supported = [
+"en",
+"ro",
+"fr",
+"it",
+"de",
+"zh",
+"hi",
+"ar",
+"hu",
+"pl",
+"uk",
+"nl",
+"el",
+"tr"
+];
 
   savedLang = supported.includes(browserLang) ? browserLang : "en";
 
