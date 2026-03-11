@@ -128,7 +128,12 @@ async function loadLanguage(lang) {
     if (!response.ok) {
       throw new Error(`Failed to load ${lang}.json (${response.status})`);
     }
-
+if(lang === "ar"){
+document.documentElement.dir = "rtl";
+}
+else{
+document.documentElement.dir = "ltr";
+}
     const translations = await response.json();
     applyTranslations(translations, lang);
 
