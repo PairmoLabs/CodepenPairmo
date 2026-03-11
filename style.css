@@ -1298,3 +1298,15 @@ right:8px;
 .cookie-close:hover{
 opacity:1;
 }
+html[dir="rtl"] {
+direction: rtl;
+}
+
+html[dir="rtl"] body {
+text-align: right;
+}
+   html[dir="rtl"] .header-inner,
+html[dir="rtl"] .menu,
+html[dir="rtl"] nav {
+flex-direction: row-reverse;
+}
