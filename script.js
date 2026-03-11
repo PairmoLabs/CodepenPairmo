@@ -40,19 +40,20 @@ if (langBtnName) langBtnName.textContent = name;
   }
 
 
-
   function setLanguage(lang) {
   try {
     localStorage.setItem("selectedLang", lang);
   } catch (_) {}
 
   document.documentElement.lang = lang;
-// 🔹 RTL pentru arabă
-  if (lang === "ar") {
+
+  /* RTL pentru arabă */
+  if(lang === "ar"){
     document.documentElement.dir = "rtl";
   } else {
     document.documentElement.dir = "ltr";
   }
+
   typingStarted = false;
 
   if(typeTarget){
@@ -60,6 +61,8 @@ if (langBtnName) langBtnName.textContent = name;
   }
 
   loadLanguage(lang);
+
+  
 
   // 🔹 dacă userul este deja la hero
   if(typeTarget){
