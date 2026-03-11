@@ -1,0 +1,93 @@
+{
+  "blog_page_title": "Blog de Pairmo | Ideas, actualizaciones y noticias del producto",
+
+  "nav_home": "Inicio",
+  "nav_how": "Cómo funciona",
+  "nav_about": "Qué es Pairmo",
+  "nav_roadmap": "Hoja de ruta",
+  "nav_waitlist": "Unirse a la lista de espera",
+  "nav_contact": "Contacto",
+  "nav_blog": "Blog",
+
+  "brand_name": "Pairmo",
+
+  "lang_current_name": "Español",
+
+  "lang_en": "English",
+  "lang_ro": "Română",
+  "lang_fr": "Français",
+  "lang_it": "Italiano",
+  "lang_de": "Deutsch",
+  "lang_zh": "中文",
+  "lang_hi": "हिन्दी",
+  "lang_ar_1": "العربية",
+  "lang_hu_1": "Magyar",
+  "lang_pl_1": "Polski",
+  "lang_uk_1": "Українська",
+  "lang_nl_1": "Nederlands",
+  "lang_el": "Ελληνικά",
+  "lang_tr": "Türkçe",
+
+  "blog_badge": "BLOG PAIRMO",
+
+  "blog_hero_title": "Ideas, actualizaciones y pensamiento real de producto.",
+  "blog_hero_desc": "Sigue el desarrollo de Pairmo, las actualizaciones de la plataforma, las ideas del ecosistema, la lógica de matching y la evolución del producto.",
+
+  "blog_search_placeholder": "Buscar artículos...",
+  "blog_search_btn": "Buscar",
+
+  "blog_filter_all": "Todos",
+  "blog_filter_product": "Producto",
+  "blog_filter_updates": "Actualizaciones",
+  "blog_filter_design": "Diseño",
+  "blog_filter_matching": "Lógica de matching",
+  "blog_filter_business": "Negocio",
+
+  "blog_featured_tag": "Artículo destacado",
+  "blog_featured_meta": "Marzo 2026 · Actualización del producto",
+  "blog_featured_title": "Por qué Pairmo está construyendo una infraestructura de matching multidominio",
+  "blog_featured_desc": "Pairmo no es solo otra aplicación de nicho. Está diseñada como una capa estructurada de matching capaz de coordinar interacciones reales entre viajes, deportes, negocios, servicios, alquileres y más.",
+
+  "blog_read_article": "Leer artículo",
+
+  "blog_latest_articles": "Últimos artículos",
+  "blog_latest_desc": "Explora ideas, lanzamientos y actualizaciones del ecosistema Pairmo.",
+
+  "blog_post_1_meta": "Marzo 2026 · Actualizaciones",
+  "blog_post_1_title": "Hoja de ruta de la plataforma: qué viene después de la landing page",
+  "blog_post_1_desc": "Cómo Pairmo evoluciona de un sitio de presentación a capas funcionales del ecosistema.",
+
+  "blog_post_2_meta": "Marzo 2026 · Diseño",
+  "blog_post_2_title": "Cómo Pairmo utiliza la claridad de la interfaz para simplificar flujos complejos",
+  "blog_post_2_desc": "Diseño multidominio sin hacer que el producto parezca complicado.",
+
+  "blog_post_3_meta": "Marzo 2026 · Lógica de matching",
+  "blog_post_3_title": "De la selección de dominio al candidate pool: cómo escalan los filtros",
+  "blog_post_3_desc": "Una visión general del filtrado multinivel, la lógica de intención y el refinamiento del candidate pool.",
+
+  "blog_post_4_meta": "Marzo 2026 · Negocio",
+  "blog_post_4_title": "Por qué Pairmo es más que un concepto de citas o reservas",
+  "blog_post_4_desc": "El caso estratégico de una infraestructura social multidominio para la coordinación.",
+
+  "blog_post_5_meta": "Marzo 2026 · Actualizaciones",
+  "blog_post_5_title": "Expansión del sitio: de landing page a sistema de contenido estructurado",
+  "blog_post_5_desc": "Por qué el blog, la página about, la hoja de ruta y la lista de espera son importantes en etapas tempranas.",
+
+  "blog_post_6_meta": "Marzo 2026 · Producto",
+  "blog_post_6_title": "Interacción de doble intención: un principio central de Pairmo",
+  "blog_post_6_desc": "Por qué ambos lados de una necesidad deberían poder descubrirse.",
+
+  "blog_read_more": "Leer más",
+
+  "blog_newsletter_kicker": "Mantente conectado",
+  "blog_newsletter_title": "Recibe actualizaciones de Pairmo directamente en tu correo",
+  "blog_newsletter_desc": "Lanzamientos de producto, noticias del ecosistema y hitos de la plataforma.",
+
+  "blog_email_placeholder": "Introduce tu correo electrónico",
+  "blog_subscribe_btn": "Suscribirse",
+
+  "footer_rights": "© 2025 Pairmo Labs SRL. Todos los derechos reservados.",
+  "footer_privacy": "Política de privacidad",
+  "footer_terms": "Términos de uso",
+  "footer_instagram": "Instagram"
+}
