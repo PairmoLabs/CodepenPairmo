@@ -47,7 +47,12 @@ if (langBtnName) langBtnName.textContent = name;
   } catch (_) {}
 
   document.documentElement.lang = lang;
-
+// 🔹 RTL pentru arabă
+  if (lang === "ar") {
+    document.documentElement.dir = "rtl";
+  } else {
+    document.documentElement.dir = "ltr";
+  }
   typingStarted = false;
 
   if(typeTarget){
