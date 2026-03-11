@@ -1,0 +1,93 @@
+{
+  "blog_page_title": "Blog Pairmo | Actualités, analyses et évolutions de la plateforme",
+
+  "nav_blog": "Blog",
+  "brand_name": "Pairmo",
+
+  "nav_home": "Accueil",
+  "nav_how": "Comment ça marche",
+  "nav_about": "À propos de Pairmo",
+  "nav_roadmap": "Roadmap",
+  "nav_waitlist": "Rejoindre la liste d'attente",
+  "nav_contact": "Contact",
+
+  "lang_current_name": "Français",
+  "lang_en": "English",
+  "lang_ro": "Română",
+  "lang_fr": "Français",
+  "lang_it": "Italiano",
+  "lang_de": "Deutsch",
+  "lang_zh": "中文",
+  "lang_hi": "हिन्दी",
+  "lang_ar_1": "العربية",
+  "lang_hu_1": "Magyar",
+  "lang_pl_1": "Polski",
+  "lang_uk_1": "Українська",
+  "lang_nl_1": "Nederlands",
+  "lang_ar_2": "العربية",
+  "lang_hu_2": "Magyar",
+  "lang_pl_2": "Polski",
+  "lang_uk_2": "Українська",
+  "lang_nl_2": "Nederlands",
+  "lang_el": "Ελληνικά",
+  "lang_tr": "Türkçe",
+
+  "blog_badge": "BLOG PAIRMO",
+  "blog_hero_title": "Analyses, mises à jour et vision produit.",
+  "blog_hero_desc": "Suivez l'évolution de Pairmo, les mises à jour de la plateforme, les idées de l'écosystème et les concepts derrière le système de matching.",
+  "blog_search_placeholder": "Rechercher des articles...",
+  "blog_search_btn": "Rechercher",
+
+  "blog_filter_all": "Tous",
+  "blog_filter_product": "Produit",
+  "blog_filter_updates": "Mises à jour",
+  "blog_filter_design": "Design",
+  "blog_filter_matching": "Logique de matching",
+  "blog_filter_business": "Business",
+
+  "blog_featured_tag": "Article à la une",
+  "blog_featured_meta": "Mars 2026 · Mise à jour produit",
+  "blog_featured_title": "Pourquoi Pairmo construit une infrastructure de matching multi-domaines",
+  "blog_featured_desc": "Pairmo n'est pas simplement une application de niche. La plateforme est conçue comme une couche de matching capable de connecter des opportunités dans plusieurs domaines de la vie réelle.",
+  "blog_read_article": "Lire l'article",
+
+  "blog_latest_articles": "Derniers articles",
+  "blog_latest_desc": "Découvrez les idées, analyses et évolutions de l'écosystème Pairmo.",
+
+  "blog_post_1_meta": "Mars 2026 · Mises à jour",
+  "blog_post_1_title": "La roadmap de la plateforme : que se passe-t-il après la phase de lancement",
+  "blog_post_1_desc": "Comment Pairmo évolue d'un simple site de présentation vers un véritable écosystème.",
+
+  "blog_post_2_meta": "Mars 2026 · Design",
+  "blog_post_2_title": "Comment Pairmo utilise la clarté du design pour simplifier des flux complexes",
+  "blog_post_2_desc": "Concevoir une plateforme multi-domaines sans la rendre confuse ou surchargée.",
+
+  "blog_post_3_meta": "Mars 2026 · Logique de matching",
+  "blog_post_3_title": "Du choix du domaine au candidate pool : comment le filtrage peut évoluer",
+  "blog_post_3_desc": "Une vue d'ensemble des systèmes de filtrage et de la logique d'intention.",
+
+  "blog_post_4_meta": "Mars 2026 · Business",
+  "blog_post_4_title": "Pourquoi Pairmo est bien plus qu'une application de rencontre ou de réservation",
+  "blog_post_4_desc": "La vision stratégique derrière une infrastructure sociale multi-domaines.",
+
+  "blog_post_5_meta": "Mars 2026 · Mises à jour",
+  "blog_post_5_title": "Expansion du site : du landing page à un véritable écosystème de contenu",
+  "blog_post_5_desc": "Pourquoi le blog, la page about et la roadmap sont essentiels dès le début.",
+
+  "blog_post_6_meta": "Mars 2026 · Produit",
+  "blog_post_6_title": "L'interaction dual-intent : un principe clé derrière Pairmo",
+  "blog_post_6_desc": "Pourquoi les deux côtés d'un besoin doivent pouvoir se découvrir mutuellement.",
+
+  "blog_read_more": "Lire la suite",
+
+  "blog_newsletter_kicker": "Restez connectés",
+  "blog_newsletter_title": "Recevez les actualités Pairmo directement dans votre boîte mail",
+  "blog_newsletter_desc": "Nouvelles du produit, évolutions de la plateforme et étapes importantes.",
+  "blog_email_placeholder": "Entrez votre adresse email",
+  "blog_subscribe_btn": "S'abonner",
+
+  "footer_rights": "© 2025 Pairmo Labs SRL. Tous droits réservés.",
+  "footer_privacy": "Politique de confidentialité",
+  "footer_terms": "Conditions d'utilisation",
+  "footer_instagram": "Instagram"
+}
