@@ -1,0 +1,93 @@
+{
+  "blog_page_title": "Pairmo Blog | Einblicke, Updates und Produktneuigkeiten",
+
+  "nav_home": "Startseite",
+  "nav_how": "So funktioniert es",
+  "nav_about": "Über Pairmo",
+  "nav_roadmap": "Roadmap",
+  "nav_waitlist": "Warteliste beitreten",
+  "nav_contact": "Kontakt",
+  "nav_blog": "Blog",
+
+  "brand_name": "Pairmo",
+
+  "lang_current_name": "Deutsch",
+
+  "lang_en": "English",
+  "lang_ro": "Rumänisch",
+  "lang_fr": "Französisch",
+  "lang_it": "Italienisch",
+  "lang_de": "Deutsch",
+  "lang_zh": "Chinesisch",
+  "lang_hi": "Hindi",
+  "lang_ar_1": "Arabisch",
+  "lang_hu_1": "Ungarisch",
+  "lang_pl_1": "Polnisch",
+  "lang_uk_1": "Ukrainisch",
+  "lang_nl_1": "Niederländisch",
+  "lang_el": "Griechisch",
+  "lang_tr": "Türkisch",
+
+  "blog_badge": "PAIRMO BLOG",
+
+  "blog_hero_title": "Einblicke, Updates und echtes Produktdenken.",
+  "blog_hero_desc": "Verfolge die Entwicklung von Pairmo, Plattform-Updates, Ideen zum Ökosystem, Matching-Logik und wichtige Produktmeilensteine.",
+
+  "blog_search_placeholder": "Artikel suchen...",
+  "blog_search_btn": "Suchen",
+
+  "blog_filter_all": "Alle",
+  "blog_filter_product": "Produkt",
+  "blog_filter_updates": "Updates",
+  "blog_filter_design": "Design",
+  "blog_filter_matching": "Matching-Logik",
+  "blog_filter_business": "Business",
+
+  "blog_featured_tag": "Empfohlener Artikel",
+  "blog_featured_meta": "März 2026 · Produkt-Update",
+  "blog_featured_title": "Warum Pairmo eine Multi-Domain-Matching-Infrastruktur aufbaut",
+  "blog_featured_desc": "Pairmo ist nicht nur eine weitere Nischen-App. Die Plattform wird als strukturierte Matching-Ebene entwickelt, die reale Koordination über Reisen, Sport, Business, Services, Vermietung und mehr ermöglicht.",
+
+  "blog_read_article": "Artikel lesen",
+
+  "blog_latest_articles": "Neueste Artikel",
+  "blog_latest_desc": "Entdecke Gedanken, Releases und Ökosystem-Updates von Pairmo.",
+
+  "blog_post_1_meta": "März 2026 · Updates",
+  "blog_post_1_title": "Plattform-Roadmap: Was nach der Landing-Phase kommt",
+  "blog_post_1_desc": "Wie Pairmo sich von einer Präsentationsseite zu einem funktionalen Ökosystem entwickelt.",
+
+  "blog_post_2_meta": "März 2026 · Design",
+  "blog_post_2_title": "Wie Pairmo UI-Klarheit nutzt, um komplexe Matching-Flows zu vereinfachen",
+  "blog_post_2_desc": "Design für mehrere Domains ohne dass das Produkt überladen wirkt.",
+
+  "blog_post_3_meta": "März 2026 · Matching-Logik",
+  "blog_post_3_title": "Von Domain-Auswahl zum Candidate Pool: Wie Filter skalieren können",
+  "blog_post_3_desc": "Ein Überblick über mehrstufige Filter, Intent-Logik und Candidate-Narrowing.",
+
+  "blog_post_4_meta": "März 2026 · Business",
+  "blog_post_4_title": "Warum Pairmo mehr ist als ein Dating- oder Booking-Konzept",
+  "blog_post_4_desc": "Der strategische Ansatz hinter einer plattformübergreifenden sozialen Infrastruktur.",
+
+  "blog_post_5_meta": "März 2026 · Updates",
+  "blog_post_5_title": "Website-Erweiterung: Von Landing Page zu einem strukturierten Content-Ökosystem",
+  "blog_post_5_desc": "Warum Blog, About-Seite, Roadmap und Waitlist früh wichtig sind.",
+
+  "blog_post_6_meta": "März 2026 · Produkt",
+  "blog_post_6_title": "Dual-Intent-Interaktion: Ein Kernprinzip hinter Pairmo",
+  "blog_post_6_desc": "Warum beide Seiten eines Bedürfnisses einander entdecken können sollten.",
+
+  "blog_read_more": "Mehr lesen",
+
+  "blog_newsletter_kicker": "Bleib verbunden",
+  "blog_newsletter_title": "Erhalte Pairmo Updates direkt in dein Postfach",
+  "blog_newsletter_desc": "Produkt-Releases, Ökosystem-News und wichtige Plattform-Meilensteine.",
+
+  "blog_email_placeholder": "Deine E-Mail eingeben",
+  "blog_subscribe_btn": "Abonnieren",
+
+  "footer_rights": "© 2025 Pairmo Labs SRL. Alle Rechte vorbehalten.",
+  "footer_privacy": "Datenschutzrichtlinie",
+  "footer_terms": "Nutzungsbedingungen",
+  "footer_instagram": "Instagram"
+}
