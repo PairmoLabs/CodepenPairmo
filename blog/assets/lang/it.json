@@ -1,0 +1,93 @@
+{
+  "blog_page_title": "Blog Pairmo | Approfondimenti, aggiornamenti e novità del prodotto",
+
+  "nav_home": "Home",
+  "nav_how": "Come funziona",
+  "nav_about": "Cos'è Pairmo",
+  "nav_roadmap": "Roadmap",
+  "nav_waitlist": "Unisciti alla waitlist",
+  "nav_contact": "Contattaci",
+  "nav_blog": "Blog",
+
+  "brand_name": "Pairmo",
+
+  "lang_current_name": "Italiano",
+
+  "lang_en": "English",
+  "lang_ro": "Română",
+  "lang_fr": "Français",
+  "lang_it": "Italiano",
+  "lang_de": "Deutsch",
+  "lang_zh": "中文",
+  "lang_hi": "हिन्दी",
+  "lang_ar_1": "العربية",
+  "lang_hu_1": "Magyar",
+  "lang_pl_1": "Polski",
+  "lang_uk_1": "Українська",
+  "lang_nl_1": "Nederlands",
+  "lang_el": "Ελληνικά",
+  "lang_tr": "Türkçe",
+
+  "blog_badge": "BLOG PAIRMO",
+
+  "blog_hero_title": "Approfondimenti, aggiornamenti e vero product thinking.",
+  "blog_hero_desc": "Segui il percorso di sviluppo di Pairmo, gli aggiornamenti della piattaforma, le idee dell’ecosistema, la logica di matching e le tappe dell’evoluzione del prodotto.",
+
+  "blog_search_placeholder": "Cerca articoli...",
+  "blog_search_btn": "Cerca",
+
+  "blog_filter_all": "Tutti",
+  "blog_filter_product": "Prodotto",
+  "blog_filter_updates": "Aggiornamenti",
+  "blog_filter_design": "Design",
+  "blog_filter_matching": "Logica di matching",
+  "blog_filter_business": "Business",
+
+  "blog_featured_tag": "Articolo in evidenza",
+  "blog_featured_meta": "Marzo 2026 · Aggiornamento prodotto",
+  "blog_featured_title": "Perché Pairmo costruisce un'infrastruttura di matching multi-dominio",
+  "blog_featured_desc": "Pairmo non è solo un’altra app di nicchia. È progettata come un layer di matching strutturato capace di supportare il coordinamento reale tra viaggi, sport, business, servizi, affitti e altro.",
+
+  "blog_read_article": "Leggi l'articolo",
+
+  "blog_latest_articles": "Ultimi articoli",
+  "blog_latest_desc": "Esplora idee, rilasci e aggiornamenti dell’ecosistema Pairmo.",
+
+  "blog_post_1_meta": "Marzo 2026 · Aggiornamenti",
+  "blog_post_1_title": "Roadmap della piattaforma: cosa arriva dopo la landing page",
+  "blog_post_1_desc": "Come Pairmo evolve da sito di presentazione a strati funzionali di ecosistema.",
+
+  "blog_post_2_meta": "Marzo 2026 · Design",
+  "blog_post_2_title": "Come Pairmo usa la chiarezza dell'interfaccia per semplificare flussi complessi",
+  "blog_post_2_desc": "Design multi-dominio senza far sembrare il prodotto complicato.",
+
+  "blog_post_3_meta": "Marzo 2026 · Logica di matching",
+  "blog_post_3_title": "Dalla scelta del dominio al candidate pool: come scalano i filtri",
+  "blog_post_3_desc": "Panoramica sul filtraggio multilivello, logica dell’intento e restringimento del candidate pool.",
+
+  "blog_post_4_meta": "Marzo 2026 · Business",
+  "blog_post_4_title": "Perché Pairmo è più di un semplice concetto di dating o booking",
+  "blog_post_4_desc": "Il caso strategico per un’infrastruttura sociale multi-dominio per il coordinamento.",
+
+  "blog_post_5_meta": "Marzo 2026 · Aggiornamenti",
+  "blog_post_5_title": "Espansione del sito: da landing page a sistema di contenuti strutturato",
+  "blog_post_5_desc": "Perché blog, pagina about, roadmap e waitlist sono importanti nelle fasi iniziali.",
+
+  "blog_post_6_meta": "Marzo 2026 · Prodotto",
+  "blog_post_6_title": "Interazione a doppio intento: un principio fondamentale di Pairmo",
+  "blog_post_6_desc": "Perché entrambi i lati di un bisogno dovrebbero potersi scoprire.",
+
+  "blog_read_more": "Leggi di più",
+
+  "blog_newsletter_kicker": "Rimani aggiornato",
+  "blog_newsletter_title": "Ricevi gli aggiornamenti Pairmo direttamente nella tua email",
+  "blog_newsletter_desc": "Rilasci del prodotto, notizie sull’ecosistema e traguardi della piattaforma.",
+
+  "blog_email_placeholder": "Inserisci la tua email",
+  "blog_subscribe_btn": "Iscriviti",
+
+  "footer_rights": "© 2025 Pairmo Labs SRL. Tutti i diritti riservati.",
+  "footer_privacy": "Privacy Policy",
+  "footer_terms": "Termini di utilizzo",
+  "footer_instagram": "Instagram"
+}
