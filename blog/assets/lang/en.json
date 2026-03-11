@@ -90,4 +90,11 @@
   "footer_privacy": "Privacy Policy",
   "footer_terms": "Terms of Use",
   "footer_instagram": "Instagram"
+  "menu_articles": "Articles",
+
+"blog_articles_title": "Articles",
+"blog_articles_desc": "Explore long-form insights and product thinking from the Pairmo team.",
+
+"blog_upcoming_articles": "Upcoming Articles",
+"blog_upcoming_desc": "New articles and ecosystem insights will appear here soon."
 }
