@@ -189,3 +189,85 @@ langDropdown.classList.remove("open");
 });
 
 });
+/* ------------------------------
+I18N TRANSLATION SYSTEM
+------------------------------ */
+
+async function loadLanguage(lang){
+
+try{
+
+const response = await fetch(`/blog/assets/i18n/${lang}.json`);
+
+const translations = await response.json();
+
+applyTranslations(translations);
+
+localStorage.setItem("pairmo_lang", lang);
+
+}
+catch(err){
+
+console.error("Language load error:", err);
+
+}
+
+}
+
+
+function applyTranslations(translations){
+
+document.querySelectorAll("[data-i18n]").forEach(el => {
+
+const key = el.getAttribute("data-i18n");
+
+if(translations[key]){
+el.textContent = translations[key];
+}
+
+});
+
+document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
+
+const key = el.getAttribute("data-i18n-placeholder");
+
+if(translations[key]){
+el.placeholder = translations[key];
+}
+
+});
+
+}
+
+
+/* ------------------------------
+LANGUAGE CLICK
+------------------------------ */
+
+langLinks.forEach(link => {
+
+link.addEventListener("click", (e) => {
+
+e.preventDefault();
+
+const lang = link.dataset.lang;
+const langName = link.textContent;
+
+langBtn.querySelector("span").textContent = langName;
+
+langDropdown.classList.remove("open");
+
+loadLanguage(lang);
+
+});
+
+});
+
+
+/* ------------------------------
+LOAD SAVED LANGUAGE
+------------------------------ */
+
+const savedLang = localStorage.getItem("pairmo_lang") || "en";
+
+loadLanguage(savedLang);
