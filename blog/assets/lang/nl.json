@@ -1,0 +1,93 @@
+{
+  "blog_page_title": "Pairmo Blog | Inzichten, updates en productnieuws",
+
+  "nav_home": "Home",
+  "nav_how": "Hoe het werkt",
+  "nav_about": "Wat is Pairmo",
+  "nav_roadmap": "Roadmap",
+  "nav_waitlist": "Word lid van de wachtlijst",
+  "nav_contact": "Contact",
+  "nav_blog": "Blog",
+
+  "brand_name": "Pairmo",
+
+  "lang_current_name": "Nederlands",
+
+  "lang_en": "English",
+  "lang_ro": "Română",
+  "lang_fr": "Français",
+  "lang_it": "Italiano",
+  "lang_de": "Deutsch",
+  "lang_zh": "中文",
+  "lang_hi": "हिन्दी",
+  "lang_ar_1": "العربية",
+  "lang_hu_1": "Magyar",
+  "lang_pl_1": "Polski",
+  "lang_uk_1": "Українська",
+  "lang_nl_1": "Nederlands",
+  "lang_el": "Ελληνικά",
+  "lang_tr": "Türkçe",
+
+  "blog_badge": "PAIRMO BLOG",
+
+  "blog_hero_title": "Inzichten, updates en echte productvisie.",
+  "blog_hero_desc": "Volg de ontwikkeling van Pairmo, platformupdates, ecosysteemideeën, matchinglogica en belangrijke productmijlpalen.",
+
+  "blog_search_placeholder": "Zoek artikelen...",
+  "blog_search_btn": "Zoeken",
+
+  "blog_filter_all": "Alles",
+  "blog_filter_product": "Product",
+  "blog_filter_updates": "Updates",
+  "blog_filter_design": "Design",
+  "blog_filter_matching": "Matchinglogica",
+  "blog_filter_business": "Business",
+
+  "blog_featured_tag": "Uitgelicht artikel",
+  "blog_featured_meta": "Maart 2026 · Productupdate",
+  "blog_featured_title": "Waarom Pairmo een multidomein matchinginfrastructuur bouwt",
+  "blog_featured_desc": "Pairmo is niet zomaar een niche-app. Het is ontworpen als een gestructureerde matchinglaag die coördinatie mogelijk maakt tussen reizen, sport, business, diensten, verhuur en meer.",
+
+  "blog_read_article": "Lees artikel",
+
+  "blog_latest_articles": "Laatste artikelen",
+  "blog_latest_desc": "Ontdek Pairmo-ideeën, releases en ecosysteemupdates.",
+
+  "blog_post_1_meta": "Maart 2026 · Updates",
+  "blog_post_1_title": "Platformroadmap: wat komt na de landing page",
+  "blog_post_1_desc": "Hoe Pairmo evolueert van een presentatie-website naar functionele ecosysteemlagen.",
+
+  "blog_post_2_meta": "Maart 2026 · Design",
+  "blog_post_2_title": "Hoe Pairmo UI-duidelijkheid gebruikt om complexe matchingflows te vereenvoudigen",
+  "blog_post_2_desc": "Multidomein design zonder dat het product complex aanvoelt.",
+
+  "blog_post_3_meta": "Maart 2026 · Matchinglogica",
+  "blog_post_3_title": "Van domeinkeuze tot candidate pool: hoe filters schalen",
+  "blog_post_3_desc": "Overzicht van multilayer filtering, intentlogica en het verfijnen van de candidate pool.",
+
+  "blog_post_4_meta": "Maart 2026 · Business",
+  "blog_post_4_title": "Waarom Pairmo meer is dan een dating- of bookingconcept",
+  "blog_post_4_desc": "De strategische waarde van een multidomein sociale infrastructuur voor coördinatie.",
+
+  "blog_post_5_meta": "Maart 2026 · Updates",
+  "blog_post_5_title": "Website-uitbreiding: van landing page naar een gestructureerd contentsysteem",
+  "blog_post_5_desc": "Waarom blog, about-pagina, roadmap en waitlist belangrijk zijn in vroege fases.",
+
+  "blog_post_6_meta": "Maart 2026 · Product",
+  "blog_post_6_title": "Dual intent interactie: een kernprincipe van Pairmo",
+  "blog_post_6_desc": "Waarom beide kanten van een behoefte elkaar moeten kunnen ontdekken.",
+
+  "blog_read_more": "Lees meer",
+
+  "blog_newsletter_kicker": "Blijf verbonden",
+  "blog_newsletter_title": "Ontvang Pairmo-updates direct in je inbox",
+  "blog_newsletter_desc": "Productreleases, ecosysteemnieuws en belangrijke platformmijlpalen.",
+
+  "blog_email_placeholder": "Voer je e-mail in",
+  "blog_subscribe_btn": "Abonneren",
+
+  "footer_rights": "© 2025 Pairmo Labs SRL. Alle rechten voorbehouden.",
+  "footer_privacy": "Privacybeleid",
+  "footer_terms": "Gebruiksvoorwaarden",
+  "footer_instagram": "Instagram"
+}
