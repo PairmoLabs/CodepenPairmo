@@ -1,0 +1,93 @@
+{
+  "blog_page_title": "Blog Pairmo | Insight-uri, actualizări și noutăți despre platformă",
+
+  "nav_blog": "Blog",
+  "brand_name": "Pairmo",
+
+  "nav_home": "Acasă",
+  "nav_how": "Cum funcționează",
+  "nav_about": "Despre Pairmo",
+  "nav_roadmap": "Roadmap",
+  "nav_waitlist": "Înscrie-te pe lista de așteptare",
+  "nav_contact": "Contact",
+
+  "lang_current_name": "Română",
+  "lang_en": "English",
+  "lang_ro": "Română",
+  "lang_fr": "Français",
+  "lang_it": "Italiano",
+  "lang_de": "Deutsch",
+  "lang_zh": "中文",
+  "lang_hi": "हिन्दी",
+  "lang_ar_1": "العربية",
+  "lang_hu_1": "Magyar",
+  "lang_pl_1": "Polski",
+  "lang_uk_1": "Українська",
+  "lang_nl_1": "Nederlands",
+  "lang_ar_2": "العربية",
+  "lang_hu_2": "Magyar",
+  "lang_pl_2": "Polski",
+  "lang_uk_2": "Українська",
+  "lang_nl_2": "Nederlands",
+  "lang_el": "Ελληνικά",
+  "lang_tr": "Türkçe",
+
+  "blog_badge": "BLOG PAIRMO",
+  "blog_hero_title": "Idei, actualizări și perspective reale despre produs.",
+  "blog_hero_desc": "Urmărește evoluția Pairmo, actualizările platformei, ideile ecosistemului și conceptele din spatele sistemului de matching.",
+  "blog_search_placeholder": "Caută articole...",
+  "blog_search_btn": "Caută",
+
+  "blog_filter_all": "Toate",
+  "blog_filter_product": "Produs",
+  "blog_filter_updates": "Actualizări",
+  "blog_filter_design": "Design",
+  "blog_filter_matching": "Logică de matching",
+  "blog_filter_business": "Business",
+
+  "blog_featured_tag": "Articol recomandat",
+  "blog_featured_meta": "Martie 2026 · Actualizare produs",
+  "blog_featured_title": "De ce construiește Pairmo o infrastructură de matching multi-domeniu",
+  "blog_featured_desc": "Pairmo nu este doar o aplicație de nișă. Este construit ca un strat de matching care poate conecta oameni, servicii și oportunități în mai multe domenii ale vieții reale.",
+  "blog_read_article": "Citește articolul",
+
+  "blog_latest_articles": "Ultimele articole",
+  "blog_latest_desc": "Explorează ideile din spatele Pairmo, actualizările platformei și evoluția ecosistemului.",
+
+  "blog_post_1_meta": "Martie 2026 · Actualizări",
+  "blog_post_1_title": "Roadmap-ul platformei: ce urmează după faza de lansare",
+  "blog_post_1_desc": "Cum evoluează Pairmo de la un website de prezentare la un ecosistem funcțional.",
+
+  "blog_post_2_meta": "Martie 2026 · Design",
+  "blog_post_2_title": "Cum folosește Pairmo claritatea UI pentru a simplifica fluxuri complexe",
+  "blog_post_2_desc": "Design pentru mai multe domenii fără ca platforma să devină aglomerată.",
+
+  "blog_post_3_meta": "Martie 2026 · Logică de matching",
+  "blog_post_3_title": "De la alegerea domeniului la candidate pool: cum poate scala filtrarea",
+  "blog_post_3_desc": "O privire asupra filtrării pe mai multe niveluri și a logicii de matching.",
+
+  "blog_post_4_meta": "Martie 2026 · Business",
+  "blog_post_4_title": "De ce Pairmo este mai mult decât o aplicație de dating sau booking",
+  "blog_post_4_desc": "Argumentul strategic pentru o infrastructură socială multi-domeniu.",
+
+  "blog_post_5_meta": "Martie 2026 · Actualizări",
+  "blog_post_5_title": "Extinderea website-ului: de la landing page la ecosistem de conținut",
+  "blog_post_5_desc": "De ce blogul, pagina about și roadmap-ul sunt importante încă de la început.",
+
+  "blog_post_6_meta": "Martie 2026 · Produs",
+  "blog_post_6_title": "Dual-intent interaction: principiul din spatele Pairmo",
+  "blog_post_6_desc": "De ce ambele părți ale unei nevoi trebuie să se poată descoperi reciproc.",
+
+  "blog_read_more": "Citește mai mult",
+
+  "blog_newsletter_kicker": "Rămâi conectat",
+  "blog_newsletter_title": "Primește noutăți Pairmo direct în inbox",
+  "blog_newsletter_desc": "Actualizări despre produs, ecosistem și etapele importante ale platformei.",
+  "blog_email_placeholder": "Introdu adresa ta de email",
+  "blog_subscribe_btn": "Abonează-te",
+
+  "footer_rights": "© 2025 Pairmo Labs SRL. Toate drepturile rezervate.",
+  "footer_privacy": "Politica de confidențialitate",
+  "footer_terms": "Termeni și condiții",
+  "footer_instagram": "Instagram"
+}
