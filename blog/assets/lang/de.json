@@ -12,21 +12,25 @@
   "brand_name": "Pairmo",
 
   "lang_current_name": "Deutsch",
+  
 
   "lang_en": "English",
-  "lang_ro": "Rumänisch",
-  "lang_fr": "Französisch",
-  "lang_it": "Italienisch",
+  "lang_ro": "Română",
+  "lang_fr": "Français",
+  "lang_it": "Italiano",
   "lang_de": "Deutsch",
-  "lang_zh": "Chinesisch",
-  "lang_hi": "Hindi",
-  "lang_ar_1": "Arabisch",
-  "lang_hu_1": "Ungarisch",
-  "lang_pl_1": "Polnisch",
-  "lang_uk_1": "Ukrainisch",
-  "lang_nl_1": "Niederländisch",
-  "lang_el": "Griechisch",
-  "lang_tr": "Türkisch",
+  "lang_zh": "中文",
+  "lang_hi": "हिन्दी",
+  "lang_ar_1": "العربية",
+  "lang_hu_1": "Magyar",
+  "lang_pl_1": "Polski",
+  "lang_uk_1": "Українська",
+  "lang_nl_1": "Nederlands",
+  "lang_el": "Ελληνικά",
+  "lang_tr": "Türkçe"
+}
+
+  
 
   "blog_badge": "PAIRMO BLOG",
 
