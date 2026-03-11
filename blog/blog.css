@@ -1034,3 +1034,14 @@ object-fit:cover;
 display:block;
 border-radius:0;
 }
+.articles-carousel::-webkit-scrollbar{
+height:8px;
+}
+
+.articles-carousel::-webkit-scrollbar-thumb{
+background:rgba(255,255,255,0.15);
+border-radius:20px;
+}
+.articles-section{
+margin-top:80px;
+}
