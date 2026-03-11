@@ -1,0 +1,268 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title data-i18n="blog_page_title">Pairmo Blog | Insights, Updates & Product News</title>
+  <meta name="description" content="Read the latest Pairmo updates, product insights, ecosystem news and platform development articles." />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0b0c10" />
+
+  <link rel="canonical" href="https://www.pairmo.app/blog/" />
+  <link rel="icon" href="/favicon.ico" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="blog.css" />
+</head>
+<body>
+
+  <!-- Ambient background blobs -->
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-grid"></div>
+
+  <!-- Sticky Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+
+      <a href="/" class="brand" aria-label="Pairmo Home">
+        <span class="blog-label" data-i18n="nav_blog">BLOG</span>
+        <span class="brand-text" data-i18n="brand_name">Pairmo</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="/" data-i18n="nav_home">Home</a>
+        <a href="/#how-it-works" data-i18n="nav_how">How it works</a>
+        <a href="/about/" data-i18n="nav_about">About Pairmo</a>
+        <a href="/#roadmap" data-i18n="nav_roadmap">Roadmap</a>
+        <a href="/#waitlist" data-i18n="nav_waitlist">Join Waitlist</a>
+        <a href="/#contact" data-i18n="nav_contact">Contact Us</a>
+        <a href="/blog/" class="active" data-i18n="nav_blog">Blog</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-dropdown">
+          <button class="lang-btn" id="langBtn" aria-expanded="false" aria-controls="langMenu">
+            <span data-i18n="lang_current_name">English</span>
+            <span class="chevron">▼</span>
+          </button>
+
+          <div class="lang-menu" id="langMenu">
+            <a href="#" data-lang="en" data-i18n="lang_en">English</a>
+            <a href="#" data-lang="ro" data-i18n="lang_ro">Română</a>
+            <a href="#" data-lang="fr" data-i18n="lang_fr">Français</a>
+            <a href="#" data-lang="it" data-i18n="lang_it">Italiano</a>
+            <a href="#" data-lang="de" data-i18n="lang_de">Deutsch</a>
+            <a href="#" data-lang="zh" data-i18n="lang_zh">中文</a>
+            <a href="#" data-lang="hi" data-i18n="lang_hi">हिन्दी</a>
+            <a href="#" data-lang="ar" data-i18n="lang_ar_1">العربية</a>
+            <a href="#" data-lang="hu" data-i18n="lang_hu_1">Magyar</a>
+            <a href="#" data-lang="pl" data-i18n="lang_pl_1">Polski</a>
+            <a href="#" data-lang="uk" data-i18n="lang_uk_1">Українська</a>
+            <a href="#" data-lang="nl" data-i18n="lang_nl_1">Nederlands</a>
+            <a href="#" data-lang="ar" data-i18n="lang_ar_2">العربية</a>
+            <a href="#" data-lang="hu" data-i18n="lang_hu_2">Magyar</a>
+            <a href="#" data-lang="pl" data-i18n="lang_pl_2">Polski</a>
+            <a href="#" data-lang="uk" data-i18n="lang_uk_2">Українська</a>
+            <a href="#" data-lang="nl" data-i18n="lang_nl_2">Nederlands</a>
+            <a href="#" data-lang="el" data-i18n="lang_el">Ελληνικά</a>
+            <a href="#" data-lang="tr" data-i18n="lang_tr">Türkçe</a>
+          </div>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="/" data-i18n="nav_home">Home</a>
+      <a href="/#how-it-works" data-i18n="nav_how">How it works</a>
+      <a href="/about/" data-i18n="nav_about">About Pairmo</a>
+      <a href="/#roadmap" data-i18n="nav_roadmap">Roadmap</a>
+      <a href="/#waitlist" data-i18n="nav_waitlist">Join Waitlist</a>
+      <a href="/#contact" data-i18n="nav_contact">Contact Us</a>
+      <a href="/blog/" class="active" data-i18n="nav_blog">Blog</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="blog-hero">
+      <div class="container">
+        <div class="hero-badge" data-i18n="blog_badge">PAIRMO BLOG</div>
+        <h1 data-i18n="blog_hero_title">Insights, updates and real product thinking.</h1>
+        <p data-i18n="blog_hero_desc">
+          Follow Pairmo’s development journey, platform updates, ecosystem ideas,
+          matching logic concepts and product milestones.
+        </p>
+
+        <div class="hero-search-wrap">
+          <div class="search-box">
+            <input
+              type="text"
+              id="blogSearch"
+              placeholder="Search articles..."
+              data-i18n-placeholder="blog_search_placeholder" />
+            <button type="button" data-i18n="blog_search_btn">Search</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="blog-categories">
+      <div class="container">
+        <div class="chip-row" id="chipRow">
+          <button class="chip active" data-filter="all" data-i18n="blog_filter_all">All</button>
+          <button class="chip" data-filter="product" data-i18n="blog_filter_product">Product</button>
+          <button class="chip" data-filter="updates" data-i18n="blog_filter_updates">Updates</button>
+          <button class="chip" data-filter="design" data-i18n="blog_filter_design">Design</button>
+          <button class="chip" data-filter="matching" data-i18n="blog_filter_matching">Matching Logic</button>
+          <button class="chip" data-filter="business" data-i18n="blog_filter_business">Business</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Post -->
+    <section class="featured-post-section">
+      <div class="container">
+        <article class="featured-post card" data-category="product updates matching">
+          <div class="featured-media">
+            <div class="featured-tag" data-i18n="blog_featured_tag">Featured Article</div>
+          </div>
+
+          <div class="featured-content">
+            <span class="post-meta" data-i18n="blog_featured_meta">March 2026 · Product Update</span>
+            <h2 data-i18n="blog_featured_title">Why Pairmo is building a multi-domain matching infrastructure</h2>
+            <p data-i18n="blog_featured_desc">
+              Pairmo is not just another niche app. It is designed as a structured
+              matching layer that can support real-life coordination across travel,
+              sports, business, services, renting and more.
+            </p>
+
+            <div class="post-footer">
+              <a href="#" class="read-more" data-i18n="blog_read_article">Read Article</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Posts Grid -->
+    <section class="posts-section">
+      <div class="container">
+        <div class="section-head">
+          <h3 data-i18n="blog_latest_articles">Latest Articles</h3>
+          <p data-i18n="blog_latest_desc">Explore Pairmo thinking, releases and ecosystem notes.</p>
+        </div>
+
+        <div class="posts-grid" id="postsGrid">
+
+          <article class="post-card card" data-category="product updates">
+            <div class="post-thumb"></div>
+            <div class="post-body">
+              <span class="post-meta" data-i18n="blog_post_1_meta">March 2026 · Updates</span>
+              <h4 data-i18n="blog_post_1_title">Platform roadmap: what comes after the landing phase</h4>
+              <p data-i18n="blog_post_1_desc">How Pairmo evolves from presentation website to functional ecosystem layers.</p>
+              <a href="#" class="read-more" data-i18n="blog_read_more">Read more</a>
+            </div>
+          </article>
+
+          <article class="post-card card" data-category="design">
+            <div class="post-thumb"></div>
+            <div class="post-body">
+              <span class="post-meta" data-i18n="blog_post_2_meta">March 2026 · Design</span>
+              <h4 data-i18n="blog_post_2_title">How Pairmo uses UI clarity to simplify complex matching flows</h4>
+              <p data-i18n="blog_post_2_desc">Designing for multiple domains without making the product feel overloaded.</p>
+              <a href="#" class="read-more" data-i18n="blog_read_more">Read more</a>
+            </div>
+          </article>
+
+          <article class="post-card card" data-category="matching product">
+            <div class="post-thumb"></div>
+            <div class="post-body">
+              <span class="post-meta" data-i18n="blog_post_3_meta">March 2026 · Matching Logic</span>
+              <h4 data-i18n="blog_post_3_title">From domain choice to candidate pool: how filtering can scale</h4>
+              <p data-i18n="blog_post_3_desc">A high-level view of layered filtering, intent logic and candidate narrowing.</p>
+              <a href="#" class="read-more" data-i18n="blog_read_more">Read more</a>
+            </div>
+          </article>
+
+          <article class="post-card card" data-category="business">
+            <div class="post-thumb"></div>
+            <div class="post-body">
+              <span class="post-meta" data-i18n="blog_post_4_meta">March 2026 · Business</span>
+              <h4 data-i18n="blog_post_4_title">Why Pairmo is more than a dating or booking concept</h4>
+              <p data-i18n="blog_post_4_desc">The strategic case for a cross-domain social and coordination infrastructure.</p>
+              <a href="#" class="read-more" data-i18n="blog_read_more">Read more</a>
+            </div>
+          </article>
+
+          <article class="post-card card" data-category="updates">
+            <div class="post-thumb"></div>
+            <div class="post-body">
+              <span class="post-meta" data-i18n="blog_post_5_meta">March 2026 · Updates</span>
+              <h4 data-i18n="blog_post_5_title">Website expansion: from landing page to structured content ecosystem</h4>
+              <p data-i18n="blog_post_5_desc">Why blog, about, roadmap and waitlist pages matter early in the brand lifecycle.</p>
+              <a href="#" class="read-more" data-i18n="blog_read_more">Read more</a>
+            </div>
+          </article>
+
+          <article class="post-card card" data-category="product matching">
+            <div class="post-thumb"></div>
+            <div class="post-body">
+              <span class="post-meta" data-i18n="blog_post_6_meta">March 2026 · Product</span>
+              <h4 data-i18n="blog_post_6_title">Dual-intent interaction: a core principle behind Pairmo</h4>
+              <p data-i18n="blog_post_6_desc">Why both sides of a need should be able to discover and choose each other.</p>
+              <a href="#" class="read-more" data-i18n="blog_read_more">Read more</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter CTA -->
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-box card">
+          <div>
+            <span class="newsletter-kicker" data-i18n="blog_newsletter_kicker">Stay connected</span>
+            <h3 data-i18n="blog_newsletter_title">Get Pairmo updates straight to your inbox</h3>
+            <p data-i18n="blog_newsletter_desc">Product releases, ecosystem news and important platform milestones.</p>
+          </div>
+
+          <form class="newsletter-form">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              data-i18n-placeholder="blog_email_placeholder" />
+            <button type="submit" data-i18n="blog_subscribe_btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p data-i18n="footer_rights">© 2025 Pairmo Labs SRL. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="/privacy/" data-i18n="footer_privacy">Privacy Policy</a>
+        <a href="/terms/" data-i18n="footer_terms">Terms of Use</a>
+        <a href="https://www.instagram.com/pairmo.official/" target="_blank" rel="noopener" data-i18n="footer_instagram">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="blog.js"></script>
+</body>
+</html>
