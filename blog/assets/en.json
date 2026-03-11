@@ -1,0 +1,93 @@
+{
+  "blog_page_title": "Pairmo Blog | Insights, Updates & Product News",
+
+  "nav_blog": "Blog",
+  "brand_name": "Pairmo",
+
+  "nav_home": "Home",
+  "nav_how": "How it works",
+  "nav_about": "About Pairmo",
+  "nav_roadmap": "Roadmap",
+  "nav_waitlist": "Join Waitlist",
+  "nav_contact": "Contact Us",
+
+  "lang_current_name": "English",
+  "lang_en": "English",
+  "lang_ro": "Română",
+  "lang_fr": "Français",
+  "lang_it": "Italiano",
+  "lang_de": "Deutsch",
+  "lang_zh": "中文",
+  "lang_hi": "हिन्दी",
+  "lang_ar_1": "العربية",
+  "lang_hu_1": "Magyar",
+  "lang_pl_1": "Polski",
+  "lang_uk_1": "Українська",
+  "lang_nl_1": "Nederlands",
+  "lang_ar_2": "العربية",
+  "lang_hu_2": "Magyar",
+  "lang_pl_2": "Polski",
+  "lang_uk_2": "Українська",
+  "lang_nl_2": "Nederlands",
+  "lang_el": "Ελληνικά",
+  "lang_tr": "Türkçe",
+
+  "blog_badge": "PAIRMO BLOG",
+  "blog_hero_title": "Insights, updates and real product thinking.",
+  "blog_hero_desc": "Follow Pairmo’s development journey, platform updates, ecosystem ideas, matching logic concepts and product milestones.",
+  "blog_search_placeholder": "Search articles...",
+  "blog_search_btn": "Search",
+
+  "blog_filter_all": "All",
+  "blog_filter_product": "Product",
+  "blog_filter_updates": "Updates",
+  "blog_filter_design": "Design",
+  "blog_filter_matching": "Matching Logic",
+  "blog_filter_business": "Business",
+
+  "blog_featured_tag": "Featured Article",
+  "blog_featured_meta": "March 2026 · Product Update",
+  "blog_featured_title": "Why Pairmo is building a multi-domain matching infrastructure",
+  "blog_featured_desc": "Pairmo is not just another niche app. It is designed as a structured matching layer that can support real-life coordination across travel, sports, business, services, renting and more.",
+  "blog_read_article": "Read Article",
+
+  "blog_latest_articles": "Latest Articles",
+  "blog_latest_desc": "Explore Pairmo thinking, releases and ecosystem notes.",
+
+  "blog_post_1_meta": "March 2026 · Updates",
+  "blog_post_1_title": "Platform roadmap: what comes after the landing phase",
+  "blog_post_1_desc": "How Pairmo evolves from presentation website to functional ecosystem layers.",
+
+  "blog_post_2_meta": "March 2026 · Design",
+  "blog_post_2_title": "How Pairmo uses UI clarity to simplify complex matching flows",
+  "blog_post_2_desc": "Designing for multiple domains without making the product feel overloaded.",
+
+  "blog_post_3_meta": "March 2026 · Matching Logic",
+  "blog_post_3_title": "From domain choice to candidate pool: how filtering can scale",
+  "blog_post_3_desc": "A high-level view of layered filtering, intent logic and candidate narrowing.",
+
+  "blog_post_4_meta": "March 2026 · Business",
+  "blog_post_4_title": "Why Pairmo is more than a dating or booking concept",
+  "blog_post_4_desc": "The strategic case for a cross-domain social and coordination infrastructure.",
+
+  "blog_post_5_meta": "March 2026 · Updates",
+  "blog_post_5_title": "Website expansion: from landing page to structured content ecosystem",
+  "blog_post_5_desc": "Why blog, about, roadmap and waitlist pages matter early in the brand lifecycle.",
+
+  "blog_post_6_meta": "March 2026 · Product",
+  "blog_post_6_title": "Dual-intent interaction: a core principle behind Pairmo",
+  "blog_post_6_desc": "Why both sides of a need should be able to discover and choose each other.",
+
+  "blog_read_more": "Read more",
+
+  "blog_newsletter_kicker": "Stay connected",
+  "blog_newsletter_title": "Get Pairmo updates straight to your inbox",
+  "blog_newsletter_desc": "Product releases, ecosystem news and important platform milestones.",
+  "blog_email_placeholder": "Enter your email",
+  "blog_subscribe_btn": "Subscribe",
+
+  "footer_rights": "© 2025 Pairmo Labs SRL. All rights reserved.",
+  "footer_privacy": "Privacy Policy",
+  "footer_terms": "Terms of Use",
+  "footer_instagram": "Instagram"
+}
