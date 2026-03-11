@@ -198,3 +198,25 @@ const savedLang = localStorage.getItem("pairmo_blog_lang") || "en";
 loadLanguage(savedLang);
 
 });
+const carousel = document.querySelector(".articles-carousel");
+
+const nextBtn = document.querySelector(".carousel-btn.next");
+const prevBtn = document.querySelector(".carousel-btn.prev");
+
+if(nextBtn && prevBtn){
+
+nextBtn.addEventListener("click",()=>{
+carousel.scrollBy({
+left:320,
+behavior:"smooth"
+});
+});
+
+prevBtn.addEventListener("click",()=>{
+carousel.scrollBy({
+left:-320,
+behavior:"smooth"
+});
+});
+
+}
