@@ -961,3 +961,14 @@ overflow:hidden;
 width:100%;
 height:100%;
 }
+html[dir="rtl"] {
+direction: rtl;
+}
+
+html[dir="rtl"] .header-inner {
+flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .desktop-nav {
+flex-direction: row-reverse;
+}
