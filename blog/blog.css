@@ -1015,11 +1015,9 @@ scroll-behavior:smooth;
 padding-bottom:10px;
 }
 
-
-
 .article-card{
-min-width:340px;
-max-width:340px;
+min-width:420px;
+max-width:420px;
 background:rgba(255,255,255,0.03);
 border:1px solid rgba(255,255,255,0.08);
 border-radius:14px;
@@ -1064,12 +1062,14 @@ margin-top:80px;
 
 
 
+
 @media (max-width:768px){
 
 .article-card{
-min-width:280px;
-max-width:280px;
+min-width:320px;
+max-width:320px;
 }
+
 
 .post-thumb img{
 height:100px;
