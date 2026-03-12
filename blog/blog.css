@@ -1021,7 +1021,7 @@ max-width:420px;
 background:rgba(255,255,255,0.03);
 border:1px solid rgba(255,255,255,0.08);
 border-radius:14px;
-padding:16px;
+overflow:hidden;
 transition:0.25s;
 }
 
@@ -1039,11 +1039,13 @@ font-size:.92rem;
 line-height:1.5;
 }
 
+.post-body{
+padding:18px 16px 20px;
+}
 
 .post-thumb{
 height:160px;
 overflow:hidden;
-border-radius:10px;
 }
 
 .post-thumb img{
