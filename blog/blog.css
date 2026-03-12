@@ -1016,9 +1016,10 @@ padding-bottom:10px;
 }
 
 
+
 .article-card{
-min-width:300px;
-max-width:300px;
+min-width:340px;
+max-width:340px;
 background:rgba(255,255,255,0.03);
 border:1px solid rgba(255,255,255,0.08);
 border-radius:14px;
@@ -1060,11 +1061,14 @@ border-radius:20px;
 margin-top:80px;
 }
 
+
+
+
 @media (max-width:768px){
 
 .article-card{
-min-width:260px;
-max-width:260px;
+min-width:280px;
+max-width:280px;
 }
 
 .post-thumb img{
