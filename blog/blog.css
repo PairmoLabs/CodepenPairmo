@@ -1039,9 +1039,10 @@ font-size:.92rem;
 line-height:1.5;
 }
 
+
 .post-thumb img{
 width:100%;
-height:110px;
+height:160px;
 object-fit:cover;
 display:block;
 border-radius:10px;
@@ -1071,8 +1072,9 @@ max-width:320px;
 }
 
 
-.post-thumb img{
-height:100px;
-}
+
+  .post-thumb img{
+height:140px;
+  }
 
 }
