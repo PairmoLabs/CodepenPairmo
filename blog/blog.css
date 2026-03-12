@@ -1040,12 +1040,17 @@ line-height:1.5;
 }
 
 
+.post-thumb{
+height:160px;
+overflow:hidden;
+border-radius:10px;
+}
+
 .post-thumb img{
 width:100%;
-height:160px;
+height:100%;
 object-fit:cover;
 display:block;
-border-radius:10px;
 }
 
 .articles-carousel::-webkit-scrollbar{
@@ -1072,8 +1077,7 @@ max-width:320px;
 }
 
 
-
-  .post-thumb img{
+  .post-thumb{
 height:140px;
   }
 
