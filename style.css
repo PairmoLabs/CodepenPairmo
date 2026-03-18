@@ -91,9 +91,9 @@ align-items:center;
 gap:14px;
 }
 
-.sticky-bar i{
-font-size:20px;
-color:#fff;
+.sticky-bar .icon-svg{
+width:20px;
+height:20px;
 }
 
 /* ===========================
@@ -582,9 +582,11 @@ grid-template-columns:1fr;
   }
 /* MATCH ICON */
 
+
 .match-icon{
-font-size:26px;
-color:var(--accent);
+width:34px;
+height:34px;
+stroke:#00ff9d;
 animation: matchPulse 2.5s ease-in-out infinite;
 }
 
@@ -609,22 +611,6 @@ opacity:0.7;
 /* HOW CARDS SCROLL ANIMATION */
 
 
-
-.brand-name::after{
-content:"";
-position:absolute;
-left:50%;
-transform:translateX(-50%);
-bottom:-10px;
-
-width:180px;
-height:40px;
-
-background:none;
-
-filter:blur(20px);
-z-index:-1;
-}
 
 .how-card.show{
 opacity:1;
@@ -1294,6 +1280,9 @@ font-weight:600;
 position:absolute;
 top:6px;
 right:8px;
+opacity:0.7;
+cursor:pointer;
+}
 
 .cookie-close:hover{
 opacity:1;
@@ -1309,4 +1298,41 @@ text-align: right;
 html[dir="rtl"] .menu,
 html[dir="rtl"] nav {
 flex-direction: row-reverse;
+}
+.icon-svg{
+width:20px;
+height:20px;
+display:block;
+stroke:#ffffff;
+fill:none;
+stroke-width:2;
+stroke-linecap:round;
+stroke-linejoin:round;
+opacity:0.9;
+}
+@media (max-width:768px){
+
+  body::before{
+    display:none;
+  }
+
+  .orbit{
+    animation:none !important;
+  }
+
+  .how-card:hover,
+  .phase-box:hover,
+  .what-card:hover{
+    transform:none;
+    box-shadow:none;
+  }
+
+}
+@media (max-width:768px){
+  .sticky-bar,
+  .what-card,
+  .phase-box,
+  .contact-card{
+    backdrop-filter:none;
+  }
 }
