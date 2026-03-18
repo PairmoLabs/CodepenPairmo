@@ -44,7 +44,8 @@ height:650px;
 background: radial-gradient(circle, rgba(0,255,157,0.16), transparent 70%);
 top:-220px;
 left:-220px;
-filter: blur(120px);
+filter: blur(80px);
+opacity:0.7;
 z-index:-1;
 }
 
@@ -691,9 +692,9 @@ transform:translateY(-6px) scale(1.02);
 border-color:#00ffa6;
 
 box-shadow:
-0 0 28px rgba(0,255,157,0.45),
-0 0 80px rgba(0,255,157,0.25),
-0 0 140px rgba(0,255,157,0.15);
+
+   0 0 18px rgba(0,255,157,0.35),
+0 0 40px rgba(0,255,157,0.18);
 
 }
 
@@ -1334,5 +1335,11 @@ opacity:0.9;
   .phase-box,
   .contact-card{
     backdrop-filter:none;
+  }
+}
+@media (prefers-reduced-motion: reduce){
+  *{
+    animation:none !important;
+    transition:none !important;
   }
 }
