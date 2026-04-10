@@ -428,13 +428,14 @@ margin-bottom:12px;
 }
 
 .match-icon{
-  font-size:34px;
-  color:rgba(0,255,157,0.9);
-  text-shadow:0 0 6px rgba(0,255,157,0.25);
+  font-size:32px;
+  color:rgba(0,255,157,0.85);
   display:flex;
   align-items:center;
   justify-content:center;
   transform:translateY(2px);
+  animation: matchPulse 2.5s ease-in-out infinite;
+
 }
 .chat-icon{
 position:relative;
