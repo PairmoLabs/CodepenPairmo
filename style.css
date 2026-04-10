@@ -426,10 +426,12 @@ margin-bottom:12px;
   height:60px;
   opacity:0.9;
 }
+
 .match-icon{
   font-size:38px;
   color:#00ff9d;
   filter: drop-shadow(0 0 6px rgba(0,255,157,0.6));
+  animation: matchPulse 2.5s ease-in-out infinite;
 }
 .chat-icon{
 position:relative;
@@ -601,12 +603,6 @@ grid-template-columns:1fr;
 /* MATCH ICON */
 
 
-.match-icon{
-width:34px;
-height:34px;
-stroke:#00ff9d;
-animation: matchPulse 2.5s ease-in-out infinite;
-}
 
 @keyframes matchPulse{
 
