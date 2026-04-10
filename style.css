@@ -426,6 +426,11 @@ margin-bottom:12px;
   height:60px;
   opacity:0.9;
 }
+.match-icon{
+  font-size:38px;
+  color:#00ff9d;
+  filter: drop-shadow(0 0 6px rgba(0,255,157,0.6));
+}
 .chat-icon{
 position:relative;
 width:44px;
