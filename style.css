@@ -1343,3 +1343,11 @@ opacity:0.9;
     transition:none !important;
   }
 }
+
+.icon-svg.match-icon{
+  width:34px;
+  height:34px;
+  stroke:#00ff9d;
+  animation: matchPulse 2.5s ease-in-out infinite;
+  filter: drop-shadow(0 0 6px rgba(0,255,157,0.6));
+}
