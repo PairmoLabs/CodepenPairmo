@@ -414,6 +414,18 @@ height:70px;
 
 margin-bottom:12px;
 }
+.post-thumb{
+  height:190px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-bottom:1px solid rgba(255,255,255,0.07);
+}
+.post-thumb img{
+  width:60px;
+  height:60px;
+  opacity:0.9;
+}
 .chat-icon{
 position:relative;
 width:44px;
@@ -1344,10 +1356,4 @@ opacity:0.9;
   }
 }
 
-.icon-svg.match-icon{
-  width:34px;
-  height:34px;
-  stroke:#00ff9d;
-  animation: matchPulse 2.5s ease-in-out infinite;
-  filter: drop-shadow(0 0 6px rgba(0,255,157,0.6));
-}
+
